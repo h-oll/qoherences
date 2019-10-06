@@ -1,0 +1,30 @@
+* General public articles
+** [[https://www.scientificamerican.com/article/the-quantum-internet-is-emerging-one-experiment-at-a-time/][The Quantum Internet Is Emerging, One Experiment at a Time]] 
+/Scientific american/ -- Explains the motivations, challenges and main options taken by research groups working on the quantum internet.
+** [[https://m.phys.org/news/2019-07-breakthrough-quantum.html][Researchers lead breakthrough in quantum computing]]
+/Virginia Tech College/ -- Efficient quantum algorithms for computing molecular properties.
+** [[https://m.phys.org/news/2019-08-entanglement-km-optical-fiber.html][Entanglement sent over 50 km of optical fiber]]
+/U. Innsbruck/ -- Report of creating and sharing a entangled pair of photons at telecom wavelength (1550nm) for over 50km. This is one of the major requirement needed for a functional quantum network.
+** [[https://youtu.be/dI-JW2UIAG0][How did NASA Steer the Saturn V?- Smarter Every Day 223]]
+Want to understand what the fate of quantum computers is with respect to error correction? Watch this! For controlling Satrun V, the computation was run in parallel on 2 computers ; for quantum computation you need to run it in a parallel encoded version (a logical qubit made of many physical ones) to achieve the same.
+* Industry - Academia - Startups
+** [[https://www.ehu.eus/en/web/campusa-magazine/-/upv-ehu-is-one-of-the-european-leading-institutions-partnering-with-ibm-to-accelerate-quantum-computing][UPV/EHU is one of the European leading institutions partnering with IBM to accelerate quantum computing]]
+/UPV EHU - IBM Q/ -- IBMQ announces research and educations partnerships with Aalto University, University of Turku, EPFL, University of the Basque Country and The International Iberian Nanotechnology Laboratory.
+** [[https://www.ehu.eus/en/web/campusa-magazine/-/upv-ehu-is-one-of-the-european-leading-institutions-partnering-with-ibm-to-accelerate-quantum-computing][Europe’s VCs finally leap into quantum]]
+/Spin-off Aalo - IQM/ -- IQM (super-conducting qubits) got 11.45m euros in a VC investment round.
+** [[https://m.phys.org/news/2019-07-breakthrough-quantum.html][Stonybrook U and BNL to develop a quantum network]]
+/BNL - Stonybrook U./ -- Long distance ntwork testbed for open air photonic quantum network.
+** [[https://physicsworld.com/a/big-stuff-with-little-qubits/][Big stuff with little qubits]]
+/Zurich Instruments/ -- A startup supplying instruments for people measuring spins (from NMR to superconducting qubits).
+* Research papers
+** [[https://arxiv.org/abs/1907.09415][Ronald de Wolf lecture notes on quantum computing]]
+* Positions
+** 2 Postdocs ar UMD / LPS on NISQ and QML 
+/UMD LPS/ -- https://t.co/cHehDmkpEV
+
+** Tenures at university of Amsterdam
+/U. Amsterdam/ -- https://t.co/aPZB1cXdsI
+* Miscellanea
+** [[https://quantumfrontiers.com/2019/07/15/tiqtaqtoe/][Releasing a quantum version of TiqTaqToe]] 
+/Caltech/
+

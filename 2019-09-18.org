@@ -1,0 +1,29 @@
+* General public articles
+** [[https://qutech.nl/fully-controllable-and-highly-stable-10-qubit-chip-paves-way-for-larger-quantum-processo/][Fully controllable and highly stable 10-qubit chip paves way for larger quantum processor]]
+/QuTech, TU Delft, TNO/ -- Showing entanglement between all possible qubit pairs, ability to generate 7 qubits entanglement, and 1min decoherence time. That's super-long. Looking forward to see larger registers, and also how these can be used to serve as quantum repeaters in networks.
+Some additional info at [[https://physics.aps.org/synopsis-for/10.1103/PhysRevX.9.031045][physics.aps.org]].
+** [[https://csferrie.com/2019/09/09/quantum-entanglement-for-toddlers/][Quantum Entanglement for Toddlers]] 
+Don't talk to me if you haven't read this. It you have but mix-up entanglement and correlations well, you'll be roasted :-)
+* Industry - Academia - Startups
+** [[https://ec.europa.eu/digital-single-market/en/news/new-quantum-project-aims-ultra-secure-communication-europe][New quantum project aims for ultra-secure communication in Europe]]
+/Europe/ -- Europe is launching OPENQKD and initiative to test quantum communications in several european countries: Hungary, Portugal, Poland, Belgium, Germany, Italy, Luxembourg, Malta, the Netherlands, and Spain. The important part is not QKD but quantum communication. QKD will be a test not the single final outcome of the initiative. Just saying this to all other Member states where people see QKD as the only thing to do with quantum networks. Well have a look at the quantum protocol zoo http://wiki.veriqloud.fr. By the way, where is France in this list ?
+** [[https://q-ctrl.com/blog/global-vc-bets-on-sydney-quantum-computing-start-up-q-ctrl-in-us15m-series-a/][Global VC Bets on Sydney Quantum Computing Start-up Q-CTRL in US$15M Series A]]
+/Q-CTRL, Square Peg Capital, Sequoia Capital, Main Sequence Ventures, Horizons Venture, Sierra Ventures/ -- Provides firmware for quantum computing hardware with the goal to reduce decoherence and errors. 
+** [[https://www.fraunhofer.de/en/press/research-news/2019/september/ibm-and-fraunhofer-team-up-to-promote-quantum-computing-in-europe.html][IBM and Fraunhofer team up to promote quantum computing in Europe]]
+/IBM-Q, Fraunhofer/ -- 650m euros on the table for quantum computer. Germany also has partnerships with Google. Looks like a coordinated public effort is made to attract the best minds and projects to Germany.
+** [[https://www.prnewswire.com/news-releases/qc-ware-hires-leading-minds-in-quantum-computing-to-build-algorithms-that-will-power-the-next-evolution-in-computing-300916555.html?=lve][QC Ware Hires Leading Minds in Quantum Computing to Build Algorithms that will Power the Next Evolution in Computing]]
+/QCWare, Scott Aaronson/ -- QCWare hires Scott Aaronson. They will have one of the strongest team in the world with Win van Dam, Iordanis Kerenidis and now Scott.
+** [[https://nachrichten.idw-online.de/2019/09/16/quantum-computers-by-aqt-and-university-of-innsbruck-leverage-cirq-for-quantum-algorithm-development/][Quantum computers by AQT and University of Innsbruck use Google Cirq language for quantum algorithm development]]
+/Google, U. Innsbruck, AQT/ -- Cirq is Google's quantum programming language, that's not only used for sending commands to Google's quantum computers but also to AQT and U. Innsbruck ones.
+** [[https://newsroom.ibm.com/2019-09-18-IBM-Opens-Quantum-Computation-Center-in-New-York-Brings-Worlds-Largest-Fleet-of-Quantum-Computing-Systems-Online-Unveils-New-53-Qubit-Quantum-System-for-Broad-Use][IBM-Q annonces a 53 qubits quantum computer available next month]]
+/IBM-Q/ -- 14 systems will be commercially available with one being a 53 qubits universal quantum computer. 
+* Positions
+** MIT is hiring a [[https://academicjobsonline.org/ajo/jobs/14310][physics assistant professor]] and a [[https://academicjobsonline.org/ajo/jobs/14428][postdoc]] both to work on quantum information and quantum computing.
+/MIT/
+** [[https://academicjobsonline.org/ajo/jobs/14493][QuICS is looking for Hartree Postdoctoral fellowships]]
+/NIST/
+** [[https://www.iqoqi-vienna.at/research/yirg-young-independent-researcher-group][Institute for Quantum Optics and Quantum Information (IQOQI) is looking for a PhD]]
+/IQOQI/
+* Miscellanea
+** [[https://physicstoday.scitation.org/do/10.1063/PT.6.4.20190911a/full/][Author Q&A: How to write a graphic novel about quantum mechanics]]
+/Physics Today/ -- How to write and draw general public books on quantum mechanics... ?

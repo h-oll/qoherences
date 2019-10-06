@@ -1,0 +1,35 @@
+* General public articles
+** [[https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/s/614160/quantum-radar-has-been-demonstrated-for-the-first-time/amp][Quantum radar has been demonstrated for the first time]]
+/MIT Tech Review/ -- Some by-products of quantum communication could be linking arrays of detectors together: Quantum radar is one such by-product.
+** [[https://www.youtube.com/watch?time_continue=2&v=X-lrQt_UxxQ][La seconde révolution quantique et l'ordinateur de Sissa]]
+/TEDx, Quantum Flagship, Philippe Chomaz/ -- For the french speaking an brief intro to quantumm computing by Quantum Flagship member P. Chomaz.
+** [[https://www.icfo.es/newsroom/news/article/4495][Quantum Memories make their way]]
+/ICFO/ -- Reports on progress of quantum memories and repeaters. Two major intgredients needed for sending quantum information in quantum networks and allow for local computation at the nodes.
+** [[https://physicsworld.com/a/quantum-darwinism-spotted-in-diamond-spins/][Quantum Darwinism spotted in diamond spins]]
+/U. Ulm/ -- People testing ideas I developped with Wojciech Zurek at LANL about 20 yrs ago. Feeling honored that people are spending time checking in real life what you have written on a piece of paper. Some more in a podcast from physics world https://physicsworld.com/a/survival-of-the-fittest-quantum-states-scrutinizing-antihydrogen-physics-of-chilled-drinks/
+** [[https://www.forbes.com/sites/sap/2019/09/04/why-quantum-computers-wont-replace-classical-computers-anytime-soon/#7c432f68136a][Why Quantum Computers Won’t Replace Classical Computers Anytime Soon]] 
+/Forbes/ -- Always good to be aware of hype in an area. Interesting bit (at the end) partnership of SAP and Quantum Internet Alliance for undertanding what the future of computing will be, and also the need for the new generations of developpers to know some more algorithmics and linear algebra.
+* Industry - Academia - Startups
+** [[https://twitter.com/qctrlHQ/status/1168332684017274880][Q-CTRL joins IBM-Q partner list]]
+/Q-CTRL - Sidney, IBM-Q/
+** [[https://www.tomshardware.com/news/ibm-quantum-computing-services-education,40329.html][IBM Launches New Services for Quantum Computing Education]]
+/IBM-Q/ -- Some continued effort in making quantum computation available in the classroom, to motivate and teach the skills that will be required for people wanting to work in the field.
+** Qnami enters the Top100 Swiss start-ups
+/Qnami, Switzerland/ -- quantum microscope, surface analysis, NV diamonds
+** [[https://cloudblogs.microsoft.com/quantum/2017/12/11/announcing-microsoft-quantum-development-kit/][Announcing the Microsoft Quantum Development Kit]]
+/Microsoft/ -- full integration of Q# within visual studio, local and Azure simulators, open-source libraries: quantum race ? definitely open-source oriented at least which helps circulating ideas and designs.
+* Research papers
+** [[https://arxiv.org/pdf/1908.08069.pdf][Closing gaps of a quantum advantage with short-time Hamiltonian dynamics]]
+/Jonas Haferkamp, Dominik Hangleiter, Adam Bouland, Bill Fefferman, Jens Eisert, and Juani Bermejo-Vega/ -- 
+** [[https://www.nature.com/articles/s42254-018-0003-5.pdf][Entanglement certification from theory to experiment]]
+/Nicolai Friis,  Giuseppe Vitagliano, Mehul Malik, and Marcus Huber/ -- Long but really useful with a very complete bibliography.
+** [[https://arxiv.org/abs/quant-ph/9604024][Mixed State Entanglement and Quantum Error Correction]]
+/Charles H. Bennett, David P. DiVincenzo, John A. Smolin and William K. Wootters/ -- Guess what I'm interested in distillation protocols.
+* Positions
+** 2 year Postdoc at Griffith U.
+/Griffith U./ -- The Centre for Quantum Dynamics at Griffith University is offering a 2-year Postdoctoral Research Fellow position in quantum foundations. The Research Fellow will be funded by, and expected to contribute to, two externally-funded research projects led by Dr Eric Cavalcanti: Australian Research Council Future Fellowship “Fine-tuning the quantum: foundations and applications of quantum causality” and Foundational Questions Institute Large Grant “Causal reasoning in quantum agents”.  The successful applicant will have a PhD in Physics, Mathematics, Computer Science, Philosophy, or related fields, and may contribute to these projects through conceptual, analytical or numerical work, depending on the applicant’s background and interests. The position is also required to undertake higher degree research supervision.
+* Events
+** [[https://t.co/yrRzXIsTHW][Quantum Techniques in Machine Learning 2019]]
+/Daejon, South Korea, oct 22-24/ -- speakers from Google, Microsoft, IBM, Rigetti, ... 
+** [[https://labs.ripe.net/Members/ulka_athale_1/take-part-in-pan-european-quantum-internet-hackathon][First Pan-European Quantum Hackathon (nov 5 - 6, Paris)]]
+/Paris, Delft, Dublin, Padua, Sarajevo/ -- As part of the Paris Node, LIP6 is co-organizing the hackathon with other research instutions, members of the industry and investors. We will be happy to welcome you.
