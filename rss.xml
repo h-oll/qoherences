@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Qoherences</title>
+    <link>https://h-oll.github.io/qoherences</link>
+    <description>Newsletter for quantum people</description>
+    <pubDate>Mon, 21 Oct 2019 22:23:07 CEST</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2019 22:23:07 CEST</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>ego static site generator (https://github.com/emacs-china/ego)</generator>
+<item>
+<title>&lt;Insert Your Title Here&gt;</title>
+<link>https://h-oll.github.io/qoherences/docs/2019/10/21/&lt;insert-your-title-here&gt;/ Or /docs/&lt;insert-your-title-here&gt;/</link>
+<description>&lt;Add description here&gt;</description>
+<pubDate>2019-10-21</pubDate>
+<guid>https://h-oll.github.io/qoherences/docs/2019/10/21/&lt;insert-your-title-here&gt;/ Or /docs/&lt;insert-your-title-here&gt;/</guid>
+</item>
+<item>
+<title>2019-08-30</title>
+<link>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-08-30/</link>
+<description>No Description</description>
+<pubDate>2019-10-06</pubDate>
+<guid>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-08-30/</guid>
+</item>
+<item>
+<title>2019-09-09</title>
+<link>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-09-09/</link>
+<description>No Description</description>
+<pubDate>2019-10-06</pubDate>
+<guid>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-09-09/</guid>
+</item>
+<item>
+<title>2019-09-18</title>
+<link>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-09-18/</link>
+<description>No Description</description>
+<pubDate>2019-10-06</pubDate>
+<guid>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-09-18/</guid>
+</item>
+<item>
+<title>2019-10-04</title>
+<link>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-10-04/</link>
+<description>No Description</description>
+<pubDate>2019-10-06</pubDate>
+<guid>https://h-oll.github.io/qoherences/blog/2019/10/21/2019-10-04/</guid>
+</item>
+<item>
+<title>qoherences</title>
+<link>https://h-oll.github.io/qoherences/blog/2019/10/21/qoherences/</link>
+<description>No Description</description>
+<pubDate>2019-10-06</pubDate>
+<guid>https://h-oll.github.io/qoherences/blog/2019/10/21/qoherences/</guid>
+</item>
+</channel>
+</rss>
