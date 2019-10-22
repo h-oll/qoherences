@@ -1,0 +1,36 @@
+* Breaking News
+Google will be claiming quantum supremacy. It's a huge step for the field. A working intermediate scale QC at Google was able to perform a computation much faster than any available classical super-computer. Beware: I didn't say *any* computation, but *a* computation. I let you reflect on this. For more there is the excellent [[https://www.scottaaronson.com/blog/?p=4317][Scott’s Supreme Quantum Supremacy FAQ!]], and even more in Preskill's article in [[https://www.quantamagazine.org/john-preskill-explains-quantum-supremacy-20191002/][Quanta Magazine]]
+* General public articles
+** [[https://blogs.scientificamerican.com/observations/the-problem-with-quantum-computers/?amp;text=The][The Problem with Quantum Computers]]
+/Scientific American - Los Alamos National Lab/ -- Decoherence is bad for quantum computing, but fortunately there are ways to fight it. Fault-tolerant gates are one of them. Optimized quantum circuits obtained via ML compilers are another. Here LANL researchers report using quantum computers to compile their own programs. Hey, we are getting away from low level assembly like code and circuits. Love it.
+** [[https://www.quantamagazine.org/computer-scientists-expand-the-frontier-of-verifiable-knowledge-20190523/][Computer Scientists Expand the Frontier of Verifiable Knowledge]]
+/Quanta magazine - Caltech - MIT/ -- Using computers to verify that a solution given to a problem is exact is a common cryptographic setting. Think of digital signatures, its easy to check but without the private key you can't encode, i.e find the solution to the problem. When using quantum computers, you can verify efficiently the solutions to some of the hardest imaginable problems. Yay quantum!
+[[https://phys.org/news/2019-04-method-enables-quantum-simulations-larger.html][New method enables quantum simulations on larger systems]]
+/Phys.org - Science - U. Innsbruck/ -- New method for characterizing multi-party states. That's one of the challenges (see subject above) of QC: know that your computer has been doing what it was supposed to do. Hey that's the experimentalists job augmented by the computer scientists approach. 
+** [[https://www.frenchweb.fr/comprendre-linformatique-quantique-edition-2019-par-olivier-ezratty/376411][Comprendre l’informatique quantique]]
+/FrenchWeb - Olivier Ezratty/ -- Incredible attemp by a non scientist to explain what quantum computing and quantum communication are. In french. 
+** [[https://www.quantamagazine.org/stephanie-wehner-is-designing-a-quantum-internet-20190925/][To Invent a Quantum Internet]]
+/Quanta Magazine - Stephanie Wehner/ -- What to know why Quantum Information Science is not Computing only ? Read this! LIP6 is taking care of the upper network layers with other embers of the Paris node. https://www.youtube.com/watch?v=B76dFHnGdLM
+** [[https://techxplore.com/news/2019-09-quantum-internet-closer-reality.html][Project brings quantum internet closer to reality]]
+/TechXplore - U Innsbruck - Army Research Lab/ -- Sending entanglement over long distances (50km) successfully is a huge achievement, because not only do you need to create the entanglement, but you also need to convert the created photon pairs to telecom wavelength!
+** [[https://cacm.acm.org/magazines/2019/10/239668-closing-in-on-quantum-error-correction/fulltext][Closing In on Quantum Error Correction]]
+/Communications of the ACM - IQC / PI/ -- A short overview of what quantum error correction is and why it is useful (well the statement that nothing interesting can be done without it is raising debates). Some more cool stuff on Surface codes in the Research Paper section, where D. Poulin has been constructing wormholes in them. 
+* Industry - Academia - Startups
+If you read till her, I asume you've heard about Google Supremacy Claim.
+* Research papers
+** [[https://arxiv.org/abs/1909.07419][Topological wormholes]]
+/U. Sherbrooke - A. Krishna, D. Poulin/ -- Having fun with toric codes, puncturing and stiching. It's a novel way to do fault tolerant computation using toric codes. 
+** [[https://arxiv.org/abs/0602130][One-and-a-half quantum de Finetti theorems]] 
+/Matthias Christandl, Robert Koenig, Graeme Mitchison, Renato Renner, Approximations of the de Finetti theorem when there are finitely many systems/ -- Not a recent one, but a good one. 
+** [[https://arxiv.org/abs/1209.0448][A classical leash for a quantum system: Command of quantum systems via rigidity of CHSH games]]
+/Ben W. Reichardt, Falk Unger, Umesh Vazirani/ -- Another important one for caracterizing geometric properties of entangled states... giving them some rigidity properties.
+* Positions
+[[https://www.linkedin.com/posts/romain-all%C3%A9aume-0778066_postdoc-announcement-activity-6580134490172084224-dPIz/][Telecom Paris is looking for a PostDoc]]
+/Telecom Paris/ -- Will be on experimental quantum coherent communications.
+* Events
+** [[https://popl20.sigplan.org/home/planqc-2020][PLanQC 2020 Programming Languages for Quantum Computing]]
+/Submission deadline 2019-10-28/ - Event on 2020-01-20/ -- One day workshop around languages and tools for quantum computer coding.
+* Miscellanea
+** [[https://www.youtube.com/playlist?list=PLgLkEJ3SUJUS05I_INGLpkNcaWQdXfCeo&app=desktop][Slides from the Fifth International Conference on Quantum Error Correction (QEC’19)]]
+** [[https://phys.org/news/2019-09-car-math.html][Where to park your car, according to math]]
+/Santa Fe Institute - Boston U/ -- Use this whenever you need to explain what algorithm and optimization is.
