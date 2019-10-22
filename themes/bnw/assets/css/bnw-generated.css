@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /* Fonts Loading */
 /* Font Mixins */
 * {
@@ -36,7 +37,8 @@ header {
   z-index: 10;
   top: 0;
   width: 100%;
-  font-family: 'McLaren', cursive;
+  font-family: 'Roboto', sans-serif;
+  /*'McLaren', cursive;*/
   min-height: 50px;
   box-shadow: inset 0px -4px 7px -4px #000056;
 }
@@ -298,7 +300,9 @@ footer .copyright a:hover {
 .meta-header .container,
 .post-header .container {
   text-align: center;
-  font-family: 'Love Ya Like A Sister', cursive;
+  font-family: 'Roboto', sans-serif;
+  /*'McLaren', cursive;*/
+  /*'Love Ya Like A Sister', cursive;*/
 }
 .tagline .post-meta,
 .meta-header .post-meta,
