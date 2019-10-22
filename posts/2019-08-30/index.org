@@ -1,3 +1,16 @@
+#+BEGIN_COMMENT
+.. title: 2019-08-30
+.. slug: 2019-08-30
+.. date: 2019-08-30 06:32:52 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+
 * General public articles
 ** [[https://www.scientificamerican.com/article/the-quantum-internet-is-emerging-one-experiment-at-a-time/][The Quantum Internet Is Emerging, One Experiment at a Time]] 
 /Scientific american/ -- Explains the motivations, challenges and main options taken by research groups working on the quantum internet.

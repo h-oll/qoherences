@@ -1,3 +1,16 @@
+#+BEGIN_COMMENT
+.. title: 2019-09-09
+.. slug: 2019-09-09
+.. date: 2019-09-09 06:32:52 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+
 * General public articles
 ** [[https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/s/614160/quantum-radar-has-been-demonstrated-for-the-first-time/amp][Quantum radar has been demonstrated for the first time]]
 /MIT Tech Review/ -- Some by-products of quantum communication could be linking arrays of detectors together: Quantum radar is one such by-product.
