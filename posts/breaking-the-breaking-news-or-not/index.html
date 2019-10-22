@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="IBM announces Google's supremacy claim is not so supreme.">
+<meta name="viewport" content="width=device-width">
+<title>Breaking the breaking news... or not | Qoherences</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://h-oll.github.io/qoherences/posts/breaking-the-breaking-news-or-not/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Harold Ollivier">
+<meta property="og:site_name" content="Qoherences">
+<meta property="og:title" content="Breaking the breaking news... or not">
+<meta property="og:url" content="https://h-oll.github.io/qoherences/posts/breaking-the-breaking-news-or-not/">
+<meta property="og:description" content="IBM announces Google's supremacy claim is not so supreme.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2019-10-22T13:58:40+02:00">
+</head>
+<body>
+    
+
+    <header id="header" class="navbar"><div class="container">
+            
+    <div class="brand">
+
+        <div class="brand-text">
+            <a href="https://h-oll.github.io/qoherences/" title="Qoherences" rel="home">
+                Qoherences
+            </a>
+        </div>
+
+        <a id="btn-toggle-nav" class="navbar-toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+    </div>
+
+            
+    <nav class="navbar-collapse collapse"><ul class="nav">
+<li><a href="../../archive.html">Archive</a></li>
+                <li><a href="../../categories/">Tags</a></li>
+                <li><a href="../../rss.xml">RSS feed</a></li>
+    
+    
+    </ul></nav>
+</div>
+    </header><div class="header-padding"> </div>
+
+    
+    <div class="post-header">
+        <div class="container">
+            <div class="title">
+                Breaking the breaking news... or not
+            </div>
+        </div>
+    </div>
+
+    <div class="post-meta">
+      <div class="container">
+	<div class="meta clearfix">
+	  <div class="authordate">
+	    <time class="timeago" datetime="2019-10-22T13:58:40+02:00">2019/10/22</time>
+	    
+
+	    
+          |  
+        <a href="index.org" id="sourcelink">Source</a>
+
+	  </div>
+	  <div class="post-tags">
+	  </div>
+	</div>
+      </div>
+    </div>
+
+
+    <div id="post-main" class="main">
+        <div class="container">
+        <p>
+In a paper posted today on arXiv <a href="https://arxiv.org/abs/1910.09534">1910.09534</a>, a team of IBM scientists explain how Google's 53-qubit quantum computing supremacy experiment should only take 2.5 days to simulate on SUMMIT, Oak Ridge National Lab's supercomputer. Well, that's a quite a discrepency from Google's claim stating it would take over 10000 years to perform the computation. 
+</p>
+
+<p>
+But what does it say about Google's supremacy claim in itself ? 
+</p>
+
+<p>
+First note that IBM is not arguing about the quantum computation Google's team has performed. They are arguing about the time required to perform an equivalent classical simulation using the world's most powerful supercomputer. Google said 10000 years, IBM – who happened to build the supercomputer – say 2.5 days if you optimize your computation using secondary storage. 
+</p>
+
+<p>
+This technique amounts to break up the classical simulation into pieces and off-loading non active parts to disk, while keeping the active ones in RAM. 
+</p>
+
+<p>
+Here, what's important is that <b>IBM does not say they have found a better (i.e less complex) way to simulate Google's experiment, but a faster one</b>. They are still doing about the same amount of exponential work. Their technique allows to lower the constant timing factors and in turn improve the compute time. 
+</p>
+
+<p>
+However, if you increase by just a few qubits the size of the quantum computation to be simulated, you are going back to the previous situation of a very long computation, because the dependency with the number of qubits is still exponential. The paper actually shows results for a 54-qubit quantum computation where the simulation time is at about 8 days. Hence, adding a single qubit more than doubles the time for simulating the experiment with 53 qubits: <b>still exponential</b>.
+</p>
+
+<p>
+While the debate about supremacy might live in the media, it is about the same as saying that the cost of electricity produced by renewable sources is at grid parity: it's a crossing point where economics are changing and pushing in favor of one source of energy over another. As for supremacy, the cost of electricity produced is also highly dependent on some hypotheses (e.g amortization rules), hence, it's more a benchmark than anything that you would rely on to do any serious investment.
+</p>
+
+<p>
+Talking about investment: SUMMIT was backed by a <a href="https://en.wikipedia.org/wiki/Summit_(supercomputer)">$325 millions contract</a> and is taking 2.5 days to run a simulation that can be done in about 3min and a half on Google's machine. <b>Does it mean ORNL would have paid $325 billions for Google's machine?</b> (yeah, 2.5 days is still about 1000 times longer than 3.5 minutes.)
+</p>
+        
+
+        </div>
+    </div>
+
+    
+    <footer><div class="container">
+            <div class="social">
+
+
+
+                <div class="social-entry">
+                    <a href="../../rss.xml" target="_blank">
+                        <i class="fa fa-rss"></i> 
+                    </a>
+                </div>
+            </div>
+                <div class="copyright">
+                    Contents © 2019         <a href="mailto:harold.ollivier@linksights.io">Harold Ollivier</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+                </div>
+           
+        </div>
+    </footer><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-150665042-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150665042-1');
+</script><script src="../../assets/js/all-nocdn.js" type="text/javascript"></script>
+</body>
+</html>
