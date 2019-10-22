@@ -1,3 +1,14 @@
+#+BEGIN_COMMENT
+.. title: 2019-10-04
+.. slug: 2019-10-04
+.. date: 2019-10-04 06:32:52 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
 * Breaking News
 Google will be claiming quantum supremacy. It's a huge step for the field. A working intermediate scale QC at Google was able to perform a computation much faster than any available classical super-computer. Beware: I didn't say *any* computation, but *a* computation. I let you reflect on this. For more there is the excellent [[https://www.scottaaronson.com/blog/?p=4317][Scott’s Supreme Quantum Supremacy FAQ!]], and even more in Preskill's article in [[https://www.quantamagazine.org/john-preskill-explains-quantum-supremacy-20191002/][Quanta Magazine]]
 * General public articles

@@ -1,3 +1,14 @@
+#+BEGIN_COMMENT
+.. title: 2019-09-18
+.. slug: 2019-09-18
+.. date: 2019-09-18 06:32:52 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
 * General public articles
 ** [[https://qutech.nl/fully-controllable-and-highly-stable-10-qubit-chip-paves-way-for-larger-quantum-processo/][Fully controllable and highly stable 10-qubit chip paves way for larger quantum processor]]
 /QuTech, TU Delft, TNO/ -- Showing entanglement between all possible qubit pairs, ability to generate 7 qubits entanglement, and 1min decoherence time. That's super-long. Looking forward to see larger registers, and also how these can be used to serve as quantum repeaters in networks.
