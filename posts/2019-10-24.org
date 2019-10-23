@@ -1,0 +1,79 @@
+#+BEGIN_COMMENT
+.. title: Qoherences #5
+.. slug: 2019-10-24
+.. date: 2019-10-24 06:00:00 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: Never ending battle ? + other interesting news from fundraising to research papers.
+.. type: text
+
+#+END_COMMENT
+
+* Hot / Not Hot / Hot Again News
+IBM claims in [[https://arxiv.org/abs/1910.09534][arXiv/1910/09534]] that Google's quantum supremacy computation is not so supreme. They optimized the classical simulation and went down to 2.5 days instead of 10000+ years. So: 
+1. They are much better at optmizing classical simulations of quantum algorithms than google
+2. They did not make remarks on the quantum part, nor did they decrease the amount of elementary operations necessary to simulate the quantum computation (complexity is unchanged)
+3. 3.5 minutes is 1000 times less than 2.5 days (Google's computation is performed 1000 times faster than what the supercomputer SUMMIT is able to achieve). 
+
+Now, you conclude whether the quantum supremacy claim from Google still holds. [[https://h-oll.github.io/qoherences/posts/breaking-the-breaking-news-or-not/][More details]].
+
+Meanwhile, Google has published its supremacy result -- [[https://www.nature.com/articles/s41586-019-1666-5?fbclid=IwAR30gYaaQUI-uIAnd7e9UajLkGPXKnTKF3bqVKjajTOA1YcJK17UUYIUHxs][Nature 574, pages 505–510 (2019)]] --, and politely answered to IBM's paper saying they welcome comments on how to optimize classical algorithms, but it's better to actually test them to be sure of what you are gaining. Apparently Google's estimate was done using real sample data from supercomputers which IBM didn't do in their paper. 
+
+* General public articles
+** Beyond quantum supremacy: the hunt for useful quantum computers - [[https://www.nature.com/articles/d41586-019-02936-3][source]]
+/Nature - Michael Brooks/ -- While some are debating about quantum supremacy, others are trying to find out how to put small imperfect devices to work for solving real-world problem. A good overview of the quantum algorithm landscape.
+** Next-generation single-photon source for quantum information science - [[https://phys.org/news/2019-10-next-generation-single-photon-source-quantum-science.html][source]]
+/Science Advances - P. Kwiat (U. of Illinois), F. Kaneda (Tohoku U.)/ -- Reliable single photon sources are extremely important for quantum communication, but hard to make. Using time multiplexing Kwiat's team managed to increase the efficiency of the process to the point where they could get several thousands of 12-photon events per second.
+** Quantum Threat Timeline - [[https://globalriskinstitute.org/publications/quantum-threat-timeline/][source]]
+/M Mosca and M Piani (EvolutionQ)/ -- Research report published by the Global Risk Institute, trying to assess the quantum threat over classic cryptosystems. About 50% of the experts think that quantum computers will be threat for the current cryptosystems within 15 years.
+** Tracking Entanglement in a Quantum Simulator - [[https://www.osa-opn.org/home/newsroom/2018/april/tracking_entanglement_in_a_quantum_simulator/][source]]
+/Optics & Photonics - IQOQI (Innsbruck)/ -- Report on a 20-qubit trapped ions experiment and the difficulty to know if a quantum device is behaving properly. Using a brute force approach would be equivalent to simulate the evolution of the quantum systems classically: fairly inefficient. By using the right (cryptographic) setting and tools, you can manage to do this much more efficiently.
+** New Encryption System Protects Data from Quantum Computers - [[https://www.scientificamerican.com/article/new-encryption-system-protects-data-from-quantum-computers/][source]]
+/IBM Research Zurich - Vadim Lyubashevsky/ -- Quantum algorithms are moving the world! The impact of algorithms not yet implemented shook the crypto community when the NIST asked in 2016 for new quantum-safe crytosystems to be proposed for a public release in 2024. IBM is reporting on their proposal called CRYSTALS that should be implemented in its cloud solutions by 2020.
+** Cryptography without using secret keys - [[https://phys.org/news/2019-10-cryptography-secret-keys.html][source]]
+/U. of Twente - W.r. Van Der Veen/ -- Cryptography can make use of physically uncloneable functions for authentication and encryption. Here is a brief account about what this is and how it is done. Although there is a lot of quantum in there, the function (key in the article) is still classical. Quantum people have devised quantum attacks on such devices and also [[https://eprint.iacr.org/2019/1181][quantum PUF]].
+** Weaving quantum processors out of laser light - [[https://phys.org/news/2019-10-quantum-processors-laser.html][source]]
+/Science DOI: 10.1126/science.aay2645 - Centre for Quantum Computation & Communication Technology, Nicolas Menicucci - U Tokyo - U New Mexico/ -- The University of Melbourne CQC2T is reporting the creation of a large photonic cluster state. Cluster states are resources that can be used for implementing measurement based quantum computations. The nice thing is all the complicated stuff is made at the begining through the creation of this horribly entangled state. Using it is then much simpler as it requires only single qubit measurements and classically single qubit gates. This is quite an achievement and very motivating to see that fundamentally different architectures are subject of research.
+** Blanket of light may give better quantum computers - [[https://phys.org/news/2019-10-blanket-quantum.html][source]]
+/Science DOI: 10.1126/science.aay4354 - BigQ (Denmark), Ulrik Lund Andersen/  -- The Danes have done the same as the Aussies. Or is it the other way around. Impressive anyways: we are talking of 30 000 entangled light pulses.
+* Industry - Academia - Startups
+** Barclays demonstrates proof-of-concept quantum clearing algorithm - [[https://www.computerweekly.com/news/252472462/Barclays-demonstrates-proof-of-concept-quantum-clearing-algorithm][source]]
+/Barclays, IBM/ -- Looks like they have found a use for small scale quantum computer. Need to read the original [[https://arxiv.org/pdf/1910.05788v1.pdf][paper]] though.
+** Toshiba France advertises its QKD solution -  [[https://www.toshiba.fr/?utm_source=cpc&utm_medium=linkedin&utm_campaign=fy19b&utm_content=qkd][source]]
+/Toshiba/ -- Interesting to see industries picking up the subject. 
+** Rahko raises £1.3M seed from Balderton for quantum machine learning tech - [[https://techcrunch.com/2019/10/11/rahko-raises-1-3m-seed-from-balderton-for-quantum-machine-learning-tech/][source]]
+/Rahko, Balderton Capital/ -- Interesting to see a Series A VC fund invest in a seed round. VC's are probably seeing the quantum ecosystem as sufficiently small and the prospects with large corporations sufficiently interesting to make such unusual move. 
+** IonQ Secures $55 Million in Funding to Bring Quantum Computing from the Lab to the Enterprise - [[https://ionq.com/news/october-22-2019-new-funding][source]]
+/IonQ -  Samsung Catalyst Fund and Mubadala Capital/ -- $55m raised in this round, $77m total. That's serious money now.
+** Quantum photonics hardware developer Nu Quantum raises pre-seed investment - [[https://www.amadeuscapital.com/quantum-photonics-hardware-developer-nu-quantum-raises-pre-seed-investment/][source]]
+/Nu Quantum, Amadeus Capital Partners, with participation from IQ Capital, Ahren Capital, Cambridge Enterprise and Martlet Capital/ -- 650k pounds raised in a seed round for building single photon sources and detectors, which are the building blocks of quantum networks.
+** Strathclyde quantum technology partnership secures £4.6 million - [[https://www.strath.ac.uk/whystrathclyde/news/strathclydequantumtechnologypartnershipsecures46million/][source]]
+/U Strathclyde - Msquared/ -- A U Strathclyde + Msquared partnership secured funding worth a total of £4.6 million.
+** HQS Quantum Simulations Closes €2.3 Million Seed Financing Round - [[https://quantumsimulations.de/news/2019/10/hqs-closes-seed-financing-round/][source]]
+/HQS Quantum Simulations/ -- Designing software for quantum computer assisted material designs. 
+** Xanadu releases a nre quantum machine learning library for python - [[https://twitter.com/pennylaneai/status/1186371620157493251?s=09][source]]
+/Xanadu/
+* Research papers
+** Variational Fast Forwarding for Quantum Simulation Beyond the Coherence Time - [[https://arxiv.org/abs/1910.04292][source]]
+/LANL - Cristina Cirstoiu, Zoe Holmes, Joseph Iosue, Lukasz Cincio, Patrick J. Coles, Andrew Sornborger/ -- A new technique for simulating the evolution of quantum physical systems with noisy intermediate scale quantum computers that allows to go beyond the decoherence time of the quantum machines. Very cool!
+** Learning the quantum algorithm for state overlap - [[https://iopscience.iop.org/article/10.1088/1367-2630/aae94a/pdf][source]]
+/LANL - Lukasz Cincio, Yiğit Subaş, Andrew T Sornborger and Patrick J Coles/ -- Same group of people from Los Alamos. This one would help finding new circuits and serve as a guide for compiling high-level functions into device specific sequences of commands. Very promising (has led already to many follow-ups by the same group. Wondering how it can be adapted to make it work for optimizing communication protocols.
+** Circuit-Based Quantum Random Access Memory for Classical Data - [[https://www.nature.com/articles/s41598-019-40439-3][source]]
+/ITRC of Quantum Computing for AI, KAIST Korea - Daniel K. Park, Francesco Petruccione & June-Koo Kevin Rhee/ -- Using quantum algorithms for solving real-world problems requires making classical data available to it. This paper describes a possible architecture for loading classical data into a quantum memory in an efficient way. 
+* Positions
+** PostDoc Positions at IQC (U. Waterloo) - [[https://services.iqc.uwaterloo.ca/applications/positions/iqc-postdoctoral-fellowship/][more]]
+/IQC/ -- Theory.
+** PostDoc Positions at IRIF (U. Paris) - [[https://www.irif.fr/en/postes/postdoc][more]]
+/IRIF/ -- Quantum machine learning, optimization, quantum communications and cryptography.
+** JQE Software internship at Rigetti - [[https://twitter.com/rigetti/status/1186672593039847424?s=09][more]]
+/Rigetti/
+* Miscellanea
+** Quantum USA Vs. Quantum China: The World's Most Important Technology Race - [[https://www.forbes.com/sites/moorinsights/2019/10/10/quantum-usa-vs-quantum-china-the-worlds-most-important-technology-race/#135e818f72de][source]]
+/Forbes/ --  US views on the investments by China into quantum technology.
+** L'écosystème français de l'informatique quantique : ses atouts, ses faiblesses [[https://www.latribune.fr/technos-medias/innovation-et-start-up/l-ecosysteme-francais-de-l-informatique-quantique-ses-atouts-ses-faiblesses-831271.html?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter#Echobox=1571760787][source]]
+/La Tribune/ -- more or less accurate description of the french ecosystem. 
+** Quantum gold rush: the private funding pouring into quantum start-ups - [[https://www.nature.com/articles/d41586-019-02935-4?utm_source=twt_nnc&utm_medium=social&utm_campaign=naturenews&sf220597140=1][source]]
+/Nature doi: 10.1038/d41586-019-02935-4/ -- 2017 and 2018 have seen 52 companies funded for $450m fresh money. 
+** The hard sell of quantum software - [[https://physicsworld.com/a/the-hard-sell-of-quantum-software/][source]]
+/PhysicsWorld/ -- Tries to explain why VCs invest in quantum software companies. 

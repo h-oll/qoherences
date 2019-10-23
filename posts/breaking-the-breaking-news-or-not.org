@@ -5,7 +5,7 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: IBM announces Google's supremacy claim is not so supreme.
+.. description: IBM announces Google's supremacy claim is not so supreme. 
 .. type: text
 
 #+END_COMMENT
