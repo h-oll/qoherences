@@ -1,5 +1,5 @@
 #+BEGIN_COMMENT
-.. title: 2019-08-30
+.. title: Qoherences #1
 .. slug: 2019-08-30
 .. date: 2019-08-30 06:32:52 UTC+02:00
 .. tags: 
