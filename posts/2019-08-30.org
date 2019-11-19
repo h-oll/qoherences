@@ -26,7 +26,7 @@ Want to understand what the fate of quantum computers is with respect to error c
 ** [[https://www.ehu.eus/en/web/campusa-magazine/-/upv-ehu-is-one-of-the-european-leading-institutions-partnering-with-ibm-to-accelerate-quantum-computing][Europe’s VCs finally leap into quantum]]
 /Spin-off Aalo - IQM/ -- IQM (super-conducting qubits) got 11.45m euros in a VC investment round.
 ** [[https://m.phys.org/news/2019-07-breakthrough-quantum.html][Stonybrook U and BNL to develop a quantum network]]
-/BNL - Stonybrook U./ -- Long distance ntwork testbed for open air photonic quantum network.
+/BNL - Stonybrook U./ -- Long distance network testbed for open air photonic quantum network.
 ** [[https://physicsworld.com/a/big-stuff-with-little-qubits/][Big stuff with little qubits]]
 /Zurich Instruments/ -- A startup supplying instruments for people measuring spins (from NMR to superconducting qubits).
 * Research papers
