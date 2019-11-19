@@ -1,0 +1,54 @@
+#+BEGIN_COMMENT
+.. title: Qoherences #6
+.. slug: 2019-11-19
+.. date: 2019-11-19 06:29:00 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: A lot of activity on the industry side. Still more news to report, but it'll have to wait for the next post! 
+.. type: text
+
+#+END_COMMENT
+
+
+* General public articles
+** The hard sell of quantum software -- [[https://physicsworld.com/a/the-hard-sell-of-quantum-software/][source]]
+/Phys.org/ -- Why are people founding so many start-ups to build quantum software ? What are the potential use cases and what are the short term focus for these companies ?
+** Here’s what the people who claimed Google’s quantum supremacy have to say about it -- [[https://arstechnica.com/science/2019/10/inside-googles-quantum-computing-efforts/][source]]
+/Google Quantum AI Lab - Ars Technica/ -- Nice article with lots of pictures from inside Google's lab. Fair account on the challenges faced for hardware and software componenets, and surprisingly (or not), wiring comes out as one of the most challenging ones. But that doesn't look like it's unsolvable though when you add industrial engineering and processing. You can also read Google's blog post about their experieent and settings [[https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html][here]].
+** Quantum internet: at the verge of an emerging technology -- [[https://blog.qutech.nl/index.php/2019/10/22/quantum-internet-at-the-verge-of-an-emerging-technology/][source]]
+/QuTech, TU Delft/ -- Nice article showing what use cases of a quantum internet will be: QKD and all sorts of cryptographic protocols, but most importantly Delegated Quantum Computation. Sensing and metrology are also on the list. 
+** Google and IBM are at odds over ‘quantum supremacy’ – an expert explains what it really means -- [[https://theconversation.com/google-and-ibm-are-at-odds-over-quantum-supremacy-an-expert-explains-what-it-really-means-125827][source]]
+/T. Cubitt - The Conversation/ -- JUst a quote from the short article: "This is how science and technology progresses. Not in one dramatic and revolutionary breakthrough, but in a whole series of small breakthroughs, with the academic community carefully scrutinising, criticising and refining each step along the way. Only a few of these advances and debates hit the headlines. The reality is both less dramatic and more interesting."
+** Quantum Computer Made from Photons Achieves a New Record -- [[https://www.scientificamerican.com/article/quantum-computer-made-from-photons-achieves-a-new-record/][source]]
+/U. Science and Technology, China -- Scientific American/ -- The development of photonic quantum computing is impressive. There you trade low temperatures for extreme timing accuracy. The pro is that photons in the vaccuum are essentially decoherence free. The con is that you need to find a clever way to have photon-photon gates... 
+
+* Industry - Academia - Startups
+** Alphabet's X is contributing to port some quantum tools to tensorflow -- [[https://github.com/google/TensorNetwork][source]]
+/X/ -- Jack Hidary mentionned that the work of G. Vidal on tensor networks is being turned into a module accessible through tensor flow to help making large simulations of quantum systems easier to perform on classical computers.
+** Quantum Benchmark supports development of Google’s world-leading quantum computers -- [[https://quantumbenchmark.com/quantum-benchmark-supports-development-of-googles-world-leading-quantum-computers/][source]]
+/Quantum Benchmark, Google Quantum AI Lab/ -- QUantum Benchmark is working with Google to improve gate efficiency and compiling. Great partnership.
+** HPE announces investment into IonQ -- [[https://www.hpe.com/us/en/newsroom/blog-post/2019/10/shaping-the-quantum-future.html][source]]
+/IonQ & HPE/ -- HPE is making the choice of Trapped Ion technology as a better way to scale quantum computing experiements to commercially useful machines. 
+** Volkswagen optimizes traffic flow with quantum computers -- [[https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-optimizes-traffic-flow-with-quantum-computers-5507][source]]
+/VW & D-Wave/ -- Quantum computing in practice wit VW optimizing traffic in Lisbon during the WebSummit conference. It still remains to be seen how better it solves the problem compared to classical optimization.
+** Xanadu is expanding it's pennylane software to include Cirq support -- [[https://www.linkedin.com/posts/xanaduai_xanaduaipennylane-cirq-activity-6595352592212127744-ejwx/][source]]
+/Xanadu/ -- Pennylane is now able to interact with Cirq (google's framework) so you can actually optimize a full quantum-classical hybrid algo using Cirq / Forest / Qiskit and the usual Tensorflow and Pytorch tools.
+** Experience quantum impact with Azure Quantum -- [[https://cloudblogs.microsoft.com/quantum/2019/11/04/announcing-microsoft-azure-quantum/][source]]
+/Microsoft/ -- Microsoft announces the launch of Azure Quantum. Yet another player going for a cloud offering for quantum computing. This is a major change compared to when classical computing started. Quantum computing is being built on top of a very rich stack of computing and communication experience. In my opinion, this makes quantum communication and quantum computation inseparable topics, both requiring attention and investments.
+** IonQ Partners with Microsoft to Power Azure Quantum -- [[https://ionq.com/news/november-4-2019-microsoft-partnership][source]]
+/IonQ & Microsoft/ -- A partnership to make Azure Quantum, well... quantum ! Two big hits for IonQ (HPE and Microsoft). Is that the revenge of the trapped Ions ? 
+** Micorsoft partners with Honeywell -- [[https://www.honeywell.com/en-us/newsroom/news/2019/11/the-future-of-quantum-computing?utm_source=TW&utm_medium=social&utm_campaign=newsroom&utm_term=msquantum&sf111836522=1][source]]
+/Microsoft & Honeywell/ -- Microsoft announces its partnership with Honeywell "to bring about quantum impact through Azure Quantum" ([[https://twitter.com/krystasvore/status/1191425045970612224?s=09][here]]). 
+** AQT now supports Qiskit -- [[https://www.aqt.eu/aqt-now-supports-qiskit/][source]]
+/AQT/ -- Alpine Quantum Computing develops an Ion trap quantum computer. It reports of its compatibility with IBM qiskit devevelopment tools suite.
+* Research papers
+
+** List of accepted papers at QIP2020 -- [[http://www.szpclab.com/qip2020#/programDetails][source]]
+Impressive and exciting list. 
+
+* Positions
+** PostDoc position at the Center for Theoretical Physics, Polish Academy of Sciences -- [[http://www.cft.edu.pl/new/public/links/aHR0cHMlM0ElMkYlMkZjZnRwYW4uYmlwLmdvdi5wbCUyRmZvYmplY3RzJTJGZG93bmxvYWQlMkY2NTk0NjElMkZhbm5vdW5jZW1lbnQtYWJvdXQtdGhlLWNvbXBldGl0aW9uLmh0bWw=/display][more]]
+/CTP, Polish Academy of Sciences/ -- 
+Announcement from Remigiusz Augusiak, to work on quantum information theory, quantum entanglement, Bell nonlocality.
+
