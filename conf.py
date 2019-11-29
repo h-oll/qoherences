@@ -1363,3 +1363,7 @@ BODY_END = """
   gtag('config', 'UA-150665042-1');
 </script>
 """
+
+# comment system
+COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM_ID = "qoherences"
