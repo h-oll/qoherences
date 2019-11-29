@@ -1,0 +1,64 @@
+#+BEGIN_COMMENT
+.. title: Qoherences #7
+.. slug: 2019-11-29
+.. date: 2019-11-29
+.. tags: 
+.. category: 
+.. link: 
+.. description: Catching up with a lot a activity in November, especially in the industry with two new players joining the fun.
+.. type: text
+
+#+END_COMMENT
+
+
+* General Public Articles
+** A new quantum data classification protocol brings us nearer to a future 'quantum internet' -- [[https://phys.org/news/2019-11-quantum-classification-protocol-nearer-future.html][source]]
+/Phys.org -- Autonomous University of Barcelona/ -- UAB researchers have been looking at an algorithm for data clustering for quantum states.
+
+** Tom O'Brien explains why we need a quantum computer -- [[https://www.youtube.com/watch?v=qHJzyOU2Pls&feature=youtu.be][source]]
+/Youtube -- University of Leiden, Tim O'Brien/ -- Good video showing why quantum computers might be efficient for quantum chemistry.
+** Quantum physics: Our study suggests objective reality doesn't exist -- [[https://phys.org/news/2019-11-quantum-physics-reality-doesnt.html][source]]
+/Phys.org/ -- Experimental evidence that quantum reality is not a very well defined thing. In fact  the ability to reconcile two observers interpretation of their experimental results is not  granted by quantum mechanics. But it can be used as a way to detect when quantum mechanics actually become classical.
+** Nanooptical traps: A promising building block for quantum technologies -- [[https://phys.org/news/2019-11-nanooptical-block-quantum-technologies.html][source]]
+/Phys.org/ -- Researchers are reporting better nanooptical traps that hold atoms much longer than before. That's interesting as a way to design and control  light and matter interactions which would be used in quantum computing and quantum internet applications.
+** Quantum Volume: A Yardstick To Measure The Performance Of Quantum Computers -- [[https://www.forbes.com/sites/moorinsights/2019/11/23/quantum-volume-a-yardstick-to-measure-the-power-of-quantum-computers/][source]]
+/Forbes -- Paul Smith-Goodson/ -- The case for quantum volume as a measure of performance for quantum hardware. That's a sensible metric pushed forward by IBMQ and Quantum Benchmark. 
+** Researchers reach milestone in quantum standardisation -- [[https://eurekalert.org/pub_releases/2019-11/uow-rr112519.php][source]]
+/U Waterloo/ -- Well now, how do you compute the performance of quantum computers in practice (now that you know you should report quantum volume as explained in the previous entry). 
+
+* Industry - Academia - Startups
+** IQM Finland raises €11.6 million to speed up advancements in quantum computing -- [[https://www.eu-startups.com/2019/07/iqm-finland-raises-e11-6-million-to-speed-up-advancements-in-quantum-computing/][source]]
+/EU Startups -- IQM Finland, Matadero QED, Maki.vc, MIG Fonds, OpenOcean, Tesi (Finnish Industry Investment), and Vito Ventures Fund/ -- The startup raised money in July to build scalable cryogenic hardware for quantum computers.
+** For faster quantum computing, Microsoft builds a better qubit -- [[https://www.cnet.com/news/for-faster-quantum-computing-microsoft-builds-a-better-qubit/][source]]
+/CNet -- Microsoft/ -- Microsoft announced to be very close to having topological qubits working. Apparently thanks to improvements in the way qubits controllers are wired.
+** HYRAX: The quantum discovery framework -- [[https://www.linkedin.com/posts/rahko_quantumtech-quantumsoftware-quantumcomputing-activity-6600317570186866688-NSdX/][source]]
+/Rahko/ -- The recently funded company did release a framework for machine learning with backends for some of the leading quantum computers.
+** D'Arpanet à Internet : une histoire des réseaux -- [[https://interstices.info/dossier/darpanet-a-internet-une-histoire-des-reseaux/][source]]
+/Interstices/ -- In french: very interesting series of articles about ARPANET enlightning to read now that we are building a quantum internet.
+** France's GDR Quantum Information from Fundamental Aspects to Experiments organised its 10th annual colloqium early november -- [[https://iqfacolloq2019.sciencesconf.org/data/pages/BoA_iqfacolloq2019_CNRS_4.pdf][source]]
+/GDR IFQA/ -- Read the abstracts to have a glimpse of France's research on quantum information.
+** NTT taps NASA to take on Google and IBM in quantum computing -- [[https://asia.nikkei.com/Business/Technology/NTT-taps-NASA-to-take-on-Google-and-IBM-in-quantum-computing][source]]
+/Nikkei Asian Review -- NTT, NASA/ -- NTT is partnering with NASA to develop quantum computing and go for a race with Google and IBM already quite far ahead. Interesting to see o non US based company stepping in to build a quantum computer.
+** PsiQuantum raises big money ($230m) -- [[https://www.telegraph.co.uk/technology/2019/11/16/bristol-professors-secretive-quantum-computing-start-up-raises/][source]]
+/PsiQuantum/ -- PsiQuantum, founded by Jeremy O’Brien, has secured the funds from investors including a venture capital fund started by former Google executive Andy Rubin. The photonics quantum computing is increasingly looking like a feasible alternative to other technologies to built fault tolerant quantum computers. They are going to work on skipping the NISQ phase altogether.
+** D-Wave sticks with its approach to quantum computing -- [[https://techcrunch.com/2019/11/15/d-wave-sticks-with-its-approach-to-quantum-computing/][source]]
+/D-Wave/ -- D-Wave partnered with VW to optimise traffic at the Lisbon Websummit. Although one might discuss whether D-Wave is doing quantum computation, I think we should see the positive side of having proof of concepts that go outside labs and go to real environments. Congrats for showing the way towards computing applications for quantum devices.
+** Cambridge Quantum Computing announces new release of updated software stack -- [[https://cambridgequantum.com/wp-content/uploads/2019/11/CQC-181119.pdf][source]]
+/Cambridge Quantum Computing/ -- That's a new software for designing / compiling circuits into an efficient representation suitable for being run on the major backends. This is important as these backends have topologies that make various optimisations required to get something useful. 
+** h-bar consultants published an overview of hardware QC companies funding rounds -- [[https://twitter.com/hbar_consultant/status/1195889753423433728?s=09][source]]
+/h-bar/ -- Good to see some of them generating revenue. Doesn't mean they show a positive bottom line, just that topline is greater than 0!
+** Zeiss announces a quantum challenge -- [[https://www.zeiss.com/corporate/int/careers/events/zeiss-quantum-challenge.html][source]]
+/Zeiss/ -- The company is joining the quantum fun with a challenge centered on sensing and imaging. Deadline is march 31st 2020.
+** Xanadu receives grant from DARPA to test QML on quantum hardware -- [[https://betakit.com/xanadu-receives-grant-from-darpa-to-test-qml-performance-on-quantum-hardware/][source]]
+/Xanadu, DARPA/ -- The research project is expected to last 12 months.
+* Research Papers
+** Characterizing large-scale quantum computers via cycle benchmarking -- [[https://www.nature.com/articles/s41467-019-13068-7][source]]
+/Alexander Erhard, Joel J. Wallman, Lukas Postler, Michael Meth, Roman Stricker, Esteban A. Martinez, Philipp Schindler, Thomas Monz, Joseph Emerson & Rainer Blatt/ -- How do you benchmark the quality of quantum gates involving more that 3 - 4 qubits ? If you do tomography with imperfect state preparation and measurements, it will take for ever. Cycle benchmarking is an interesting option and has been demonstrated experimentally on ion trap QC. Related to the last entry of the General Public Articles.
+* Positions - Conferences 
+** Quantum Computing Theory in Practice Conference -- [[https://riverlane.io/qctip-conference/][source]]
+Centre for Mathematical Sciences, Cambridge | 6-8 April 2020
+* Miscellanea
+** Neutrinos Lead to Unexpected Discovery in Basic Math -- [[https://www.quantamagazine.org/neutrinos-lead-to-unexpected-discovery-in-basic-math-20191113/][source]]
+/Quanta Magazine -- Stephen Parke (Fermi National Accelerator Laboratory), Xining Zhang (University of Chicago), Peter Denton (Brookhaven National Laboratory)/ -- A beautiful fundamental result in linear algebra, giving a simple way of expressing the eigenvectors of a matrix in terms of the eigenvalues of that matrix and some submatrices.
+** Quantum light improves sensitivity of biological measurements -- [[https://phys.org/news/2019-11-quantum-sensitivity-biological.html][source]]
+/Phys.org/ -- Research on single photon source finds use in biology to track enzymatic reaction in real-tine. 
