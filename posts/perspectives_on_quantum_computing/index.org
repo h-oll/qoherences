@@ -1,0 +1,96 @@
+#+BEGIN_COMMENT
+.. title: Perspectives on Quantum Computing: NISQ and beyond
+.. slug: perspectives_on_quantum_computing
+.. date: 2019-12-02 04:42:42 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: Key takeaway notes from the conference organized by SIRTEQ in Paris, on November 29, 2019.
+.. type: text
+
+#+END_COMMENT
+
+* TLDR
+- IBM-Q classification algorithm developed for high energy physics at CERN is apparently on par with its classical counterpart (classification performance and running time).
+- There is a global shortage of talents.
+- All the proponents of superconducting qubits are happy with their solution as they think it's what's the easiest so you can focus on what goes wrong. Additionally, Google's tunable couplers really seem to help a lot. 
+- More and more discussions with industrial use-cases.
+- Having one fault-tolerant logical qubit within 5 years seems a reasonable goal. 
+- QC need to integrate itself into the HPC value chain. 
+
+* Program of the conference
+
+- Quantum algorithms for the NISQ area and beyond: Iordanis Kerenidis (CNRS / QCWare)
+- Quantum supremacy using a programmable superconducting processor: Charles Neill (Google Quantum AI)
+- Quantum computing and its applications in chemistry and physics: Ivano Tavernelli (IBM Zürich)
+- Full-stack quantum computing with superconducting qubits: Nicolas Didier (Rigetti)
+- Realizing fault-tolerant superconducting quantum processors: Andreas Wallraff (ETH Zürich)
+- Programmable quantum simulators and sensors on atomic platforms: Rick van Bijnen (U. Innsbruck)
+- Round tables
+
+* Key takeaways
+
+** Iordanis
+We currently have two kind of tools for NISQ: Euristics (QAOA and VQE) and algorithms (HHL, QML, Neural nets, ...). 
+
+Nothing wrong with euristics, it's just that we don't quite know how to prove the speedup. But hey, if it works in practice, it should be made available to users because they are accustomed to deal with euristics! These euristics help solving problems of optimisation under constraints (pretty much any field, from finance to transportation) for QAOA and energy minimisation problems (found in chemistry and pharma) for VQE. Both work by using a quantum machine to speedup a hybrid quantum + classical optimisation loop. Of course, for any euristics, you know it's not going to work for all problems. 
+
+That will imply a lot of trial and error, hence more quantum datascience in the future to bring solutions to customers.
+
+As for the algorithms based on HHL (a lot of QML), the crux is fast dataloading. In fact, these algorithms were introduced using an assumption that fast data loading was possible (ie transform classical data describing the problem to solve, to quantum usable data for the algorithm). This "fine-print" assumption came to light since Ewin Tang's dequantization paper from july 2018. It showed that the argument "Quantum computers access an exponentially large computational space hence are more powerful than their classical counterpart" fell apart: under similar "fast dataloading" assumption (in fact efficient sampling) you can find efficient classical algorithms to do the same task. But this is not the end of the story. As for euristics, if it works in practice, you should use it. And apparently, it works in practice. Iordanis reported the following figures for recommendation systems (using typical instance size): 
+- Quantum: 10^3 operations
+- Classical: 10^15 operations
+- Quantum inspired (dequantized version): 10^33.
+
+Main messages from Iordanis:
+- The key for the field now is to find something that we can run and that is impactful. 
+- Applications should drive the development of NISQ machines now. We cannot wait to build the machine and then start looking for use-cases.
+
+** Charles
+We got a lot of pictures and explanations around the peculiarity of Google's design (superconducting). 
+
+The most interesting one (which they seem to be the only ones to have) is the presence of tunable couplers between their neighbouring qubits. This allows a "hardware" decoupling and in turn releases spots on your qubit pulse timeline to perform useful quantum operations (instead of pulsing the qubits in the background to decouple them via software). This allows for more aggressive / faster gates without decreasing the quality of them. The result is more gates per qubit. For instance: 2 qubit gates are reported at 12ns, with a 0.5 x 10^3 fidelity. You can also go for more parallelism (many gates on different qubits at the same time). It also reduces the flux for applying gates and thus the cross-talk errors between qubits.
+
+Charles then talked about how Google results can be verified (since we can't use a classical computer to check the computation, and Google is the only company able to run the experiment). The approach is a physics one: Show that your error model  seems to work well up to the largest instances they can simulate classically, and that the data you get from larger instances seems to be inline. That's a good approach from a physics perspective. Not a very convincing one from the cryptographic point of view. There exists solutions for this last part though, but they are not quite focused on that yet (but they probably should).
+
+Charles went on showing chemistry applications, basically stating they are starting working on real life problems with industries. 
+
+Last mentioned: their work on using a fixed always-on Hamiltonian for 22 qubits and performing analog control. Didn't quite say what the idea behind this was, but I suspect building simulators of quantum physical systems.
+
+** Ivano
+
+Part of the talk was devoted to introducing IBM's hardware and software (QisKit). One notable mention: IBM is using a superconducting architecture, but without tunable couplers. But that didn't prevent them on making progress. Their measure of performance (the quantum volume = # qubits x # gates you can apply to them) has been greatly enhanced and is on a trend of doubling every year (at least that's what the first 3 points show).
+
+Ivano's talk was impressive as they really dug into chemistry problems and trying to understand how better the quantum algorithms were. Alas, it's only for small instances as NISQ devices don't have enough computing power yet to start competing with classical software on larger molecules. But, if you take their work as a calibration phase, it is promising: 
+- you get answers that more closely match analytical solutions (when you have them) than what the classical algorithms are able to do. 
+- IBM seems to have a technique to extrapolate results from noisy computations via classical post-processing that looks interesting... or I might have misunderstood and they in fact didn't need to extrapolate and were able to get the result directly from their quantum algorithm.
+
+Again we have a lot of ad-hoc work for solving problems and see how to mitigate errors on real computations.
+
+Most impressive part of the day: IBM has been partnering with CERN for classification of high energy physics events collected at ATLAS. The quantum algorithm (QSVM) is on par with the classical one in terms of quality (small advantage for the quantum one -- 10^-6 improvement, not quite significant). According to Ivano, there has not been much tuning done yet. On top of that it is fast (running at the micro second level). That's impressive. Looking for the details of a forthcoming paper.
+
+** Nicolas
+
+Interesting presentation of their full-stack approach. It's really full-stack: designing the chip, the controllers, the PCB boards, the cryostats, ... and software as well. Very similar settings and techniques to IBM and Google. They invested a lot (like the others) on error mitigation, reducing cross-talk and latency. Interestingly, they developed a parametric compiler that would compile once and reuse the result of the compiled sequence with different parameters. That would reduce greatly the latency as compiling would otherwise be needed each time you change a parameter in your gates (even though it is only a small change). They also use active reset (instead of letting their qubits decohere).
+
+We went at length into some of their work for reducing flux noise. Long story short: they achieve a fidelity > .99 on their C-Z gates
+
+** Andreas
+
+One key point from Andreas is that excellent academic labs are having trouble keeping the people in academia. Part of the group was bought at once by microsoft. That's a long term problem for innovation as all the settings of Google, IBM, Rigetti are based on academic research. So there needs to be someone thinking ahead in these companies as to not deplete academia too much. On top of that, private companies have been investing way more money than academia into building devices.
+
+About his talk: I loved it! someone interested in quantum error correction and showing how to do it. They achieved an error detection code with 7 qubits (3 ancillas, 4 logical qubits). The plan is to do error correction with 17 and 49 qubits using surface codes.
+
+The reported errors are a few percents on 2 qubit gates. For stabilizer measurements, with 2 non trivial Pauli's it's about 95%, and 81% for 4 Pauli's. 
+
+** Rick
+
+A very different approach here, but very NISQ-y. They use ion traps to simulate natural quantum processes. That means you engineer a system with some degree of control. You tune the parameters so that the effective Hamiltonian that your ions feel is related to the Hamiltonian you are interested in (if you find the solution for one, you get the solution for the second). The nice point, is that most of the problems you solve are eigenvalue / eigenvectors, hence you are in principle able to check if the solution is correct (or to which degree it is correct). 
+
+** Round tables
+
+- One key point: users are not intending to buy quantum computers, but rather rent it. However, they don't want to rent it over the cloud. They want to finely understand their architecture, and limitations, as they already do for their HPC capabilities. QC makers and software companies should integrate into the HPC value chain. 
+- Why superconducting: it's so simple, that you can focus on all the other things that go wrong.
+- The materials bill for QC is low (a few $m). What is expensive is the knowledge you have to build to make it work. 
+- Google gate performance should allow fault tolerant QC with a 1:1000 ratio. Having 1 logical qubits seems to be a reasonable goal for the next 5 yrs.
+- Access to talents is hard, but education programs at ETH have proved successful. 

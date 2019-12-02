@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Key takeaway notes from the conference organized by SIRTEQ in Paris, on November 29, 2019.">
+<meta name="viewport" content="width=device-width">
+<title>Perspectives on Quantum Computing: NISQ and beyond | Qoherences</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://h-oll.github.io/qoherences/posts/perspectives_on_quantum_computing/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Harold Ollivier">
+<meta property="og:site_name" content="Qoherences">
+<meta property="og:title" content="Perspectives on Quantum Computing: NISQ and beyond">
+<meta property="og:url" content="https://h-oll.github.io/qoherences/posts/perspectives_on_quantum_computing/">
+<meta property="og:description" content="Key takeaway notes from the conference organized by SIRTEQ in Paris, on November 29, 2019.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2019-12-02T04:42:42+01:00">
+</head>
+<body>
+    
+
+    <header id="header" class="navbar"><div class="container">
+            
+    <div class="brand">
+
+        <div class="brand-text">
+            <a href="https://h-oll.github.io/qoherences/" title="Qoherences" rel="home">
+                Qoherences
+            </a>
+        </div>
+
+        <a id="btn-toggle-nav" class="navbar-toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+    </div>
+
+            
+    <nav class="navbar-collapse collapse"><ul class="nav">
+<li><a href="../../archive.html">Archive</a></li>
+                <li><a href="../../categories/">Tags</a></li>
+                <li><a href="../../rss.xml">RSS feed</a></li>
+    
+    
+    </ul></nav>
+</div>
+    </header><div class="header-padding"> </div>
+
+    
+    <div class="post-header">
+        <div class="container">
+            <div class="title">
+                Perspectives on Quantum Computing: NISQ and beyond
+            </div>
+        </div>
+    </div>
+
+    <div class="post-meta">
+      <div class="container">
+	<div class="meta clearfix">
+	  <div class="authordate">
+	    <time class="timeago" datetime="2019-12-02T04:42:42+01:00">2019/12/02</time>
+	    
+
+	    
+          |  
+        <a href="index.org" id="sourcelink">Source</a>
+
+	  </div>
+	  <div class="post-tags">
+	  </div>
+	</div>
+      </div>
+    </div>
+
+
+    <div id="post-main" class="main">
+        <div class="container">
+        <div id="outline-container-orgcc2fb75" class="outline-2">
+<h2 id="orgcc2fb75">TLDR</h2>
+<div class="outline-text-2" id="text-orgcc2fb75">
+<ul class="org-ul">
+<li>IBM-Q classification algorithm developed for high energy physics at CERN is apparently on par with its classical counterpart (classification performance and running time).</li>
+<li>There is a global shortage of talents.</li>
+<li>All the proponents of superconducting qubits are happy with their solution as they think it's what's the easiest so you can focus on what goes wrong. Additionally, Google's tunable couplers really seem to help a lot.</li>
+<li>More and more discussions with industrial use-cases.</li>
+<li>Having one fault-tolerant logical qubit within 5 years seems a reasonable goal.</li>
+<li>QC need to integrate itself into the HPC value chain.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6a51b55" class="outline-2">
+<h2 id="org6a51b55">Program of the conference</h2>
+<div class="outline-text-2" id="text-org6a51b55">
+<ul class="org-ul">
+<li>Quantum algorithms for the NISQ area and beyond: Iordanis Kerenidis (CNRS / QCWare)</li>
+<li>Quantum supremacy using a programmable superconducting processor: Charles Neill (Google Quantum AI)</li>
+<li>Quantum computing and its applications in chemistry and physics: Ivano Tavernelli (IBM Zürich)</li>
+<li>Full-stack quantum computing with superconducting qubits: Nicolas Didier (Rigetti)</li>
+<li>Realizing fault-tolerant superconducting quantum processors: Andreas Wallraff (ETH Zürich)</li>
+<li>Programmable quantum simulators and sensors on atomic platforms: Rick van Bijnen (U. Innsbruck)</li>
+<li>Round tables</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0ab426d" class="outline-2">
+<h2 id="org0ab426d">Key takeaways</h2>
+<div class="outline-text-2" id="text-org0ab426d">
+</div>
+<div id="outline-container-org6acc30c" class="outline-3">
+<h3 id="org6acc30c">Iordanis</h3>
+<div class="outline-text-3" id="text-org6acc30c">
+<p>
+We currently have two kind of tools for NISQ: Euristics (QAOA and VQE) and algorithms (HHL, QML, Neural nets, …). 
+</p>
+
+<p>
+Nothing wrong with euristics, it's just that we don't quite know how to prove the speedup. But hey, if it works in practice, it should be made available to users because they are accustomed to deal with euristics! These euristics help solving problems of optimisation under constraints (pretty much any field, from finance to transportation) for QAOA and energy minimisation problems (found in chemistry and pharma) for VQE. Both work by using a quantum machine to speedup a hybrid quantum + classical optimisation loop. Of course, for any euristics, you know it's not going to work for all problems. 
+</p>
+
+<p>
+That will imply a lot of trial and error, hence more quantum datascience in the future to bring solutions to customers.
+</p>
+
+<p>
+As for the algorithms based on HHL (a lot of QML), the crux is fast dataloading. In fact, these algorithms were introduced using an assumption that fast data loading was possible (ie transform classical data describing the problem to solve, to quantum usable data for the algorithm). This "fine-print" assumption came to light since Ewin Tang's dequantization paper from july 2018. It showed that the argument "Quantum computers access an exponentially large computational space hence are more powerful than their classical counterpart" fell apart: under similar "fast dataloading" assumption (in fact efficient sampling) you can find efficient classical algorithms to do the same task. But this is not the end of the story. As for euristics, if it works in practice, you should use it. And apparently, it works in practice. Iordanis reported the following figures for recommendation systems (using typical instance size): 
+</p>
+<ul class="org-ul">
+<li>Quantum: 10<sup>3</sup> operations</li>
+<li>Classical: 10<sup>15</sup> operations</li>
+<li>Quantum inspired (dequantized version): 10<sup>33</sup>.</li>
+</ul>
+<p>
+Main messages from Iordanis:
+</p>
+<ul class="org-ul">
+<li>The key for the field now is to find something that we can run and that is impactful.</li>
+<li>Applications should drive the development of NISQ machines now. We cannot wait to build the machine and then start looking for use-cases.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org567e0fa" class="outline-3">
+<h3 id="org567e0fa">Charles</h3>
+<div class="outline-text-3" id="text-org567e0fa">
+<p>
+We got a lot of pictures and explanations around the peculiarity of Google's design (superconducting). 
+</p>
+
+<p>
+The most interesting one (which they seem to be the only ones to have) is the presence of tunable couplers between their neighbouring qubits. This allows a "hardware" decoupling and in turn releases spots on your qubit pulse timeline to perform useful quantum operations (instead of pulsing the qubits in the background to decouple them via software). This allows for more aggressive / faster gates without decreasing the quality of them. The result is more gates per qubit. For instance: 2 qubit gates are reported at 12ns, with a 0.5 x 10<sup>3</sup> fidelity. You can also go for more parallelism (many gates on different qubits at the same time). It also reduces the flux for applying gates and thus the cross-talk errors between qubits.
+</p>
+
+<p>
+Charles then talked about how Google results can be verified (since we can't use a classical computer to check the computation, and Google is the only company able to run the experiment). The approach is a physics one: Show that your error model  seems to work well up to the largest instances they can simulate classically, and that the data you get from larger instances seems to be inline. That's a good approach from a physics perspective. Not a very convincing one from the cryptographic point of view. There exists solutions for this last part though, but they are not quite focused on that yet (but they probably should).
+</p>
+
+<p>
+Charles went on showing chemistry applications, basically stating they are starting working on real life problems with industries. 
+</p>
+
+<p>
+Last mentioned: their work on using a fixed always-on Hamiltonian for 22 qubits and performing analog control. Didn't quite say what the idea behind this was, but I suspect building simulators of quantum physical systems.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgea01388" class="outline-3">
+<h3 id="orgea01388">Ivano</h3>
+<div class="outline-text-3" id="text-orgea01388">
+<p>
+Part of the talk was devoted to introducing IBM's hardware and software (QisKit). One notable mention: IBM is using a superconducting architecture, but without tunable couplers. But that didn't prevent them on making progress. Their measure of performance (the quantum volume = # qubits x # gates you can apply to them) has been greatly enhanced and is on a trend of doubling every year (at least that's what the first 3 points show).
+</p>
+
+<p>
+Ivano's talk was impressive as they really dug into chemistry problems and trying to understand how better the quantum algorithms were. Alas, it's only for small instances as NISQ devices don't have enough computing power yet to start competing with classical software on larger molecules. But, if you take their work as a calibration phase, it is promising: 
+</p>
+<ul class="org-ul">
+<li>you get answers that more closely match analytical solutions (when you have them) than what the classical algorithms are able to do.</li>
+<li>IBM seems to have a technique to extrapolate results from noisy computations via classical post-processing that looks interesting… or I might have misunderstood and they in fact didn't need to extrapolate and were able to get the result directly from their quantum algorithm.</li>
+</ul>
+<p>
+Again we have a lot of ad-hoc work for solving problems and see how to mitigate errors on real computations.
+</p>
+
+<p>
+Most impressive part of the day: IBM has been partnering with CERN for classification of high energy physics events collected at ATLAS. The quantum algorithm (QSVM) is on par with the classical one in terms of quality (small advantage for the quantum one – 10<sup>-6</sup> improvement, not quite significant). According to Ivano, there has not been much tuning done yet. On top of that it is fast (running at the micro second level). That's impressive. Looking for the details of a forthcoming paper.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6f05ddf" class="outline-3">
+<h3 id="org6f05ddf">Nicolas</h3>
+<div class="outline-text-3" id="text-org6f05ddf">
+<p>
+Interesting presentation of their full-stack approach. It's really full-stack: designing the chip, the controllers, the PCB boards, the cryostats, … and software as well. Very similar settings and techniques to IBM and Google. They invested a lot (like the others) on error mitigation, reducing cross-talk and latency. Interestingly, they developed a parametric compiler that would compile once and reuse the result of the compiled sequence with different parameters. That would reduce greatly the latency as compiling would otherwise be needed each time you change a parameter in your gates (even though it is only a small change). They also use active reset (instead of letting their qubits decohere).
+</p>
+
+<p>
+We went at length into some of their work for reducing flux noise. Long story short: they achieve a fidelity &gt; .99 on their C-Z gates
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfe96fc8" class="outline-3">
+<h3 id="orgfe96fc8">Andreas</h3>
+<div class="outline-text-3" id="text-orgfe96fc8">
+<p>
+One key point from Andreas is that excellent academic labs are having trouble keeping the people in academia. Part of the group was bought at once by microsoft. That's a long term problem for innovation as all the settings of Google, IBM, Rigetti are based on academic research. So there needs to be someone thinking ahead in these companies as to not deplete academia too much. On top of that, private companies have been investing way more money than academia into building devices.
+</p>
+
+<p>
+About his talk: I loved it! someone interested in quantum error correction and showing how to do it. They achieved an error detection code with 7 qubits (3 ancillas, 4 logical qubits). The plan is to do error correction with 17 and 49 qubits using surface codes.
+</p>
+
+<p>
+The reported errors are a few percents on 2 qubit gates. For stabilizer measurements, with 2 non trivial Pauli's it's about 95%, and 81% for 4 Pauli's. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org38a4a4f" class="outline-3">
+<h3 id="org38a4a4f">Rick</h3>
+<div class="outline-text-3" id="text-org38a4a4f">
+<p>
+A very different approach here, but very NISQ-y. They use ion traps to simulate natural quantum processes. That means you engineer a system with some degree of control. You tune the parameters so that the effective Hamiltonian that your ions feel is related to the Hamiltonian you are interested in (if you find the solution for one, you get the solution for the second). The nice point, is that most of the problems you solve are eigenvalue / eigenvectors, hence you are in principle able to check if the solution is correct (or to which degree it is correct). 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9f5898e" class="outline-3">
+<h3 id="org9f5898e">Round tables</h3>
+<div class="outline-text-3" id="text-org9f5898e">
+<ul class="org-ul">
+<li>One key point: users are not intending to buy quantum computers, but rather rent it. However, they don't want to rent it over the cloud. They want to finely understand their architecture, and limitations, as they already do for their HPC capabilities. QC makers and software companies should integrate into the HPC value chain.</li>
+<li>Why superconducting: it's so simple, that you can focus on all the other things that go wrong.</li>
+<li>The materials bill for QC is low (a few $m). What is expensive is the knowledge you have to build to make it work.</li>
+<li>Google gate performance should allow fault tolerant QC with a 1:1000 ratio. Having 1 logical qubits seems to be a reasonable goal for the next 5 yrs.</li>
+<li>Access to talents is hard, but education programs at ETH have proved successful.</li>
+</ul>
+</div>
+</div>
+</div>
+            
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="qoherences",
+            disqus_url="https://h-oll.github.io/qoherences/posts/perspectives_on_quantum_computing/",
+        disqus_title="Perspectives on Quantum Computing: NISQ and beyond",
+        disqus_identifier="cache/posts/perspectives_on_quantum_computing.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+
+        </div>
+    </div>
+
+    
+    <footer><div class="container">
+            <div class="social">
+
+
+
+                <div class="social-entry">
+                    <a href="../../rss.xml" target="_blank">
+                        <i class="fa fa-rss"></i> 
+                    </a>
+                </div>
+            </div>
+                <div class="copyright">
+                    Contents © 2019         <a href="mailto:harold.ollivier@linksights.io">Harold Ollivier</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+                </div>
+           
+        </div>
+    </footer><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-150665042-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150665042-1');
+</script><script src="../../assets/js/all-nocdn.js" type="text/javascript"></script>
+</body>
+</html>
