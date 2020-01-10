@@ -1,0 +1,59 @@
+#+BEGIN_COMMENT
+.. title: Highlights from QIP2020
+.. slug: highlights_from_qip
+.. date: 2020-01-10 05:25:51 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: QIP 2020 was in Shenzhen (China) from Jan 4th to 10th. Here is my personal curated list of talks. (To be updated with links to slides / videos)
+.. type: text
+
+#+END_COMMENT
+
+* Stats
+
+Quantum Information Processing 2020 is the 23rd edition of this major conference for the field. 
+
+The conference was a big success both in terms of attendence and science (more on that below). Just to give a few stats shared by the organizing committees: 
+- We were more than 700 participants (Industry ~100, Students ~300, Senior Scientists ~300) 
+- Not surprisingly attendance was skewed towards Chinese participants (~400). However compared to the previous edition in China (Beijin 2013, 140 Chinese participants) that's a huge increase. 
+- About 70 talks have been scheduled covering most of quantum information processing subjects from a theoretical perspective (Quantum algorithms, complexity, error correction and protection, fault tolerance, resource theory, testing / verification / certification, ...)
+- A considerable number (350) of posters have been presented making it hard to find the ones that were in your subfield.
+- An industry session was organized showcasing the work done by local companies (Baidu, Huawei, Alibaba, SpinQ, CAS Quantum Net, Quantum CTek)
+
+Just a few observations from here: QIP has a very broad coverage of the field. As such it is very open and worthwhile attending as speakers tend to make an effort to present their subject after some general motivation / context description. It would be a hard take for purely experimental physicists, but theoreticians working on experiments should definitely attend (more) especially error correction sessions, some algorithm talks as well as some certification / verification ones.
+
+Now the scientific part!
+
+* Q. Algorithms
+
+Of course, one of the highlights of the conference was the opening plenary talk of Ewin Tang on dequantizing most of QML algorithms. Basically most of QML is concerned, but that just does not end the story here. The algorithms that were thought to be providing super-polynomial speed-ups don't ; but customers usually do not have asymptotic use cases ! It's just making the marketing argument a little harder, but also potentially less deceptive as asymptotics sometimes hide heavy pre-factors. 
+
+In my opinion it is not a bad thing: what HPC needs is a focus on algorithms. Designing good parallel algorithms is hard in theory and in practice because you have to take care of fault, etc. Same for quantum algorithms. What dequantization tells us is that customers need to invest time and money to design algorithms that are suited to their use cases. 
+
+Besides E. Tang's result, several new or improved techniques for using quantum processors to simulate physics have been presented. Their interest is based on the fact that simulating even simple hamiltonian can be very hard.
+
+We have seen very impressive talks concerning NISQy devices. As such, they are good candidates to be used into actual industrial use-case studies: 
+- A Theory of Trotter Error (Andrew Childs, Yuan Su, Minh Tran, Nathan Wiebe Uma Girish, Ran Raz and Avishay Tal, Shuchen Zhu)
+- Well -conditioned multiproduct Hamiltonian simulation  (Guang Hao Low, Vadym Kliuchnikov, Nathan Wiebe)
+- Quantum Imaginary Time Evolution (Mario Mota, Chong Sun, Adrian Tan, Matthew, O'Rourke , Erika Ye, Austin Minnich, Fernando Brandao and Garnet Chan)
+
+
+* QECC
+
+- For an overview of the field head to Ben Brown's Tutorial (it contains references to major papers).
+- Several talks were devoted to the subject of tailoring codes to noise models that are encountered in today's physical systems. Ken Brow gave a very thorough overview of the matter in his plenary talk. It was later complemented by Ben Brown's third talk on high thresholds from symmetries of quantum codes.
+- Fault-tolerance was well represented. I'm probably biased as I had read the paper before, but I really enjoyed Anirudh Krishna's presentation on constructing FT gates on hypergraph product codes. The technique used generalizes code deformations and I suspect we will see it being used a lot in the months to come.
+
+The results presented on polar codes (Frédéric Dupuis, Ashutosh Goswami, Mehdi Mhalla, Valentin Savinare) very exciting as polar codes are extremely good but (and) still require some more work to be able to be considered as first class citizens (fault tolerant gates, derandomized construction, no entanglement assistance).
+
+* Other topics 
+
+** Crypto
+
+Personal preference for "Computationally secure and composabe remote state preparation" of Alexandru Gheorgiu and Thomas Vidick, as it is an interesting primitive for secure versions of measurement based QC. Carl Miller's work about the impossibility of weak quantum coin flipping was very impressive.
+
+** Estimation
+
+I'd recommend "Predicting Features of Quantum Systems using Classical Shadows" (Hsin-Yuan Huang, Richard Kueng) as it might reveal other ideas for quantum simulation.
+
