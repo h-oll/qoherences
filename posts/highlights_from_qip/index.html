@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="QIP 2020 was in Shenzhen (China) from Jan 4th to 10th. Here is my personal curated list of talks. (To be updated with links to slides / videos)">
+<meta name="viewport" content="width=device-width">
+<title>Highlights from QIP2020 | Qoherences</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://h-oll.github.io/qoherences/posts/highlights_from_qip/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Harold Ollivier">
+<meta property="og:site_name" content="Qoherences">
+<meta property="og:title" content="Highlights from QIP2020">
+<meta property="og:url" content="https://h-oll.github.io/qoherences/posts/highlights_from_qip/">
+<meta property="og:description" content="QIP 2020 was in Shenzhen (China) from Jan 4th to 10th. Here is my personal curated list of talks. (To be updated with links to slides / videos)">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-01-10T05:25:51+01:00">
+</head>
+<body>
+    
+
+    <header id="header" class="navbar"><div class="container">
+            
+    <div class="brand">
+
+        <div class="brand-text">
+            <a href="https://h-oll.github.io/qoherences/" title="Qoherences" rel="home">
+                Qoherences
+            </a>
+        </div>
+
+        <a id="btn-toggle-nav" class="navbar-toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+    </div>
+
+            
+    <nav class="navbar-collapse collapse"><ul class="nav">
+<li><a href="../../archive.html">Archive</a></li>
+                <li><a href="../../categories/">Tags</a></li>
+                <li><a href="../../rss.xml">RSS feed</a></li>
+    
+    
+    </ul></nav>
+</div>
+    </header><div class="header-padding"> </div>
+
+    
+    <div class="post-header">
+        <div class="container">
+            <div class="title">
+                Highlights from QIP2020
+            </div>
+        </div>
+    </div>
+
+    <div class="post-meta">
+      <div class="container">
+	<div class="meta clearfix">
+	  <div class="authordate">
+	    <time class="timeago" datetime="2020-01-10T05:25:51+01:00">2020/01/10</time>
+	    
+
+	    
+          |  
+        <a href="index.org" id="sourcelink">Source</a>
+
+	  </div>
+	  <div class="post-tags">
+	  </div>
+	</div>
+      </div>
+    </div>
+
+
+    <div id="post-main" class="main">
+        <div class="container">
+        <div id="outline-container-org45b77c8" class="outline-2">
+<h2 id="org45b77c8">Stats</h2>
+<div class="outline-text-2" id="text-org45b77c8">
+<p>
+Quantum Information Processing 2020 is the 23rd edition of this major conference for the field. 
+</p>
+
+<p>
+The conference was a big success both in terms of attendence and science (more on that below). Just to give a few stats shared by the organizing committees: 
+</p>
+<ul class="org-ul">
+<li>We were more than 700 participants (Industry ~100, Students ~300, Senior Scientists ~300)</li>
+<li>Not surprisingly attendance was skewed towards Chinese participants (~400). However compared to the previous edition in China (Beijin 2013, 140 Chinese participants) that's a huge increase.</li>
+<li>About 70 talks have been scheduled covering most of quantum information processing subjects from a theoretical perspective (Quantum algorithms, complexity, error correction and protection, fault tolerance, resource theory, testing / verification / certification, …)</li>
+<li>A considerable number (350) of posters have been presented making it hard to find the ones that were in your subfield.</li>
+<li>An industry session was organized showcasing the work done by local companies (Baidu, Huawei, Alibaba, SpinQ, CAS Quantum Net, Quantum CTek)</li>
+</ul>
+<p>
+Just a few observations from here: QIP has a very broad coverage of the field. As such it is very open and worthwhile attending as speakers tend to make an effort to present their subject after some general motivation / context description. It would be a hard take for purely experimental physicists, but theoreticians working on experiments should definitely attend (more) especially error correction sessions, some algorithm talks as well as some certification / verification ones.
+</p>
+
+<p>
+Now the scientific part!
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3c4df8f" class="outline-2">
+<h2 id="org3c4df8f">Q. Algorithms</h2>
+<div class="outline-text-2" id="text-org3c4df8f">
+<p>
+Of course, one of the highlights of the conference was the opening plenary talk of Ewin Tang on dequantizing most of QML algorithms. Basically most of QML is concerned, but that just does not end the story here. The algorithms that were thought to be providing super-polynomial speed-ups don't ; but customers usually do not have asymptotic use cases ! It's just making the marketing argument a little harder, but also potentially less deceptive as asymptotics sometimes hide heavy pre-factors. 
+</p>
+
+<p>
+In my opinion it is not a bad thing: what HPC needs is a focus on algorithms. Designing good parallel algorithms is hard in theory and in practice because you have to take care of fault, etc. Same for quantum algorithms. What dequantization tells us is that customers need to invest time and money to design algorithms that are suited to their use cases. 
+</p>
+
+<p>
+Besides E. Tang's result, several new or improved techniques for using quantum processors to simulate physics have been presented. Their interest is based on the fact that simulating even simple hamiltonian can be very hard.
+</p>
+
+<p>
+We have seen very impressive talks concerning NISQy devices. As such, they are good candidates to be used into actual industrial use-case studies: 
+</p>
+<ul class="org-ul">
+<li>A Theory of Trotter Error (Andrew Childs, Yuan Su, Minh Tran, Nathan Wiebe Uma Girish, Ran Raz and Avishay Tal, Shuchen Zhu)</li>
+<li>Well -conditioned multiproduct Hamiltonian simulation  (Guang Hao Low, Vadym Kliuchnikov, Nathan Wiebe)</li>
+<li>Quantum Imaginary Time Evolution (Mario Mota, Chong Sun, Adrian Tan, Matthew, O'Rourke , Erika Ye, Austin Minnich, Fernando Brandao and Garnet Chan)</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgcd606d5" class="outline-2">
+<h2 id="orgcd606d5">QECC</h2>
+<div class="outline-text-2" id="text-orgcd606d5">
+<ul class="org-ul">
+<li>For an overview of the field head to Ben Brown's Tutorial (it contains references to major papers).</li>
+<li>Several talks were devoted to the subject of tailoring codes to noise models that are encountered in today's physical systems. Ken Brow gave a very thorough overview of the matter in his plenary talk. It was later complemented by Ben Brown's third talk on high thresholds from symmetries of quantum codes.</li>
+<li>Fault-tolerance was well represented. I'm probably biased as I had read the paper before, but I really enjoyed Anirudh Krishna's presentation on constructing FT gates on hypergraph product codes. The technique used generalizes code deformations and I suspect we will see it being used a lot in the months to come.</li>
+</ul>
+<p>
+The results presented on polar codes (Frédéric Dupuis, Ashutosh Goswami, Mehdi Mhalla, Valentin Savinare) very exciting as polar codes are extremely good but (and) still require some more work to be able to be considered as first class citizens (fault tolerant gates, derandomized construction, no entanglement assistance).
+</p>
+</div>
+</div>
+
+<div id="outline-container-org521eb25" class="outline-2">
+<h2 id="org521eb25">Other topics</h2>
+<div class="outline-text-2" id="text-org521eb25">
+</div>
+<div id="outline-container-org535849c" class="outline-3">
+<h3 id="org535849c">Crypto</h3>
+<div class="outline-text-3" id="text-org535849c">
+<p>
+Personal preference for "Computationally secure and composabe remote state preparation" of Alexandru Gheorgiu and Thomas Vidick, as it is an interesting primitive for secure versions of measurement based QC. Carl Miller's work about the impossibility of weak quantum coin flipping was very impressive.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf7a5702" class="outline-3">
+<h3 id="orgf7a5702">Estimation</h3>
+<div class="outline-text-3" id="text-orgf7a5702">
+<p>
+I'd recommend "Predicting Features of Quantum Systems using Classical Shadows" (Hsin-Yuan Huang, Richard Kueng) as it might reveal other ideas for quantum simulation.
+</p>
+</div>
+</div>
+</div>
+            
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="qoherences",
+            disqus_url="https://h-oll.github.io/qoherences/posts/highlights_from_qip/",
+        disqus_title="Highlights from QIP2020",
+        disqus_identifier="cache/posts/highlights_from_qip.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+
+        </div>
+    </div>
+
+    
+    <footer><div class="container">
+            <div class="social">
+
+
+
+                <div class="social-entry">
+                    <a href="../../rss.xml" target="_blank">
+                        <i class="fa fa-rss"></i> 
+                    </a>
+                </div>
+            </div>
+                <div class="copyright">
+                    Contents © 2020         <a href="mailto:harold.ollivier@linksights.io">Harold Ollivier</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+                </div>
+           
+        </div>
+    </footer><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-150665042-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150665042-1');
+</script><script src="../../assets/js/all-nocdn.js" type="text/javascript"></script>
+</body>
+</html>
