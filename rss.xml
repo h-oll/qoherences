@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Fri, 10 Jan 2020 12:55:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Highlights from QIP2020</title><link>https://h-oll.github.io/qoherences/posts/highlights_from_qip/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org45b77c8" class="outline-2"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Sun, 26 Jan 2020 15:44:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Reading QIP's papers (Part I)</title><link>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-orga955675" class="outline-2"&gt;
+&lt;h2 id="orga955675"&gt;Dequantizing quantum machine learning&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orga955675"&gt;
+&lt;p&gt;
+One of the highlights of QIP2020 was Ewin Tang's presentation of her dequantization technique. It was an overview of the work she has been doing since july 2018. I would highly recommend her blog &lt;a href="https://ewintang.com/blog/2019/01/28/an-overview-of-quantum-inspired-sampling/"&gt;post&lt;/a&gt; as a first introduction. 
+&lt;/p&gt;
+
+&lt;p&gt;
+To summarize the topic even further, till then, QML had access to an unfair assumption (efficient state vector preparation from classical data). The first part of Ewin Tang's work is to find the proper definition of a similar and comparable assumption for classical problems which is called "sample-query". Then she shows that under such assumption, you can perform 3 subroutines efficiently:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;inner product of two complex vectors&lt;/li&gt;
+&lt;li&gt;thin matrix-vector simulation&lt;/li&gt;
+&lt;li&gt;low-rank approximation of a matrix&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+This makes the core of her work: within the sample-query assumption, you can perform randomized numerical linear algebra efficiently. 
+&lt;/p&gt;
+
+&lt;p&gt;
+The rest follows by replacing in quantum algorithms access to quantum evolution and sampling by the efficient classical subroutines above. This applies to supervised clustering, recommendation systems and low-rank matrix inversion.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgbafcef9" class="outline-2"&gt;
+&lt;h2 id="orgbafcef9"&gt;Predicting features of quantum systems from very few measurements&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgbafcef9"&gt;
+&lt;p&gt;
+When we want to verify that an experiment worked the way it was supposed to, the usual approach is to perform state tomography. This means measuring a complete set of observables, estimate each of them accurately and reconstructing the quantum state from there. While this sounds very natural, it is usually overkill for what we &lt;b&gt;really&lt;/b&gt; want to do. 
+&lt;/p&gt;
+
+&lt;p&gt;
+In fact, nmost of the time, we are interested not in the actual state of the quantum system, but only in predicting the outcome of certain measurements on this system. This happens when we can estimate the fidelity of the state to another pure state to show that the experiment produced almost the state is was supposed to produce. In such case, once we know that the state vector is almost at the right position, because the density matrix is positive semi definite and with trace 1, it's not  necessary to measure the other coefficients of the matrix anymore. We know they are small. 
+&lt;/p&gt;
+
+&lt;p&gt;
+There are various ways of optimizing the number of measurements to perform these kind of tasks. The one presented in this &lt;a href="https://arxiv.org/abs/1908.08909"&gt;paper&lt;/a&gt; works in the following way: 
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Realize that measuring your state in the computational basis after applying to it a random Clifford circuit is equivalent to perform the POVM where each POVM element is a projector onto a stabilizer state.&lt;/li&gt;
+&lt;li&gt;The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the \(n\) qubit pure states up to the thrid moment.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+1 and 2 give that if the POVM element associated to the stabilizer state \(|s\rangle\) was obtained in the measurement, \(\hat \rho = (2^n+1) |s\rangle\langle s| - Id\) is a good estimator of \(\text{tr}(O\rho)\) where \(O\) is hermitian.
+&lt;/p&gt;
+
+&lt;p&gt;
+Now, we get a good convergence by repeating these measurements \(N\) times and using median of means estimation.
+&lt;/p&gt;
+
+&lt;p&gt;
+The main theorem then follows: 
+&lt;/p&gt;
+
+&lt;p&gt;
+Suppose \(\rho\) is the state of a system composed of \(n\) qubits. Take \(N\) copies of this system. Fix \(\{O_i\}_{i\ in \[M\]}\) be \(M\) hermitian matrices of size \(2^n \times 2^n\). Set \(\epsilon\) and \(\delta\) in \(\[0,1\]\). Then \(N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2\) is sufficient to predict all function evaluations of \(\tr O_i\rho\) within \(\epsilon\) with probability at least \(1-\delta\) via measurement of random clifford circuits and median of means estimation.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</guid><pubDate>Sat, 18 Jan 2020 05:27:30 GMT</pubDate></item><item><title>Highlights from QIP2020</title><link>https://h-oll.github.io/qoherences/posts/highlights_from_qip/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org45b77c8" class="outline-2"&gt;
 &lt;h2 id="org45b77c8"&gt;Stats&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-org45b77c8"&gt;
 &lt;p&gt;
@@ -1291,120 +1352,4 @@ Don't talk to me if you haven't read this. It you have but mix-up entanglement a
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-09-09/</guid><pubDate>Mon, 09 Sep 2019 04:32:52 GMT</pubDate></item><item><title>Qoherences #1</title><link>https://h-oll.github.io/qoherences/posts/2019-08-30/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org80547a1" class="outline-2"&gt;
-&lt;h2 id="org80547a1"&gt;General public articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org80547a1"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd650920" class="outline-3"&gt;
-&lt;h3 id="orgd650920"&gt;&lt;a href="https://www.scientificamerican.com/article/the-quantum-internet-is-emerging-one-experiment-at-a-time/"&gt;The Quantum Internet Is Emerging, One Experiment at a Time&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd650920"&gt;
-&lt;p&gt;
-&lt;i&gt;Scientific american&lt;/i&gt; – Explains the motivations, challenges and main options taken by research groups working on the quantum internet.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgac9dfd7" class="outline-3"&gt;
-&lt;h3 id="orgac9dfd7"&gt;&lt;a href="https://m.phys.org/news/2019-07-breakthrough-quantum.html"&gt;Researchers lead breakthrough in quantum computing&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgac9dfd7"&gt;
-&lt;p&gt;
-&lt;i&gt;Virginia Tech College&lt;/i&gt; – Efficient quantum algorithms for computing molecular properties.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org03fb596" class="outline-3"&gt;
-&lt;h3 id="org03fb596"&gt;&lt;a href="https://m.phys.org/news/2019-08-entanglement-km-optical-fiber.html"&gt;Entanglement sent over 50 km of optical fiber&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org03fb596"&gt;
-&lt;p&gt;
-&lt;i&gt;U. Innsbruck&lt;/i&gt; – Report of creating and sharing a entangled pair of photons at telecom wavelength (1550nm) for over 50km. This is one of the major requirement needed for a functional quantum network.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org57b2147" class="outline-3"&gt;
-&lt;h3 id="org57b2147"&gt;&lt;a href="https://youtu.be/dI-JW2UIAG0"&gt;How did NASA Steer the Saturn V?- Smarter Every Day 223&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org57b2147"&gt;
-&lt;p&gt;
-Want to understand what the fate of quantum computers is with respect to error correction? Watch this! For controlling Satrun V, the computation was run in parallel on 2 computers ; for quantum computation you need to run it in a parallel encoded version (a logical qubit made of many physical ones) to achieve the same.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgb1ff656" class="outline-2"&gt;
-&lt;h2 id="orgb1ff656"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgb1ff656"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7418390" class="outline-3"&gt;
-&lt;h3 id="org7418390"&gt;&lt;a href="https://www.ehu.eus/en/web/campusa-magazine/-/upv-ehu-is-one-of-the-european-leading-institutions-partnering-with-ibm-to-accelerate-quantum-computing"&gt;UPV/EHU is one of the European leading institutions partnering with IBM to accelerate quantum computing&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7418390"&gt;
-&lt;p&gt;
-&lt;i&gt;UPV EHU - IBM Q&lt;/i&gt; – IBMQ announces research and educations partnerships with Aalto University, University of Turku, EPFL, University of the Basque Country and The International Iberian Nanotechnology Laboratory.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org22c5286" class="outline-3"&gt;
-&lt;h3 id="org22c5286"&gt;&lt;a href="https://www.ehu.eus/en/web/campusa-magazine/-/upv-ehu-is-one-of-the-european-leading-institutions-partnering-with-ibm-to-accelerate-quantum-computing"&gt;Europe’s VCs finally leap into quantum&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org22c5286"&gt;
-&lt;p&gt;
-&lt;i&gt;Spin-off Aalo - IQM&lt;/i&gt; – IQM (super-conducting qubits) got 11.45m euros in a VC investment round.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgebd3385" class="outline-3"&gt;
-&lt;h3 id="orgebd3385"&gt;&lt;a href="https://m.phys.org/news/2019-07-breakthrough-quantum.html"&gt;Stonybrook U and BNL to develop a quantum network&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgebd3385"&gt;
-&lt;p&gt;
-&lt;i&gt;BNL - Stonybrook U.&lt;/i&gt; – Long distance network testbed for open air photonic quantum network.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7d2f685" class="outline-3"&gt;
-&lt;h3 id="org7d2f685"&gt;&lt;a href="https://physicsworld.com/a/big-stuff-with-little-qubits/"&gt;Big stuff with little qubits&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7d2f685"&gt;
-&lt;p&gt;
-&lt;i&gt;Zurich Instruments&lt;/i&gt; – A startup supplying instruments for people measuring spins (from NMR to superconducting qubits).
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org0c4b13c" class="outline-2"&gt;
-&lt;h2 id="org0c4b13c"&gt;Research papers&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org0c4b13c"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org9405823" class="outline-3"&gt;
-&lt;h3 id="org9405823"&gt;&lt;a href="https://arxiv.org/abs/1907.09415"&gt;Ronald de Wolf lecture notes on quantum computing&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org55c6bbf" class="outline-2"&gt;
-&lt;h2 id="org55c6bbf"&gt;Positions&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org55c6bbf"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org51bf771" class="outline-3"&gt;
-&lt;h3 id="org51bf771"&gt;2 Postdocs ar UMD / LPS on NISQ and QML&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org51bf771"&gt;
-&lt;p&gt;
-&lt;i&gt;UMD LPS&lt;/i&gt; – &lt;a href="https://t.co/cHehDmkpEV"&gt;https://t.co/cHehDmkpEV&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id="outline-container-org8c4d6eb" class="outline-3"&gt;
-&lt;h3 id="org8c4d6eb"&gt;Tenures at university of Amsterdam&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org8c4d6eb"&gt;
-&lt;p&gt;
-&lt;i&gt;U. Amsterdam&lt;/i&gt; – &lt;a href="https://t.co/aPZB1cXdsI"&gt;https://t.co/aPZB1cXdsI&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org2e4d956" class="outline-2"&gt;
-&lt;h2 id="org2e4d956"&gt;Miscellanea&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org2e4d956"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgb60f557" class="outline-3"&gt;
-&lt;h3 id="orgb60f557"&gt;&lt;a href="https://quantumfrontiers.com/2019/07/15/tiqtaqtoe/"&gt;Releasing a quantum version of TiqTaqToe&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgb60f557"&gt;
-&lt;p&gt;
-&lt;i&gt;Caltech&lt;/i&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-08-30/</guid><pubDate>Fri, 30 Aug 2019 04:32:52 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-09-09/</guid><pubDate>Mon, 09 Sep 2019 04:32:52 GMT</pubDate></item></channel></rss>

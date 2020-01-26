@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://h-oll.github.io/qoherences/</loc>
-  <lastmod>2020-01-10T12:44:00Z</lastmod>
+  <lastmod>2020-01-26T15:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://h-oll.github.io/qoherences/2019/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://h-oll.github.io/qoherences/archive.html</loc>
-  <lastmod>2020-01-10T12:44:00Z</lastmod>
+  <lastmod>2020-01-26T15:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://h-oll.github.io/qoherences/categories/</loc>
@@ -28,6 +28,10 @@
  <url>
   <loc>https://h-oll.github.io/qoherences/galleries/</loc>
   <lastmod>2019-10-22T04:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://h-oll.github.io/qoherences/index-1.html</loc>
+  <lastmod>2020-01-26T15:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://h-oll.github.io/qoherences/listings/</loc>
@@ -72,5 +76,9 @@
  <url>
   <loc>https://h-oll.github.io/qoherences/posts/perspectives_on_quantum_computing/</loc>
   <lastmod>2019-12-02T05:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</loc>
+  <lastmod>2020-01-26T15:41:00Z</lastmod>
  </url>
 </urlset>
