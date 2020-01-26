@@ -1,0 +1,41 @@
+#+BEGIN_COMMENT
+.. title: Reading QIP's papers (Part I)
+.. slug: reading_qip_papers
+.. date: 2020-01-18 06:27:30 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: QIP2020 was the opportunity to catch-up with recent advances in quantum information processing, and select the papers and topics that I absolutely wanted to know more about. This post summarizes reading E. Tang's dequantization's paper, and H.-Y. Huang + R. Kueng's classical shadow technique for predicting features of quantum states with few measurements.
+.. type: text
+
+#+END_COMMENT
+
+
+* Dequantizing quantum machine learning 
+One of the highlights of QIP2020 was Ewin Tang's presentation of her dequantization technique. It was an overview of the work she has been doing since july 2018. I would highly recommend her blog [[https://ewintang.com/blog/2019/01/28/an-overview-of-quantum-inspired-sampling/][post]] as a first introduction. 
+
+To summarize the topic even further, till then, QML had access to an unfair assumption (efficient state vector preparation from classical data). The first part of Ewin Tang's work is to find the proper definition of a similar and comparable assumption for classical problems which is called "sample-query". Then she shows that under such assumption, you can perform 3 subroutines efficiently:
+- inner product of two complex vectors
+- thin matrix-vector simulation
+- low-rank approximation of a matrix
+
+This makes the core of her work: within the sample-query assumption, you can perform randomized numerical linear algebra efficiently. 
+
+The rest follows by replacing in quantum algorithms access to quantum evolution and sampling by the efficient classical subroutines above. This applies to supervised clustering, recommendation systems and low-rank matrix inversion.
+
+* Predicting features of quantum systems from very few measurements
+When we want to verify that an experiment worked the way it was supposed to, the usual approach is to perform state tomography. This means measuring a complete set of observables, estimate each of them accurately and reconstructing the quantum state from there. While this sounds very natural, it is usually overkill for what we *really* want to do. 
+
+In fact, nmost of the time, we are interested not in the actual state of the quantum system, but only in predicting the outcome of certain measurements on this system. This happens when we can estimate the fidelity of the state to another pure state to show that the experiment produced almost the state is was supposed to produce. In such case, once we know that the state vector is almost at the right position, because the density matrix is positive semi definite and with trace 1, it's not  necessary to measure the other coefficients of the matrix anymore. We know they are small. 
+
+There are various ways of optimizing the number of measurements to perform these kind of tasks. The one presented in this [[https://arxiv.org/abs/1908.08909][paper]] works in the following way: 
+1. Realize that measuring your state in the computational basis after applying to it a random Clifford circuit is equivalent to perform the POVM where each POVM element is a projector onto a stabilizer state.
+2. The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the $n$ qubit pure states up to the thrid moment.
+
+1 and 2 give that if the POVM element associated to the stabilizer state $|s\rangle$ was obtained in the measurement, $\hat \rho = (2^n+1) |s\rangle\langle s| - Id$ is a good estimator of $\text{tr}(O\rho)$ where $O$ is hermitian.
+
+Now, we get a good convergence by repeating these measurements $N$ times and using median of means estimation.
+
+The main theorem then follows: 
+
+Suppose $\rho$ is the state of a system composed of $n$ qubits. Take $N$ copies of this system. Fix $\{O_i\}_{i\ in \[M\]}$ be $M$ hermitian matrices of size $2^n \times 2^n$. Set $\epsilon$ and $\delta$ in $\[0,1\]$. Then $N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2$ is sufficient to predict all function evaluations of $\tr O_i\rho$ within $\epsilon$ with probability at least $1-\delta$ via measurement of random clifford circuits and median of means estimation.

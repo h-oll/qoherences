@@ -1,0 +1,15 @@
+#+BEGIN_COMMENT
+.. title: Quantum Information Processing Community: status and trends
+.. slug: quantum_community
+.. date: 2020-01-18 06:28:02 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. status: draft
+
+#+END_COMMENT
+
+
+Write your post here.
