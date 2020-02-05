@@ -1,0 +1,46 @@
+#+BEGIN_COMMENT
+.. title: Qoherences #8
+.. slug: 2020-02-04
+.. date: 2020-02-04 05:48:49 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: Catching up with the news from the past month (and a bit more): more quantum initiatives and programs launched, ineresting hardware achievements and an emphasis on verifying knowledge.
+.. type: text
+#+END_COMMENT
+
+Lets start with a call from last year published in Nature that I find particularly important: [[https://www.nature.com/articles/d41586-019-02675-5][Keep quantum computing global and open]]! 
+
+* General Public Articles
+** Computer Scientists Expand the Frontier of Verifiable Knowledge -- [[https://www.quantamagazine.org/computer-scientists-expand-the-frontier-of-verifiable-knowledge-20190523/][source]]
+/Quanta Magazine -- MIT, Caltech/ -- Very nice account on a work that emphasizes the questions raised by tapping into resources (quantum computers) to give you answers to problems that you don't know the answer of. 
+** New algorithms to determine eigenstates and thermal states on quantum computers -- [[https://phys.org/news/2019-11-algorithms-eigenstates-thermal-states-quantum.html][source]]
+/Nature -- CalTech/ -- New algorithms (quantum imaginary time)  useful to estimate properties of ground states and thermal states of quantum materials.
+** Photonic quantum information processing: A concise review -- [[https://aip.scitation.org/doi/10.1063/1.5115814][source]]
+/AIP/ -- Review of the photonic path towards scalable fault tolerant QC.
+** First chip-to-chip quantum teleportation harnessing silicon photonic chip fabrication -- [[https://phys.org/news/2019-12-chip-to-chip-quantum-teleportation-harnessing-silicon.html][source]]
+/Phys.org -- U Bristol, DTU/ -- A milestone achieved in regard to building optical chips for quantum information processing and networking. 
+** In leap for quantum computing, silicon quantum bits establish a long-distance relationship -- [[https://phys.org/news/2019-12-quantum-silicon-bits-long-distance-relationship.html][source]]
+/Phys.org -- U Princeton/ -- Enabling quantum gates between silicon spin qubits.
+** In surprise breakthrough, scientists create quantum states in everyday electronics -- [[https://phys.org/news/2019-12-breakthrough-scientists-quantum-states-everyday.html][source]]
+/Phys.org -- U Chicago/ -- Not quite everyday's electronic, but quantum dots in silicon carbide. Interesting advances anyways.
+
+* Industry - Academia - Startups
+** Russia joins the quantum race -- [[https://www.nature.com/articles/d41586-019-03855-z][source]]
+/Nature -- Russia/ -- Russia plans to spend several hundred millions of dollars to boost its quantum information science and technology capabilities. There remains to see which institutes and labs will be receiving the money as the academic and start-up ecosystem is not much developed yet.
+** Israel Gets Ready to Join Global Quantum Computing Race -- [[https://www.haaretz.com/israel-news/business/.premium-israel-gets-ready-to-join-global-quantum-computing-race-1.8202806][source]]
+/Haaretz -- Israel/ -- 350m$ over 6 years in funding. Quite a lot. A small country with plenty of excellent quantum teams to spend the money on. 
+** Nine More EU States Commit To Building A Quantum Communication Infrastructure -- [[https://www.cbronline.com/news/quantum-communication-infrastructure][source]]
+/CBR/ -- Croatia, Cyprus, Greece, France, Lithuania, Slovakia, Slovenia, Sweden and Finland are the newest members entering into agreement that will see them work with ten EU states to establish a quantum communication infrastructure across Europe.
+** Xanadu Receives $4.4M Investment from SDTC to Advance its Photonic Quantum Computing Technology -- [[https://www.prnewswire.com/news-releases/xanadu-receives-4-4m-investment-from-sdtc-to-advance-its-photonic-quantum-computing-technology-300987885.html][source]]
+/prnewswire -- Xanadu, SDTC/
+** OpenQKD Fuels European Quantum Computing Research, Potential in Aerospace -- [[https://www.aviationtoday.com/2019/12/02/openqkd-fuels-european-quantum-computing-research-potential-aerospace/][source]]
+/Avionics -- Airbus, Thales, U. Paris Sorbonne, U. Paris Saclay/ -- Launching the OpenQKD project aimed at QKD mostly for open air / satellite communication and sensing.
+** University of Chicago's Tian Zhong awarded NSF grant to create quantum internet -- [[https://www.quantaneo.com/University-of-Chicago-s-Tian-Zhong-Awarded-NSF-Grant-to-Create-Quantum-Internet_a407.html][source]]
+/Quantaneo -- U. Chicago/ -- The US are catching up with Europe on quantum internet initiatives.
+** Atos partners with Zapata to deliver complete quantum computing solution to the enterprise -- [[https://www.quantaneo.com/Atos-partners-with-Zapata-to-deliver-complete-quantum-computing-solution-to-the-enterprise_a333.html][source]]
+/Quantaneo -- Atos, Zapata/ -- Addressing vertical markets is key to adoption of quantum technologies.
+** Goldman Sachs enlists startup for quantum computing push -- [[https://www.finextra.com/newsarticle/34941/goldman-sachs-enlists-startup-for-quantum-computing-push][source]]
+/Finextra -- Goldman Sachs, QC Ware/ -- More and more exploration of QC algorithms for finance. These are appalling use cases for quantum computing start-ups.
+** What It Will Take to Make Quantum Computers Practical -- [[https://newsroom.intel.com/editorials/what-it-will-take-make-quantum-computers-practical/][source]]
+/Intel/ -- Intel pushes its efforts toward control of qubits. Very much needed indeed.

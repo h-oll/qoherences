@@ -52,7 +52,7 @@ Meanwhile, Google has published its supremacy result -- [[https://www.nature.com
 /U Strathclyde - Msquared/ -- A U Strathclyde + Msquared partnership secured funding worth a total of £4.6 million.
 ** HQS Quantum Simulations Closes €2.3 Million Seed Financing Round - [[https://quantumsimulations.de/news/2019/10/hqs-closes-seed-financing-round/][source]]
 /HQS Quantum Simulations/ -- Designing software for quantum computer assisted material designs. 
-** Xanadu releases a nre quantum machine learning library for python - [[https://twitter.com/pennylaneai/status/1186371620157493251?s=09][source]]
+** Xanadu releases a new quantum machine learning library for python - [[https://twitter.com/pennylaneai/status/1186371620157493251?s=09][source]]
 /Xanadu/
 * Research papers
 ** Variational Fast Forwarding for Quantum Simulation Beyond the Coherence Time - [[https://arxiv.org/abs/1910.04292][source]]

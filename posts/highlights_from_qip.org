@@ -38,7 +38,6 @@ We have seen very impressive talks concerning NISQy devices. As such, they are g
 - Well -conditioned multiproduct Hamiltonian simulation  (Guang Hao Low, Vadym Kliuchnikov, Nathan Wiebe)
 - Quantum Imaginary Time Evolution (Mario Mota, Chong Sun, Adrian Tan, Matthew, O'Rourke , Erika Ye, Austin Minnich, Fernando Brandao and Garnet Chan)
 
-
 * QECC
 
 - For an overview of the field head to Ben Brown's Tutorial (it contains references to major papers).

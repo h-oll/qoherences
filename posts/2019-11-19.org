@@ -43,7 +43,6 @@
 ** AQT now supports Qiskit -- [[https://www.aqt.eu/aqt-now-supports-qiskit/][source]]
 /AQT/ -- Alpine Quantum Computing develops an Ion trap quantum computer. It reports of its compatibility with IBM qiskit devevelopment tools suite.
 * Research papers
-
 ** List of accepted papers at QIP2020 -- [[http://www.szpclab.com/qip2020#/programDetails][source]]
 Impressive and exciting list. 
 
