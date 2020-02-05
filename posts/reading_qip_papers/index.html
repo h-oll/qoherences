@@ -77,9 +77,9 @@
 
     <div id="post-main" class="main">
         <div class="container">
-        <div id="outline-container-orga955675" class="outline-2">
-<h2 id="orga955675">Dequantizing quantum machine learning</h2>
-<div class="outline-text-2" id="text-orga955675">
+        <div id="outline-container-org7900f4e" class="outline-2">
+<h2 id="org7900f4e">Dequantizing quantum machine learning</h2>
+<div class="outline-text-2" id="text-org7900f4e">
 <p>
 One of the highlights of QIP2020 was Ewin Tang's presentation of her dequantization technique. It was an overview of the work she has been doing since july 2018. I would highly recommend her blog <a href="https://ewintang.com/blog/2019/01/28/an-overview-of-quantum-inspired-sampling/">post</a> as a first introduction. 
 </p>
@@ -102,9 +102,9 @@ The rest follows by replacing in quantum algorithms access to quantum evolution 
 </div>
 </div>
 
-<div id="outline-container-orgbafcef9" class="outline-2">
-<h2 id="orgbafcef9">Predicting features of quantum systems from very few measurements</h2>
-<div class="outline-text-2" id="text-orgbafcef9">
+<div id="outline-container-org79daaba" class="outline-2">
+<h2 id="org79daaba">Predicting features of quantum systems from very few measurements</h2>
+<div class="outline-text-2" id="text-org79daaba">
 <p>
 When we want to verify that an experiment worked the way it was supposed to, the usual approach is to perform state tomography. This means measuring a complete set of observables, estimate each of them accurately and reconstructing the quantum state from there. While this sounds very natural, it is usually overkill for what we <b>really</b> want to do. 
 </p>
@@ -118,7 +118,7 @@ There are various ways of optimizing the number of measurements to perform these
 </p>
 <ol class="org-ol">
 <li>Realize that measuring your state in the computational basis after applying to it a random Clifford circuit is equivalent to perform the POVM where each POVM element is a projector onto a stabilizer state.</li>
-<li>The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the \(n\) qubit pure states up to the thrid moment.</li>
+<li>The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the \(n\) qubit pure states up to the third moment.</li>
 </ol>
 <p>
 1 and 2 give that if the POVM element associated to the stabilizer state \(|s\rangle\) was obtained in the measurement, \(\hat \rho = (2^n+1) |s\rangle\langle s| - Id\) is a good estimator of \(\text{tr}(O\rho)\) where \(O\) is hermitian.
@@ -133,7 +133,7 @@ The main theorem then follows:
 </p>
 
 <p>
-Suppose \(\rho\) is the state of a system composed of \(n\) qubits. Take \(N\) copies of this system. Fix \(\{O_i\}_{i\ in \[M\]}\) be \(M\) hermitian matrices of size \(2^n \times 2^n\). Set \(\epsilon\) and \(\delta\) in \(\[0,1\]\). Then \(N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2\) is sufficient to predict all function evaluations of \(\tr O_i\rho\) within \(\epsilon\) with probability at least \(1-\delta\) via measurement of random clifford circuits and median of means estimation.
+Suppose \(\rho\) is the state of a system composed of \(n\) qubits. Take \(N\) copies of this system. Fix \(\{O_i\}_{i\ in \[M\]}\) be \(M\) hermitian matrices of size \(2^n \times 2^n\). Set \(\epsilon\) and \(\delta\) in \(\[0,1\]\). Then \(N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2\) is sufficient to predict all function evaluations of \(\tr O_i\rho\) within \(\epsilon\) with probability at least \(1-\delta\) via measurement of random clifford circuits and median of means estimation. 
 </p>
 </div>
 </div>

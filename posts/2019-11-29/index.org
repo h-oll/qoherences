@@ -16,7 +16,7 @@
 /Phys.org -- Autonomous University of Barcelona/ -- UAB researchers have been looking at an algorithm for data clustering for quantum states.
 
 ** Tom O'Brien explains why we need a quantum computer -- [[https://www.youtube.com/watch?v=qHJzyOU2Pls&feature=youtu.be][source]]
-/Youtube -- University of Leiden, Tim O'Brien/ -- Good video showing why quantum computers might be efficient for quantum chemistry.
+/Youtube -- University of Leiden, Tom O'Brien/ -- Good video showing why quantum computers might be efficient for quantum chemistry.
 ** Quantum physics: Our study suggests objective reality doesn't exist -- [[https://phys.org/news/2019-11-quantum-physics-reality-doesnt.html][source]]
 /Phys.org/ -- Experimental evidence that quantum reality is not a very well defined thing. In fact  the ability to reconcile two observers interpretation of their experimental results is not  granted by quantum mechanics. But it can be used as a way to detect when quantum mechanics actually become classical.
 ** Nanooptical traps: A promising building block for quantum technologies -- [[https://phys.org/news/2019-11-nanooptical-block-quantum-technologies.html][source]]
@@ -25,7 +25,6 @@
 /Forbes -- Paul Smith-Goodson/ -- The case for quantum volume as a measure of performance for quantum hardware. That's a sensible metric pushed forward by IBMQ and Quantum Benchmark. 
 ** Researchers reach milestone in quantum standardisation -- [[https://eurekalert.org/pub_releases/2019-11/uow-rr112519.php][source]]
 /U Waterloo/ -- Well now, how do you compute the performance of quantum computers in practice (now that you know you should report quantum volume as explained in the previous entry). 
-
 * Industry - Academia - Startups
 ** IQM Finland raises €11.6 million to speed up advancements in quantum computing -- [[https://www.eu-startups.com/2019/07/iqm-finland-raises-e11-6-million-to-speed-up-advancements-in-quantum-computing/][source]]
 /EU Startups -- IQM Finland, Matadero QED, Maki.vc, MIG Fonds, OpenOcean, Tesi (Finnish Industry Investment), and Vito Ventures Fund/ -- The startup raised money in July to build scalable cryogenic hardware for quantum computers.

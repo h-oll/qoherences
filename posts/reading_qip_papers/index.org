@@ -10,7 +10,6 @@
 
 #+END_COMMENT
 
-
 * Dequantizing quantum machine learning 
 One of the highlights of QIP2020 was Ewin Tang's presentation of her dequantization technique. It was an overview of the work she has been doing since july 2018. I would highly recommend her blog [[https://ewintang.com/blog/2019/01/28/an-overview-of-quantum-inspired-sampling/][post]] as a first introduction. 
 
@@ -30,7 +29,7 @@ In fact, nmost of the time, we are interested not in the actual state of the qua
 
 There are various ways of optimizing the number of measurements to perform these kind of tasks. The one presented in this [[https://arxiv.org/abs/1908.08909][paper]] works in the following way: 
 1. Realize that measuring your state in the computational basis after applying to it a random Clifford circuit is equivalent to perform the POVM where each POVM element is a projector onto a stabilizer state.
-2. The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the $n$ qubit pure states up to the thrid moment.
+2. The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the $n$ qubit pure states up to the third moment.
 
 1 and 2 give that if the POVM element associated to the stabilizer state $|s\rangle$ was obtained in the measurement, $\hat \rho = (2^n+1) |s\rangle\langle s| - Id$ is a good estimator of $\text{tr}(O\rho)$ where $O$ is hermitian.
 
@@ -38,4 +37,4 @@ Now, we get a good convergence by repeating these measurements $N$ times and usi
 
 The main theorem then follows: 
 
-Suppose $\rho$ is the state of a system composed of $n$ qubits. Take $N$ copies of this system. Fix $\{O_i\}_{i\ in \[M\]}$ be $M$ hermitian matrices of size $2^n \times 2^n$. Set $\epsilon$ and $\delta$ in $\[0,1\]$. Then $N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2$ is sufficient to predict all function evaluations of $\tr O_i\rho$ within $\epsilon$ with probability at least $1-\delta$ via measurement of random clifford circuits and median of means estimation.
+Suppose $\rho$ is the state of a system composed of $n$ qubits. Take $N$ copies of this system. Fix $\{O_i\}_{i\ in \[M\]}$ be $M$ hermitian matrices of size $2^n \times 2^n$. Set $\epsilon$ and $\delta$ in $\[0,1\]$. Then $N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2$ is sufficient to predict all function evaluations of $\tr O_i\rho$ within $\epsilon$ with probability at least $1-\delta$ via measurement of random clifford circuits and median of means estimation. 

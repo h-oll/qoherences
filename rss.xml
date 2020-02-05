@@ -1,7 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Sun, 26 Jan 2020 15:44:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Reading QIP's papers (Part I)</title><link>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-orga955675" class="outline-2"&gt;
-&lt;h2 id="orga955675"&gt;Dequantizing quantum machine learning&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orga955675"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Wed, 05 Feb 2020 03:36:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Qoherences #8</title><link>https://h-oll.github.io/qoherences/posts/2020-02-04/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+Lets start with a call from last year published in Nature that I find particularly important: &lt;a href="https://www.nature.com/articles/d41586-019-02675-5"&gt;Keep quantum computing global and open&lt;/a&gt;! 
+&lt;/p&gt;
+
+&lt;div id="outline-container-orgc03354e" class="outline-2"&gt;
+&lt;h2 id="orgc03354e"&gt;General Public Articles&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc03354e"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org1d3b4e5" class="outline-3"&gt;
+&lt;h3 id="org1d3b4e5"&gt;Computer Scientists Expand the Frontier of Verifiable Knowledge – &lt;a href="https://www.quantamagazine.org/computer-scientists-expand-the-frontier-of-verifiable-knowledge-20190523/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org1d3b4e5"&gt;
+&lt;p&gt;
+&lt;i&gt;Quanta Magazine – MIT, Caltech&lt;/i&gt; – Very nice account on a work that emphasizes the questions raised by tapping into resources (quantum computers) to give you answers to problems that you don't know the answer of. 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org2cdffac" class="outline-3"&gt;
+&lt;h3 id="org2cdffac"&gt;New algorithms to determine eigenstates and thermal states on quantum computers – &lt;a href="https://phys.org/news/2019-11-algorithms-eigenstates-thermal-states-quantum.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2cdffac"&gt;
+&lt;p&gt;
+&lt;i&gt;Nature – CalTech&lt;/i&gt; – New algorithms (quantum imaginary time)  useful to estimate properties of ground states and thermal states of quantum materials.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org2af20af" class="outline-3"&gt;
+&lt;h3 id="org2af20af"&gt;Photonic quantum information processing: A concise review – &lt;a href="https://aip.scitation.org/doi/10.1063/1.5115814"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2af20af"&gt;
+&lt;p&gt;
+&lt;i&gt;AIP&lt;/i&gt; – Review of the photonic path towards scalable fault tolerant QC.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org512c06d" class="outline-3"&gt;
+&lt;h3 id="org512c06d"&gt;First chip-to-chip quantum teleportation harnessing silicon photonic chip fabrication – &lt;a href="https://phys.org/news/2019-12-chip-to-chip-quantum-teleportation-harnessing-silicon.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org512c06d"&gt;
+&lt;p&gt;
+&lt;i&gt;Phys.org – U Bristol, DTU&lt;/i&gt; – A milestone achieved in regard to building optical chips for quantum information processing and networking. 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org0c26681" class="outline-3"&gt;
+&lt;h3 id="org0c26681"&gt;In leap for quantum computing, silicon quantum bits establish a long-distance relationship – &lt;a href="https://phys.org/news/2019-12-quantum-silicon-bits-long-distance-relationship.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org0c26681"&gt;
+&lt;p&gt;
+&lt;i&gt;Phys.org – U Princeton&lt;/i&gt; – Enabling quantum gates between silicon spin qubits.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org65e68b1" class="outline-3"&gt;
+&lt;h3 id="org65e68b1"&gt;In surprise breakthrough, scientists create quantum states in everyday electronics – &lt;a href="https://phys.org/news/2019-12-breakthrough-scientists-quantum-states-everyday.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org65e68b1"&gt;
+&lt;p&gt;
+&lt;i&gt;Phys.org – U Chicago&lt;/i&gt; – Not quite everyday's electronic, but quantum dots in silicon carbide. Interesting advances anyways.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgdf59375" class="outline-2"&gt;
+&lt;h2 id="orgdf59375"&gt;Industry - Academia - Startups&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgdf59375"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgd9fe23a" class="outline-3"&gt;
+&lt;h3 id="orgd9fe23a"&gt;Russia joins the quantum race – &lt;a href="https://www.nature.com/articles/d41586-019-03855-z"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgd9fe23a"&gt;
+&lt;p&gt;
+&lt;i&gt;Nature – Russia&lt;/i&gt; – Russia plans to spend several hundred millions of dollars to boost its quantum information science and technology capabilities. There remains to see which institutes and labs will be receiving the money as the academic and start-up ecosystem is not much developed yet.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgf5770c1" class="outline-3"&gt;
+&lt;h3 id="orgf5770c1"&gt;Israel Gets Ready to Join Global Quantum Computing Race – &lt;a href="https://www.haaretz.com/israel-news/business/.premium-israel-gets-ready-to-join-global-quantum-computing-race-1.8202806"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf5770c1"&gt;
+&lt;p&gt;
+&lt;i&gt;Haaretz – Israel&lt;/i&gt; – 350m$ over 6 years in funding. Quite a lot. A small country with plenty of excellent quantum teams to spend the money on. 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org44a89a6" class="outline-3"&gt;
+&lt;h3 id="org44a89a6"&gt;Nine More EU States Commit To Building A Quantum Communication Infrastructure – &lt;a href="https://www.cbronline.com/news/quantum-communication-infrastructure"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org44a89a6"&gt;
+&lt;p&gt;
+&lt;i&gt;CBR&lt;/i&gt; – Croatia, Cyprus, Greece, France, Lithuania, Slovakia, Slovenia, Sweden and Finland are the newest members entering into agreement that will see them work with ten EU states to establish a quantum communication infrastructure across Europe.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org0585d68" class="outline-3"&gt;
+&lt;h3 id="org0585d68"&gt;Xanadu Receives $4.4M Investment from SDTC to Advance its Photonic Quantum Computing Technology – &lt;a href="https://www.prnewswire.com/news-releases/xanadu-receives-4-4m-investment-from-sdtc-to-advance-its-photonic-quantum-computing-technology-300987885.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org0585d68"&gt;
+&lt;p&gt;
+&lt;i&gt;prnewswire – Xanadu, SDTC&lt;/i&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orge30990c" class="outline-3"&gt;
+&lt;h3 id="orge30990c"&gt;OpenQKD Fuels European Quantum Computing Research, Potential in Aerospace – &lt;a href="https://www.aviationtoday.com/2019/12/02/openqkd-fuels-european-quantum-computing-research-potential-aerospace/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orge30990c"&gt;
+&lt;p&gt;
+&lt;i&gt;Avionics – Airbus, Thales, U. Paris Sorbonne, U. Paris Saclay&lt;/i&gt; – Launching the OpenQKD project aimed at QKD mostly for open air / satellite communication and sensing.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org6be3f1c" class="outline-3"&gt;
+&lt;h3 id="org6be3f1c"&gt;University of Chicago's Tian Zhong awarded NSF grant to create quantum internet – &lt;a href="https://www.quantaneo.com/University-of-Chicago-s-Tian-Zhong-Awarded-NSF-Grant-to-Create-Quantum-Internet_a407.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6be3f1c"&gt;
+&lt;p&gt;
+&lt;i&gt;Quantaneo – U. Chicago&lt;/i&gt; – The US are catching up with Europe on quantum internet initiatives.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orge630c1e" class="outline-3"&gt;
+&lt;h3 id="orge630c1e"&gt;Atos partners with Zapata to deliver complete quantum computing solution to the enterprise – &lt;a href="https://www.quantaneo.com/Atos-partners-with-Zapata-to-deliver-complete-quantum-computing-solution-to-the-enterprise_a333.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orge630c1e"&gt;
+&lt;p&gt;
+&lt;i&gt;Quantaneo – Atos, Zapata&lt;/i&gt; – Addressing vertical markets is key to adoption of quantum technologies.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orga5a0060" class="outline-3"&gt;
+&lt;h3 id="orga5a0060"&gt;Goldman Sachs enlists startup for quantum computing push – &lt;a href="https://www.finextra.com/newsarticle/34941/goldman-sachs-enlists-startup-for-quantum-computing-push"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga5a0060"&gt;
+&lt;p&gt;
+&lt;i&gt;Finextra – Goldman Sachs, QC Ware&lt;/i&gt; – More and more exploration of QC algorithms for finance. These are appalling use cases for quantum computing start-ups.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org93170e6" class="outline-3"&gt;
+&lt;h3 id="org93170e6"&gt;What It Will Take to Make Quantum Computers Practical – &lt;a href="https://newsroom.intel.com/editorials/what-it-will-take-make-quantum-computers-practical/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org93170e6"&gt;
+&lt;p&gt;
+&lt;i&gt;Intel&lt;/i&gt; – Intel pushes its efforts toward control of qubits. Very much needed indeed.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2020-02-04/</guid><pubDate>Tue, 04 Feb 2020 04:48:49 GMT</pubDate></item><item><title>Reading QIP's papers (Part I)</title><link>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org7900f4e" class="outline-2"&gt;
+&lt;h2 id="org7900f4e"&gt;Dequantizing quantum machine learning&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org7900f4e"&gt;
 &lt;p&gt;
 One of the highlights of QIP2020 was Ewin Tang's presentation of her dequantization technique. It was an overview of the work she has been doing since july 2018. I would highly recommend her blog &lt;a href="https://ewintang.com/blog/2019/01/28/an-overview-of-quantum-inspired-sampling/"&gt;post&lt;/a&gt; as a first introduction. 
 &lt;/p&gt;
@@ -25,9 +159,9 @@ The rest follows by replacing in quantum algorithms access to quantum evolution 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgbafcef9" class="outline-2"&gt;
-&lt;h2 id="orgbafcef9"&gt;Predicting features of quantum systems from very few measurements&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgbafcef9"&gt;
+&lt;div id="outline-container-org79daaba" class="outline-2"&gt;
+&lt;h2 id="org79daaba"&gt;Predicting features of quantum systems from very few measurements&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org79daaba"&gt;
 &lt;p&gt;
 When we want to verify that an experiment worked the way it was supposed to, the usual approach is to perform state tomography. This means measuring a complete set of observables, estimate each of them accurately and reconstructing the quantum state from there. While this sounds very natural, it is usually overkill for what we &lt;b&gt;really&lt;/b&gt; want to do. 
 &lt;/p&gt;
@@ -41,7 +175,7 @@ There are various ways of optimizing the number of measurements to perform these
 &lt;/p&gt;
 &lt;ol class="org-ol"&gt;
 &lt;li&gt;Realize that measuring your state in the computational basis after applying to it a random Clifford circuit is equivalent to perform the POVM where each POVM element is a projector onto a stabilizer state.&lt;/li&gt;
-&lt;li&gt;The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the \(n\) qubit pure states up to the thrid moment.&lt;/li&gt;
+&lt;li&gt;The stabilizer states form a 3-design, i.e they can evaluate exactly any probability measure on the \(n\) qubit pure states up to the third moment.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;
@@ -57,12 +191,12 @@ The main theorem then follows:
 &lt;/p&gt;
 
 &lt;p&gt;
-Suppose \(\rho\) is the state of a system composed of \(n\) qubits. Take \(N\) copies of this system. Fix \(\{O_i\}_{i\ in \[M\]}\) be \(M\) hermitian matrices of size \(2^n \times 2^n\). Set \(\epsilon\) and \(\delta\) in \(\[0,1\]\). Then \(N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2\) is sufficient to predict all function evaluations of \(\tr O_i\rho\) within \(\epsilon\) with probability at least \(1-\delta\) via measurement of random clifford circuits and median of means estimation.
+Suppose \(\rho\) is the state of a system composed of \(n\) qubits. Take \(N\) copies of this system. Fix \(\{O_i\}_{i\ in \[M\]}\) be \(M\) hermitian matrices of size \(2^n \times 2^n\). Set \(\epsilon\) and \(\delta\) in \(\[0,1\]\). Then \(N = 204 \log(2M/\delta) \max_i \tr(O_i^2)/\epsilon^2\) is sufficient to predict all function evaluations of \(\tr O_i\rho\) within \(\epsilon\) with probability at least \(1-\delta\) via measurement of random clifford circuits and median of means estimation. 
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</guid><pubDate>Sat, 18 Jan 2020 05:27:30 GMT</pubDate></item><item><title>Highlights from QIP2020</title><link>https://h-oll.github.io/qoherences/posts/highlights_from_qip/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org45b77c8" class="outline-2"&gt;
-&lt;h2 id="org45b77c8"&gt;Stats&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org45b77c8"&gt;
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/reading_qip_papers/</guid><pubDate>Sat, 18 Jan 2020 05:27:30 GMT</pubDate></item><item><title>Highlights from QIP2020</title><link>https://h-oll.github.io/qoherences/posts/highlights_from_qip/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org77d9ef5" class="outline-2"&gt;
+&lt;h2 id="org77d9ef5"&gt;Stats&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org77d9ef5"&gt;
 &lt;p&gt;
 Quantum Information Processing 2020 is the 23rd edition of this major conference for the field. 
 &lt;/p&gt;
@@ -88,9 +222,9 @@ Now the scientific part!
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org3c4df8f" class="outline-2"&gt;
-&lt;h2 id="org3c4df8f"&gt;Q. Algorithms&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org3c4df8f"&gt;
+&lt;div id="outline-container-org8762950" class="outline-2"&gt;
+&lt;h2 id="org8762950"&gt;Q. Algorithms&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org8762950"&gt;
 &lt;p&gt;
 Of course, one of the highlights of the conference was the opening plenary talk of Ewin Tang on dequantizing most of QML algorithms. Basically most of QML is concerned, but that just does not end the story here. The algorithms that were thought to be providing super-polynomial speed-ups don't ; but customers usually do not have asymptotic use cases ! It's just making the marketing argument a little harder, but also potentially less deceptive as asymptotics sometimes hide heavy pre-factors. 
 &lt;/p&gt;
@@ -114,10 +248,9 @@ We have seen very impressive talks concerning NISQy devices. As such, they are g
 &lt;/div&gt;
 &lt;/div&gt;
 
-
-&lt;div id="outline-container-orgcd606d5" class="outline-2"&gt;
-&lt;h2 id="orgcd606d5"&gt;QECC&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgcd606d5"&gt;
+&lt;div id="outline-container-org03671c1" class="outline-2"&gt;
+&lt;h2 id="org03671c1"&gt;QECC&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org03671c1"&gt;
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;For an overview of the field head to Ben Brown's Tutorial (it contains references to major papers).&lt;/li&gt;
 &lt;li&gt;Several talks were devoted to the subject of tailoring codes to noise models that are encountered in today's physical systems. Ken Brow gave a very thorough overview of the matter in his plenary talk. It was later complemented by Ben Brown's third talk on high thresholds from symmetries of quantum codes.&lt;/li&gt;
@@ -130,22 +263,22 @@ The results presented on polar codes (Frédéric Dupuis, Ashutosh Goswami, Mehdi
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org521eb25" class="outline-2"&gt;
-&lt;h2 id="org521eb25"&gt;Other topics&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org521eb25"&gt;
+&lt;div id="outline-container-orgbefa326" class="outline-2"&gt;
+&lt;h2 id="orgbefa326"&gt;Other topics&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgbefa326"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org535849c" class="outline-3"&gt;
-&lt;h3 id="org535849c"&gt;Crypto&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org535849c"&gt;
+&lt;div id="outline-container-org7e9ba2c" class="outline-3"&gt;
+&lt;h3 id="org7e9ba2c"&gt;Crypto&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org7e9ba2c"&gt;
 &lt;p&gt;
 Personal preference for "Computationally secure and composabe remote state preparation" of Alexandru Gheorgiu and Thomas Vidick, as it is an interesting primitive for secure versions of measurement based QC. Carl Miller's work about the impossibility of weak quantum coin flipping was very impressive.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgf7a5702" class="outline-3"&gt;
-&lt;h3 id="orgf7a5702"&gt;Estimation&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgf7a5702"&gt;
+&lt;div id="outline-container-orge0abcb4" class="outline-3"&gt;
+&lt;h3 id="orge0abcb4"&gt;Estimation&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orge0abcb4"&gt;
 &lt;p&gt;
 I'd recommend "Predicting Features of Quantum Systems using Classical Shadows" (Hsin-Yuan Huang, Richard Kueng) as it might reveal other ideas for quantum simulation.
 &lt;/p&gt;
@@ -319,247 +452,246 @@ A very different approach here, but very NISQ-y. They use ion traps to simulate 
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/perspectives_on_quantum_computing/</guid><pubDate>Mon, 02 Dec 2019 03:42:42 GMT</pubDate></item><item><title>Qoherences #7</title><link>https://h-oll.github.io/qoherences/posts/2019-11-29/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org95dc4b2" class="outline-2"&gt;
-&lt;h2 id="org95dc4b2"&gt;General Public Articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org95dc4b2"&gt;
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/perspectives_on_quantum_computing/</guid><pubDate>Mon, 02 Dec 2019 03:42:42 GMT</pubDate></item><item><title>Qoherences #7</title><link>https://h-oll.github.io/qoherences/posts/2019-11-29/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org202a922" class="outline-2"&gt;
+&lt;h2 id="org202a922"&gt;General Public Articles&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org202a922"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org73f9f5b" class="outline-3"&gt;
-&lt;h3 id="org73f9f5b"&gt;A new quantum data classification protocol brings us nearer to a future 'quantum internet' – &lt;a href="https://phys.org/news/2019-11-quantum-classification-protocol-nearer-future.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org73f9f5b"&gt;
+&lt;div id="outline-container-orgdf6bcc4" class="outline-3"&gt;
+&lt;h3 id="orgdf6bcc4"&gt;A new quantum data classification protocol brings us nearer to a future 'quantum internet' – &lt;a href="https://phys.org/news/2019-11-quantum-classification-protocol-nearer-future.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgdf6bcc4"&gt;
 &lt;p&gt;
 &lt;i&gt;Phys.org – Autonomous University of Barcelona&lt;/i&gt; – UAB researchers have been looking at an algorithm for data clustering for quantum states.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgb8fc3bc" class="outline-3"&gt;
-&lt;h3 id="orgb8fc3bc"&gt;Tom O'Brien explains why we need a quantum computer – &lt;a href="https://www.youtube.com/watch?v=qHJzyOU2Pls&amp;amp;feature=youtu.be"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgb8fc3bc"&gt;
+&lt;div id="outline-container-orga681210" class="outline-3"&gt;
+&lt;h3 id="orga681210"&gt;Tom O'Brien explains why we need a quantum computer – &lt;a href="https://www.youtube.com/watch?v=qHJzyOU2Pls&amp;amp;feature=youtu.be"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga681210"&gt;
 &lt;p&gt;
-&lt;i&gt;Youtube – University of Leiden, Tim O'Brien&lt;/i&gt; – Good video showing why quantum computers might be efficient for quantum chemistry.
+&lt;i&gt;Youtube – University of Leiden, Tom O'Brien&lt;/i&gt; – Good video showing why quantum computers might be efficient for quantum chemistry.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org9a00167" class="outline-3"&gt;
-&lt;h3 id="org9a00167"&gt;Quantum physics: Our study suggests objective reality doesn't exist – &lt;a href="https://phys.org/news/2019-11-quantum-physics-reality-doesnt.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org9a00167"&gt;
+&lt;div id="outline-container-orga06c63f" class="outline-3"&gt;
+&lt;h3 id="orga06c63f"&gt;Quantum physics: Our study suggests objective reality doesn't exist – &lt;a href="https://phys.org/news/2019-11-quantum-physics-reality-doesnt.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga06c63f"&gt;
 &lt;p&gt;
 &lt;i&gt;Phys.org&lt;/i&gt; – Experimental evidence that quantum reality is not a very well defined thing. In fact  the ability to reconcile two observers interpretation of their experimental results is not  granted by quantum mechanics. But it can be used as a way to detect when quantum mechanics actually become classical.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org0329320" class="outline-3"&gt;
-&lt;h3 id="org0329320"&gt;Nanooptical traps: A promising building block for quantum technologies – &lt;a href="https://phys.org/news/2019-11-nanooptical-block-quantum-technologies.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org0329320"&gt;
+&lt;div id="outline-container-orgf94205c" class="outline-3"&gt;
+&lt;h3 id="orgf94205c"&gt;Nanooptical traps: A promising building block for quantum technologies – &lt;a href="https://phys.org/news/2019-11-nanooptical-block-quantum-technologies.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf94205c"&gt;
 &lt;p&gt;
 &lt;i&gt;Phys.org&lt;/i&gt; – Researchers are reporting better nanooptical traps that hold atoms much longer than before. That's interesting as a way to design and control  light and matter interactions which would be used in quantum computing and quantum internet applications.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org749b010" class="outline-3"&gt;
-&lt;h3 id="org749b010"&gt;Quantum Volume: A Yardstick To Measure The Performance Of Quantum Computers – &lt;a href="https://www.forbes.com/sites/moorinsights/2019/11/23/quantum-volume-a-yardstick-to-measure-the-power-of-quantum-computers/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org749b010"&gt;
+&lt;div id="outline-container-org5d5b2a6" class="outline-3"&gt;
+&lt;h3 id="org5d5b2a6"&gt;Quantum Volume: A Yardstick To Measure The Performance Of Quantum Computers – &lt;a href="https://www.forbes.com/sites/moorinsights/2019/11/23/quantum-volume-a-yardstick-to-measure-the-power-of-quantum-computers/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org5d5b2a6"&gt;
 &lt;p&gt;
 &lt;i&gt;Forbes – Paul Smith-Goodson&lt;/i&gt; – The case for quantum volume as a measure of performance for quantum hardware. That's a sensible metric pushed forward by IBMQ and Quantum Benchmark. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgc19efd0" class="outline-3"&gt;
-&lt;h3 id="orgc19efd0"&gt;Researchers reach milestone in quantum standardisation – &lt;a href="https://eurekalert.org/pub_releases/2019-11/uow-rr112519.php"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgc19efd0"&gt;
+&lt;div id="outline-container-org975e35b" class="outline-3"&gt;
+&lt;h3 id="org975e35b"&gt;Researchers reach milestone in quantum standardisation – &lt;a href="https://eurekalert.org/pub_releases/2019-11/uow-rr112519.php"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org975e35b"&gt;
 &lt;p&gt;
 &lt;i&gt;U Waterloo&lt;/i&gt; – Well now, how do you compute the performance of quantum computers in practice (now that you know you should report quantum volume as explained in the previous entry). 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;div id="outline-container-org00064b2" class="outline-2"&gt;
-&lt;h2 id="org00064b2"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org00064b2"&gt;
+&lt;div id="outline-container-org958a0c9" class="outline-2"&gt;
+&lt;h2 id="org958a0c9"&gt;Industry - Academia - Startups&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org958a0c9"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orga9b32b2" class="outline-3"&gt;
-&lt;h3 id="orga9b32b2"&gt;IQM Finland raises €11.6 million to speed up advancements in quantum computing – &lt;a href="https://www.eu-startups.com/2019/07/iqm-finland-raises-e11-6-million-to-speed-up-advancements-in-quantum-computing/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga9b32b2"&gt;
+&lt;div id="outline-container-orga7bf4cb" class="outline-3"&gt;
+&lt;h3 id="orga7bf4cb"&gt;IQM Finland raises €11.6 million to speed up advancements in quantum computing – &lt;a href="https://www.eu-startups.com/2019/07/iqm-finland-raises-e11-6-million-to-speed-up-advancements-in-quantum-computing/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga7bf4cb"&gt;
 &lt;p&gt;
 &lt;i&gt;EU Startups – IQM Finland, Matadero QED, Maki.vc, MIG Fonds, OpenOcean, Tesi (Finnish Industry Investment), and Vito Ventures Fund&lt;/i&gt; – The startup raised money in July to build scalable cryogenic hardware for quantum computers.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org6febf24" class="outline-3"&gt;
-&lt;h3 id="org6febf24"&gt;For faster quantum computing, Microsoft builds a better qubit – &lt;a href="https://www.cnet.com/news/for-faster-quantum-computing-microsoft-builds-a-better-qubit/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org6febf24"&gt;
+&lt;div id="outline-container-org552227b" class="outline-3"&gt;
+&lt;h3 id="org552227b"&gt;For faster quantum computing, Microsoft builds a better qubit – &lt;a href="https://www.cnet.com/news/for-faster-quantum-computing-microsoft-builds-a-better-qubit/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org552227b"&gt;
 &lt;p&gt;
 &lt;i&gt;CNet – Microsoft&lt;/i&gt; – Microsoft announced to be very close to having topological qubits working. Apparently thanks to improvements in the way qubits controllers are wired.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org38c4a41" class="outline-3"&gt;
-&lt;h3 id="org38c4a41"&gt;HYRAX: The quantum discovery framework – &lt;a href="https://www.linkedin.com/posts/rahko_quantumtech-quantumsoftware-quantumcomputing-activity-6600317570186866688-NSdX/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org38c4a41"&gt;
+&lt;div id="outline-container-orgb33c3f2" class="outline-3"&gt;
+&lt;h3 id="orgb33c3f2"&gt;HYRAX: The quantum discovery framework – &lt;a href="https://www.linkedin.com/posts/rahko_quantumtech-quantumsoftware-quantumcomputing-activity-6600317570186866688-NSdX/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgb33c3f2"&gt;
 &lt;p&gt;
 &lt;i&gt;Rahko&lt;/i&gt; – The recently funded company did release a framework for machine learning with backends for some of the leading quantum computers.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orga779dae" class="outline-3"&gt;
-&lt;h3 id="orga779dae"&gt;D'Arpanet à Internet : une histoire des réseaux – &lt;a href="https://interstices.info/dossier/darpanet-a-internet-une-histoire-des-reseaux/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga779dae"&gt;
+&lt;div id="outline-container-orgdb14694" class="outline-3"&gt;
+&lt;h3 id="orgdb14694"&gt;D'Arpanet à Internet : une histoire des réseaux – &lt;a href="https://interstices.info/dossier/darpanet-a-internet-une-histoire-des-reseaux/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgdb14694"&gt;
 &lt;p&gt;
 &lt;i&gt;Interstices&lt;/i&gt; – In french: very interesting series of articles about ARPANET enlightning to read now that we are building a quantum internet.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org3ff0c70" class="outline-3"&gt;
-&lt;h3 id="org3ff0c70"&gt;France's GDR Quantum Information from Fundamental Aspects to Experiments organised its 10th annual colloqium early november – &lt;a href="https://iqfacolloq2019.sciencesconf.org/data/pages/BoA_iqfacolloq2019_CNRS_4.pdf"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org3ff0c70"&gt;
+&lt;div id="outline-container-org5ad395c" class="outline-3"&gt;
+&lt;h3 id="org5ad395c"&gt;France's GDR Quantum Information from Fundamental Aspects to Experiments organised its 10th annual colloqium early november – &lt;a href="https://iqfacolloq2019.sciencesconf.org/data/pages/BoA_iqfacolloq2019_CNRS_4.pdf"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org5ad395c"&gt;
 &lt;p&gt;
 &lt;i&gt;GDR IFQA&lt;/i&gt; – Read the abstracts to have a glimpse of France's research on quantum information.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org8499a55" class="outline-3"&gt;
-&lt;h3 id="org8499a55"&gt;NTT taps NASA to take on Google and IBM in quantum computing – &lt;a href="https://asia.nikkei.com/Business/Technology/NTT-taps-NASA-to-take-on-Google-and-IBM-in-quantum-computing"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org8499a55"&gt;
+&lt;div id="outline-container-org6504fde" class="outline-3"&gt;
+&lt;h3 id="org6504fde"&gt;NTT taps NASA to take on Google and IBM in quantum computing – &lt;a href="https://asia.nikkei.com/Business/Technology/NTT-taps-NASA-to-take-on-Google-and-IBM-in-quantum-computing"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6504fde"&gt;
 &lt;p&gt;
 &lt;i&gt;Nikkei Asian Review – NTT, NASA&lt;/i&gt; – NTT is partnering with NASA to develop quantum computing and go for a race with Google and IBM already quite far ahead. Interesting to see o non US based company stepping in to build a quantum computer.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org01d2b4d" class="outline-3"&gt;
-&lt;h3 id="org01d2b4d"&gt;PsiQuantum raises big money ($230m) – &lt;a href="https://www.telegraph.co.uk/technology/2019/11/16/bristol-professors-secretive-quantum-computing-start-up-raises/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org01d2b4d"&gt;
+&lt;div id="outline-container-org798d332" class="outline-3"&gt;
+&lt;h3 id="org798d332"&gt;PsiQuantum raises big money ($230m) – &lt;a href="https://www.telegraph.co.uk/technology/2019/11/16/bristol-professors-secretive-quantum-computing-start-up-raises/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org798d332"&gt;
 &lt;p&gt;
 &lt;i&gt;PsiQuantum&lt;/i&gt; – PsiQuantum, founded by Jeremy O’Brien, has secured the funds from investors including a venture capital fund started by former Google executive Andy Rubin. The photonics quantum computing is increasingly looking like a feasible alternative to other technologies to built fault tolerant quantum computers. They are going to work on skipping the NISQ phase altogether.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgbf0c300" class="outline-3"&gt;
-&lt;h3 id="orgbf0c300"&gt;D-Wave sticks with its approach to quantum computing – &lt;a href="https://techcrunch.com/2019/11/15/d-wave-sticks-with-its-approach-to-quantum-computing/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgbf0c300"&gt;
+&lt;div id="outline-container-org2f4ed68" class="outline-3"&gt;
+&lt;h3 id="org2f4ed68"&gt;D-Wave sticks with its approach to quantum computing – &lt;a href="https://techcrunch.com/2019/11/15/d-wave-sticks-with-its-approach-to-quantum-computing/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2f4ed68"&gt;
 &lt;p&gt;
 &lt;i&gt;D-Wave&lt;/i&gt; – D-Wave partnered with VW to optimise traffic at the Lisbon Websummit. Although one might discuss whether D-Wave is doing quantum computation, I think we should see the positive side of having proof of concepts that go outside labs and go to real environments. Congrats for showing the way towards computing applications for quantum devices.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgcc1ad34" class="outline-3"&gt;
-&lt;h3 id="orgcc1ad34"&gt;Cambridge Quantum Computing announces new release of updated software stack – &lt;a href="https://cambridgequantum.com/wp-content/uploads/2019/11/CQC-181119.pdf"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgcc1ad34"&gt;
+&lt;div id="outline-container-org02b48b6" class="outline-3"&gt;
+&lt;h3 id="org02b48b6"&gt;Cambridge Quantum Computing announces new release of updated software stack – &lt;a href="https://cambridgequantum.com/wp-content/uploads/2019/11/CQC-181119.pdf"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org02b48b6"&gt;
 &lt;p&gt;
 &lt;i&gt;Cambridge Quantum Computing&lt;/i&gt; – That's a new software for designing / compiling circuits into an efficient representation suitable for being run on the major backends. This is important as these backends have topologies that make various optimisations required to get something useful. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgefd3d0a" class="outline-3"&gt;
-&lt;h3 id="orgefd3d0a"&gt;h-bar consultants published an overview of hardware QC companies funding rounds – &lt;a href="https://twitter.com/hbar_consultant/status/1195889753423433728?s=09"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgefd3d0a"&gt;
+&lt;div id="outline-container-org578a1bd" class="outline-3"&gt;
+&lt;h3 id="org578a1bd"&gt;h-bar consultants published an overview of hardware QC companies funding rounds – &lt;a href="https://twitter.com/hbar_consultant/status/1195889753423433728?s=09"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org578a1bd"&gt;
 &lt;p&gt;
 &lt;i&gt;h-bar&lt;/i&gt; – Good to see some of them generating revenue. Doesn't mean they show a positive bottom line, just that topline is greater than 0!
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org80b7e65" class="outline-3"&gt;
-&lt;h3 id="org80b7e65"&gt;Zeiss announces a quantum challenge – &lt;a href="https://www.zeiss.com/corporate/int/careers/events/zeiss-quantum-challenge.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org80b7e65"&gt;
+&lt;div id="outline-container-orga2e62af" class="outline-3"&gt;
+&lt;h3 id="orga2e62af"&gt;Zeiss announces a quantum challenge – &lt;a href="https://www.zeiss.com/corporate/int/careers/events/zeiss-quantum-challenge.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga2e62af"&gt;
 &lt;p&gt;
 &lt;i&gt;Zeiss&lt;/i&gt; – The company is joining the quantum fun with a challenge centered on sensing and imaging. Deadline is march 31st 2020.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgfd446ec" class="outline-3"&gt;
-&lt;h3 id="orgfd446ec"&gt;Xanadu receives grant from DARPA to test QML on quantum hardware – &lt;a href="https://betakit.com/xanadu-receives-grant-from-darpa-to-test-qml-performance-on-quantum-hardware/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgfd446ec"&gt;
+&lt;div id="outline-container-org683ef7f" class="outline-3"&gt;
+&lt;h3 id="org683ef7f"&gt;Xanadu receives grant from DARPA to test QML on quantum hardware – &lt;a href="https://betakit.com/xanadu-receives-grant-from-darpa-to-test-qml-performance-on-quantum-hardware/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org683ef7f"&gt;
 &lt;p&gt;
 &lt;i&gt;Xanadu, DARPA&lt;/i&gt; – The research project is expected to last 12 months.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org954568b" class="outline-2"&gt;
-&lt;h2 id="org954568b"&gt;Research Papers&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org954568b"&gt;
+&lt;div id="outline-container-orgac2dd07" class="outline-2"&gt;
+&lt;h2 id="orgac2dd07"&gt;Research Papers&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgac2dd07"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgc9c0529" class="outline-3"&gt;
-&lt;h3 id="orgc9c0529"&gt;Characterizing large-scale quantum computers via cycle benchmarking – &lt;a href="https://www.nature.com/articles/s41467-019-13068-7"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgc9c0529"&gt;
+&lt;div id="outline-container-org0f9a9de" class="outline-3"&gt;
+&lt;h3 id="org0f9a9de"&gt;Characterizing large-scale quantum computers via cycle benchmarking – &lt;a href="https://www.nature.com/articles/s41467-019-13068-7"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org0f9a9de"&gt;
 &lt;p&gt;
 &lt;i&gt;Alexander Erhard, Joel J. Wallman, Lukas Postler, Michael Meth, Roman Stricker, Esteban A. Martinez, Philipp Schindler, Thomas Monz, Joseph Emerson &amp;amp; Rainer Blatt&lt;/i&gt; – How do you benchmark the quality of quantum gates involving more that 3 - 4 qubits ? If you do tomography with imperfect state preparation and measurements, it will take for ever. Cycle benchmarking is an interesting option and has been demonstrated experimentally on ion trap QC. Related to the last entry of the General Public Articles.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgef1880a" class="outline-2"&gt;
-&lt;h2 id="orgef1880a"&gt;Positions - Conferences&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgef1880a"&gt;
+&lt;div id="outline-container-org216b96c" class="outline-2"&gt;
+&lt;h2 id="org216b96c"&gt;Positions - Conferences&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org216b96c"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org0f55fd1" class="outline-3"&gt;
-&lt;h3 id="org0f55fd1"&gt;Quantum Computing Theory in Practice Conference – &lt;a href="https://riverlane.io/qctip-conference/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org0f55fd1"&gt;
+&lt;div id="outline-container-org6429d64" class="outline-3"&gt;
+&lt;h3 id="org6429d64"&gt;Quantum Computing Theory in Practice Conference – &lt;a href="https://riverlane.io/qctip-conference/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6429d64"&gt;
 &lt;p&gt;
 Centre for Mathematical Sciences, Cambridge | 6-8 April 2020
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org730d103" class="outline-2"&gt;
-&lt;h2 id="org730d103"&gt;Miscellanea&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org730d103"&gt;
+&lt;div id="outline-container-orgeb86181" class="outline-2"&gt;
+&lt;h2 id="orgeb86181"&gt;Miscellanea&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgeb86181"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgbeeb735" class="outline-3"&gt;
-&lt;h3 id="orgbeeb735"&gt;Neutrinos Lead to Unexpected Discovery in Basic Math – &lt;a href="https://www.quantamagazine.org/neutrinos-lead-to-unexpected-discovery-in-basic-math-20191113/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgbeeb735"&gt;
+&lt;div id="outline-container-orgf8e347a" class="outline-3"&gt;
+&lt;h3 id="orgf8e347a"&gt;Neutrinos Lead to Unexpected Discovery in Basic Math – &lt;a href="https://www.quantamagazine.org/neutrinos-lead-to-unexpected-discovery-in-basic-math-20191113/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf8e347a"&gt;
 &lt;p&gt;
 &lt;i&gt;Quanta Magazine – Stephen Parke (Fermi National Accelerator Laboratory), Xining Zhang (University of Chicago), Peter Denton (Brookhaven National Laboratory)&lt;/i&gt; – A beautiful fundamental result in linear algebra, giving a simple way of expressing the eigenvectors of a matrix in terms of the eigenvalues of that matrix and some submatrices.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orga0d6215" class="outline-3"&gt;
-&lt;h3 id="orga0d6215"&gt;Quantum light improves sensitivity of biological measurements – &lt;a href="https://phys.org/news/2019-11-quantum-sensitivity-biological.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga0d6215"&gt;
+&lt;div id="outline-container-org2e03cce" class="outline-3"&gt;
+&lt;h3 id="org2e03cce"&gt;Quantum light improves sensitivity of biological measurements – &lt;a href="https://phys.org/news/2019-11-quantum-sensitivity-biological.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2e03cce"&gt;
 &lt;p&gt;
 &lt;i&gt;Phys.org&lt;/i&gt; – Research on single photon source finds use in biology to track enzymatic reaction in real-tine. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-11-29/</guid><pubDate>Thu, 28 Nov 2019 23:00:00 GMT</pubDate></item><item><title>Qoherences #6</title><link>https://h-oll.github.io/qoherences/posts/2019-11-19/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-orgedd1ba8" class="outline-2"&gt;
-&lt;h2 id="orgedd1ba8"&gt;General public articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgedd1ba8"&gt;
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-11-29/</guid><pubDate>Thu, 28 Nov 2019 23:00:00 GMT</pubDate></item><item><title>Qoherences #6</title><link>https://h-oll.github.io/qoherences/posts/2019-11-19/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-orge020ed5" class="outline-2"&gt;
+&lt;h2 id="orge020ed5"&gt;General public articles&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orge020ed5"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgfcf2e0b" class="outline-3"&gt;
-&lt;h3 id="orgfcf2e0b"&gt;The hard sell of quantum software – &lt;a href="https://physicsworld.com/a/the-hard-sell-of-quantum-software/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgfcf2e0b"&gt;
+&lt;div id="outline-container-org1695c28" class="outline-3"&gt;
+&lt;h3 id="org1695c28"&gt;The hard sell of quantum software – &lt;a href="https://physicsworld.com/a/the-hard-sell-of-quantum-software/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org1695c28"&gt;
 &lt;p&gt;
 &lt;i&gt;Phys.org&lt;/i&gt; – Why are people founding so many start-ups to build quantum software ? What are the potential use cases and what are the short term focus for these companies ?
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgd950afa" class="outline-3"&gt;
-&lt;h3 id="orgd950afa"&gt;Here’s what the people who claimed Google’s quantum supremacy have to say about it – &lt;a href="https://arstechnica.com/science/2019/10/inside-googles-quantum-computing-efforts/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd950afa"&gt;
+&lt;div id="outline-container-org6c257f3" class="outline-3"&gt;
+&lt;h3 id="org6c257f3"&gt;Here’s what the people who claimed Google’s quantum supremacy have to say about it – &lt;a href="https://arstechnica.com/science/2019/10/inside-googles-quantum-computing-efforts/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6c257f3"&gt;
 &lt;p&gt;
 &lt;i&gt;Google Quantum AI Lab - Ars Technica&lt;/i&gt; – Nice article with lots of pictures from inside Google's lab. Fair account on the challenges faced for hardware and software componenets, and surprisingly (or not), wiring comes out as one of the most challenging ones. But that doesn't look like it's unsolvable though when you add industrial engineering and processing. You can also read Google's blog post about their experieent and settings &lt;a href="https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html"&gt;here&lt;/a&gt;.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org06b8a2f" class="outline-3"&gt;
-&lt;h3 id="org06b8a2f"&gt;Quantum internet: at the verge of an emerging technology – &lt;a href="https://blog.qutech.nl/index.php/2019/10/22/quantum-internet-at-the-verge-of-an-emerging-technology/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org06b8a2f"&gt;
+&lt;div id="outline-container-org63d91fa" class="outline-3"&gt;
+&lt;h3 id="org63d91fa"&gt;Quantum internet: at the verge of an emerging technology – &lt;a href="https://blog.qutech.nl/index.php/2019/10/22/quantum-internet-at-the-verge-of-an-emerging-technology/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org63d91fa"&gt;
 &lt;p&gt;
 &lt;i&gt;QuTech, TU Delft&lt;/i&gt; – Nice article showing what use cases of a quantum internet will be: QKD and all sorts of cryptographic protocols, but most importantly Delegated Quantum Computation. Sensing and metrology are also on the list. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org9b1ec47" class="outline-3"&gt;
-&lt;h3 id="org9b1ec47"&gt;Google and IBM are at odds over ‘quantum supremacy’ – an expert explains what it really means – &lt;a href="https://theconversation.com/google-and-ibm-are-at-odds-over-quantum-supremacy-an-expert-explains-what-it-really-means-125827"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org9b1ec47"&gt;
+&lt;div id="outline-container-org384fb13" class="outline-3"&gt;
+&lt;h3 id="org384fb13"&gt;Google and IBM are at odds over ‘quantum supremacy’ – an expert explains what it really means – &lt;a href="https://theconversation.com/google-and-ibm-are-at-odds-over-quantum-supremacy-an-expert-explains-what-it-really-means-125827"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org384fb13"&gt;
 &lt;p&gt;
 &lt;i&gt;T. Cubitt - The Conversation&lt;/i&gt; – JUst a quote from the short article: "This is how science and technology progresses. Not in one dramatic and revolutionary breakthrough, but in a whole series of small breakthroughs, with the academic community carefully scrutinising, criticising and refining each step along the way. Only a few of these advances and debates hit the headlines. The reality is both less dramatic and more interesting."
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org4b42c76" class="outline-3"&gt;
-&lt;h3 id="org4b42c76"&gt;Quantum Computer Made from Photons Achieves a New Record – &lt;a href="https://www.scientificamerican.com/article/quantum-computer-made-from-photons-achieves-a-new-record/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org4b42c76"&gt;
+&lt;div id="outline-container-orgfcae927" class="outline-3"&gt;
+&lt;h3 id="orgfcae927"&gt;Quantum Computer Made from Photons Achieves a New Record – &lt;a href="https://www.scientificamerican.com/article/quantum-computer-made-from-photons-achieves-a-new-record/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgfcae927"&gt;
 &lt;p&gt;
 &lt;i&gt;U. Science and Technology, China – Scientific American&lt;/i&gt; – The development of photonic quantum computing is impressive. There you trade low temperatures for extreme timing accuracy. The pro is that photons in the vaccuum are essentially decoherence free. The con is that you need to find a clever way to have photon-photon gates… 
 &lt;/p&gt;
@@ -567,90 +699,90 @@ Centre for Mathematical Sciences, Cambridge | 6-8 April 2020
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-orgc67afc0" class="outline-2"&gt;
-&lt;h2 id="orgc67afc0"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc67afc0"&gt;
+&lt;div id="outline-container-orga4b6255" class="outline-2"&gt;
+&lt;h2 id="orga4b6255"&gt;Industry - Academia - Startups&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orga4b6255"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orga8e949b" class="outline-3"&gt;
-&lt;h3 id="orga8e949b"&gt;Alphabet's X is contributing to port some quantum tools to tensorflow – &lt;a href="https://github.com/google/TensorNetwork"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga8e949b"&gt;
+&lt;div id="outline-container-org13a4655" class="outline-3"&gt;
+&lt;h3 id="org13a4655"&gt;Alphabet's X is contributing to port some quantum tools to tensorflow – &lt;a href="https://github.com/google/TensorNetwork"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org13a4655"&gt;
 &lt;p&gt;
 &lt;i&gt;X&lt;/i&gt; – Jack Hidary mentionned that the work of G. Vidal on tensor networks is being turned into a module accessible through tensor flow to help making large simulations of quantum systems easier to perform on classical computers.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org6ccdbc5" class="outline-3"&gt;
-&lt;h3 id="org6ccdbc5"&gt;Quantum Benchmark supports development of Google’s world-leading quantum computers – &lt;a href="https://quantumbenchmark.com/quantum-benchmark-supports-development-of-googles-world-leading-quantum-computers/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org6ccdbc5"&gt;
+&lt;div id="outline-container-orgbf73940" class="outline-3"&gt;
+&lt;h3 id="orgbf73940"&gt;Quantum Benchmark supports development of Google’s world-leading quantum computers – &lt;a href="https://quantumbenchmark.com/quantum-benchmark-supports-development-of-googles-world-leading-quantum-computers/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgbf73940"&gt;
 &lt;p&gt;
 &lt;i&gt;Quantum Benchmark, Google Quantum AI Lab&lt;/i&gt; – QUantum Benchmark is working with Google to improve gate efficiency and compiling. Great partnership.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org0703d3a" class="outline-3"&gt;
-&lt;h3 id="org0703d3a"&gt;HPE announces investment into IonQ – &lt;a href="https://www.hpe.com/us/en/newsroom/blog-post/2019/10/shaping-the-quantum-future.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org0703d3a"&gt;
+&lt;div id="outline-container-org5fdec24" class="outline-3"&gt;
+&lt;h3 id="org5fdec24"&gt;HPE announces investment into IonQ – &lt;a href="https://www.hpe.com/us/en/newsroom/blog-post/2019/10/shaping-the-quantum-future.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org5fdec24"&gt;
 &lt;p&gt;
 &lt;i&gt;IonQ &amp;amp; HPE&lt;/i&gt; – HPE is making the choice of Trapped Ion technology as a better way to scale quantum computing experiements to commercially useful machines. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgc5353d6" class="outline-3"&gt;
-&lt;h3 id="orgc5353d6"&gt;Volkswagen optimizes traffic flow with quantum computers – &lt;a href="https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-optimizes-traffic-flow-with-quantum-computers-5507"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgc5353d6"&gt;
+&lt;div id="outline-container-org97af8d1" class="outline-3"&gt;
+&lt;h3 id="org97af8d1"&gt;Volkswagen optimizes traffic flow with quantum computers – &lt;a href="https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-optimizes-traffic-flow-with-quantum-computers-5507"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org97af8d1"&gt;
 &lt;p&gt;
 &lt;i&gt;VW &amp;amp; D-Wave&lt;/i&gt; – Quantum computing in practice wit VW optimizing traffic in Lisbon during the WebSummit conference. It still remains to be seen how better it solves the problem compared to classical optimization.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org037ba91" class="outline-3"&gt;
-&lt;h3 id="org037ba91"&gt;Xanadu is expanding it's pennylane software to include Cirq support – &lt;a href="https://www.linkedin.com/posts/xanaduai_xanaduaipennylane-cirq-activity-6595352592212127744-ejwx/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org037ba91"&gt;
+&lt;div id="outline-container-org4195c32" class="outline-3"&gt;
+&lt;h3 id="org4195c32"&gt;Xanadu is expanding it's pennylane software to include Cirq support – &lt;a href="https://www.linkedin.com/posts/xanaduai_xanaduaipennylane-cirq-activity-6595352592212127744-ejwx/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org4195c32"&gt;
 &lt;p&gt;
 &lt;i&gt;Xanadu&lt;/i&gt; – Pennylane is now able to interact with Cirq (google's framework) so you can actually optimize a full quantum-classical hybrid algo using Cirq / Forest / Qiskit and the usual Tensorflow and Pytorch tools.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org7314686" class="outline-3"&gt;
-&lt;h3 id="org7314686"&gt;Experience quantum impact with Azure Quantum – &lt;a href="https://cloudblogs.microsoft.com/quantum/2019/11/04/announcing-microsoft-azure-quantum/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7314686"&gt;
+&lt;div id="outline-container-org2a353ab" class="outline-3"&gt;
+&lt;h3 id="org2a353ab"&gt;Experience quantum impact with Azure Quantum – &lt;a href="https://cloudblogs.microsoft.com/quantum/2019/11/04/announcing-microsoft-azure-quantum/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2a353ab"&gt;
 &lt;p&gt;
 &lt;i&gt;Microsoft&lt;/i&gt; – Microsoft announces the launch of Azure Quantum. Yet another player going for a cloud offering for quantum computing. This is a major change compared to when classical computing started. Quantum computing is being built on top of a very rich stack of computing and communication experience. In my opinion, this makes quantum communication and quantum computation inseparable topics, both requiring attention and investments.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orge616f8b" class="outline-3"&gt;
-&lt;h3 id="orge616f8b"&gt;IonQ Partners with Microsoft to Power Azure Quantum – &lt;a href="https://ionq.com/news/november-4-2019-microsoft-partnership"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orge616f8b"&gt;
+&lt;div id="outline-container-orge83a78a" class="outline-3"&gt;
+&lt;h3 id="orge83a78a"&gt;IonQ Partners with Microsoft to Power Azure Quantum – &lt;a href="https://ionq.com/news/november-4-2019-microsoft-partnership"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orge83a78a"&gt;
 &lt;p&gt;
 &lt;i&gt;IonQ &amp;amp; Microsoft&lt;/i&gt; – A partnership to make Azure Quantum, well… quantum ! Two big hits for IonQ (HPE and Microsoft). Is that the revenge of the trapped Ions ? 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org60ba309" class="outline-3"&gt;
-&lt;h3 id="org60ba309"&gt;Micorsoft partners with Honeywell – &lt;a href="https://www.honeywell.com/en-us/newsroom/news/2019/11/the-future-of-quantum-computing?utm_source=TW&amp;amp;utm_medium=social&amp;amp;utm_campaign=newsroom&amp;amp;utm_term=msquantum&amp;amp;sf111836522=1"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org60ba309"&gt;
+&lt;div id="outline-container-orgef09eeb" class="outline-3"&gt;
+&lt;h3 id="orgef09eeb"&gt;Micorsoft partners with Honeywell – &lt;a href="https://www.honeywell.com/en-us/newsroom/news/2019/11/the-future-of-quantum-computing?utm_source=TW&amp;amp;utm_medium=social&amp;amp;utm_campaign=newsroom&amp;amp;utm_term=msquantum&amp;amp;sf111836522=1"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgef09eeb"&gt;
 &lt;p&gt;
 &lt;i&gt;Microsoft &amp;amp; Honeywell&lt;/i&gt; – Microsoft announces its partnership with Honeywell "to bring about quantum impact through Azure Quantum" (&lt;a href="https://twitter.com/krystasvore/status/1191425045970612224?s=09"&gt;here&lt;/a&gt;). 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgbee34f5" class="outline-3"&gt;
-&lt;h3 id="orgbee34f5"&gt;AQT now supports Qiskit – &lt;a href="https://www.aqt.eu/aqt-now-supports-qiskit/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgbee34f5"&gt;
+&lt;div id="outline-container-org25e994a" class="outline-3"&gt;
+&lt;h3 id="org25e994a"&gt;AQT now supports Qiskit – &lt;a href="https://www.aqt.eu/aqt-now-supports-qiskit/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org25e994a"&gt;
 &lt;p&gt;
 &lt;i&gt;AQT&lt;/i&gt; – Alpine Quantum Computing develops an Ion trap quantum computer. It reports of its compatibility with IBM qiskit devevelopment tools suite.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgc0183d1" class="outline-2"&gt;
-&lt;h2 id="orgc0183d1"&gt;Research papers&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc0183d1"&gt;
+&lt;div id="outline-container-orgb06396f" class="outline-2"&gt;
+&lt;h2 id="orgb06396f"&gt;Research papers&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgb06396f"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org2ea112b" class="outline-3"&gt;
-&lt;h3 id="org2ea112b"&gt;List of accepted papers at QIP2020 – &lt;a href="http://www.szpclab.com/qip2020#/programDetails"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org2ea112b"&gt;
+&lt;div id="outline-container-org4a2856d" class="outline-3"&gt;
+&lt;h3 id="org4a2856d"&gt;List of accepted papers at QIP2020 – &lt;a href="http://www.szpclab.com/qip2020#/programDetails"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org4a2856d"&gt;
 &lt;p&gt;
 Impressive and exciting list. 
 &lt;/p&gt;
@@ -658,22 +790,22 @@ Impressive and exciting list.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org8f56bd4" class="outline-2"&gt;
-&lt;h2 id="org8f56bd4"&gt;Positions&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org8f56bd4"&gt;
+&lt;div id="outline-container-org38cab21" class="outline-2"&gt;
+&lt;h2 id="org38cab21"&gt;Positions&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org38cab21"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orga1c2d17" class="outline-3"&gt;
-&lt;h3 id="orga1c2d17"&gt;PostDoc position at the Center for Theoretical Physics, Polish Academy of Sciences – &lt;a href="http://www.cft.edu.pl/new/public/links/aHR0cHMlM0ElMkYlMkZjZnRwYW4uYmlwLmdvdi5wbCUyRmZvYmplY3RzJTJGZG93bmxvYWQlMkY2NTk0NjElMkZhbm5vdW5jZW1lbnQtYWJvdXQtdGhlLWNvbXBldGl0aW9uLmh0bWw=/display"&gt;more&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga1c2d17"&gt;
+&lt;div id="outline-container-org39379ea" class="outline-3"&gt;
+&lt;h3 id="org39379ea"&gt;PostDoc position at the Center for Theoretical Physics, Polish Academy of Sciences – &lt;a href="http://www.cft.edu.pl/new/public/links/aHR0cHMlM0ElMkYlMkZjZnRwYW4uYmlwLmdvdi5wbCUyRmZvYmplY3RzJTJGZG93bmxvYWQlMkY2NTk0NjElMkZhbm5vdW5jZW1lbnQtYWJvdXQtdGhlLWNvbXBldGl0aW9uLmh0bWw=/display"&gt;more&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org39379ea"&gt;
 &lt;p&gt;
 &lt;i&gt;CTP, Polish Academy of Sciences&lt;/i&gt; – 
 Announcement from Remigiusz Augusiak, to work on quantum information theory, quantum entanglement, Bell nonlocality.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-11-19/</guid><pubDate>Tue, 19 Nov 2019 05:29:00 GMT</pubDate></item><item><title>Qoherences #5</title><link>https://h-oll.github.io/qoherences/posts/2019-10-24/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org0b646a6" class="outline-2"&gt;
-&lt;h2 id="org0b646a6"&gt;Hot / Not Hot / Hot Again News&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org0b646a6"&gt;
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-11-19/</guid><pubDate>Tue, 19 Nov 2019 05:29:00 GMT</pubDate></item><item><title>Qoherences #5</title><link>https://h-oll.github.io/qoherences/posts/2019-10-24/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org91ef3c2" class="outline-2"&gt;
+&lt;h2 id="org91ef3c2"&gt;Hot / Not Hot / Hot Again News&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org91ef3c2"&gt;
 &lt;p&gt;
 IBM claims in &lt;a href="https://arxiv.org/abs/1910.09534"&gt;arXiv/1910/09534&lt;/a&gt; that Google's quantum supremacy computation is not so supreme. They optimized the classical simulation and went down to 2.5 days instead of 10000+ years. So: 
 &lt;/p&gt;
@@ -693,233 +825,233 @@ Meanwhile, Google has published its supremacy result – &lt;a href="https://www
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org5c4472f" class="outline-2"&gt;
-&lt;h2 id="org5c4472f"&gt;General public articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org5c4472f"&gt;
+&lt;div id="outline-container-orgf3d2c4c" class="outline-2"&gt;
+&lt;h2 id="orgf3d2c4c"&gt;General public articles&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgf3d2c4c"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org6487ea0" class="outline-3"&gt;
-&lt;h3 id="org6487ea0"&gt;Beyond quantum supremacy: the hunt for useful quantum computers - &lt;a href="https://www.nature.com/articles/d41586-019-02936-3"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org6487ea0"&gt;
+&lt;div id="outline-container-org2e10b80" class="outline-3"&gt;
+&lt;h3 id="org2e10b80"&gt;Beyond quantum supremacy: the hunt for useful quantum computers - &lt;a href="https://www.nature.com/articles/d41586-019-02936-3"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2e10b80"&gt;
 &lt;p&gt;
 &lt;i&gt;Nature - Michael Brooks&lt;/i&gt; – While some are debating about quantum supremacy, others are trying to find out how to put small imperfect devices to work for solving real-world problem. A good overview of the quantum algorithm landscape.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org75dc8b2" class="outline-3"&gt;
-&lt;h3 id="org75dc8b2"&gt;Next-generation single-photon source for quantum information science - &lt;a href="https://phys.org/news/2019-10-next-generation-single-photon-source-quantum-science.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org75dc8b2"&gt;
+&lt;div id="outline-container-orgd7214d7" class="outline-3"&gt;
+&lt;h3 id="orgd7214d7"&gt;Next-generation single-photon source for quantum information science - &lt;a href="https://phys.org/news/2019-10-next-generation-single-photon-source-quantum-science.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgd7214d7"&gt;
 &lt;p&gt;
 &lt;i&gt;Science Advances - P. Kwiat (U. of Illinois), F. Kaneda (Tohoku U.)&lt;/i&gt; – Reliable single photon sources are extremely important for quantum communication, but hard to make. Using time multiplexing Kwiat's team managed to increase the efficiency of the process to the point where they could get several thousands of 12-photon events per second.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org085c97b" class="outline-3"&gt;
-&lt;h3 id="org085c97b"&gt;Quantum Threat Timeline - &lt;a href="https://globalriskinstitute.org/publications/quantum-threat-timeline/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org085c97b"&gt;
+&lt;div id="outline-container-orgf351a3f" class="outline-3"&gt;
+&lt;h3 id="orgf351a3f"&gt;Quantum Threat Timeline - &lt;a href="https://globalriskinstitute.org/publications/quantum-threat-timeline/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf351a3f"&gt;
 &lt;p&gt;
 &lt;i&gt;M Mosca and M Piani (EvolutionQ)&lt;/i&gt; – Research report published by the Global Risk Institute, trying to assess the quantum threat over classic cryptosystems. About 50% of the experts think that quantum computers will be threat for the current cryptosystems within 15 years.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgde7e025" class="outline-3"&gt;
-&lt;h3 id="orgde7e025"&gt;Tracking Entanglement in a Quantum Simulator - &lt;a href="https://www.osa-opn.org/home/newsroom/2018/april/tracking_entanglement_in_a_quantum_simulator/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgde7e025"&gt;
+&lt;div id="outline-container-orgf946ee1" class="outline-3"&gt;
+&lt;h3 id="orgf946ee1"&gt;Tracking Entanglement in a Quantum Simulator - &lt;a href="https://www.osa-opn.org/home/newsroom/2018/april/tracking_entanglement_in_a_quantum_simulator/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgf946ee1"&gt;
 &lt;p&gt;
 &lt;i&gt;Optics &amp;amp; Photonics - IQOQI (Innsbruck)&lt;/i&gt; – Report on a 20-qubit trapped ions experiment and the difficulty to know if a quantum device is behaving properly. Using a brute force approach would be equivalent to simulate the evolution of the quantum systems classically: fairly inefficient. By using the right (cryptographic) setting and tools, you can manage to do this much more efficiently.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgdbd7801" class="outline-3"&gt;
-&lt;h3 id="orgdbd7801"&gt;New Encryption System Protects Data from Quantum Computers - &lt;a href="https://www.scientificamerican.com/article/new-encryption-system-protects-data-from-quantum-computers/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgdbd7801"&gt;
+&lt;div id="outline-container-org7d3d32f" class="outline-3"&gt;
+&lt;h3 id="org7d3d32f"&gt;New Encryption System Protects Data from Quantum Computers - &lt;a href="https://www.scientificamerican.com/article/new-encryption-system-protects-data-from-quantum-computers/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org7d3d32f"&gt;
 &lt;p&gt;
 &lt;i&gt;IBM Research Zurich - Vadim Lyubashevsky&lt;/i&gt; – Quantum algorithms are moving the world! The impact of algorithms not yet implemented shook the crypto community when the NIST asked in 2016 for new quantum-safe crytosystems to be proposed for a public release in 2024. IBM is reporting on their proposal called CRYSTALS that should be implemented in its cloud solutions by 2020.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org1b0eab5" class="outline-3"&gt;
-&lt;h3 id="org1b0eab5"&gt;Cryptography without using secret keys - &lt;a href="https://phys.org/news/2019-10-cryptography-secret-keys.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org1b0eab5"&gt;
+&lt;div id="outline-container-org4e5b3b6" class="outline-3"&gt;
+&lt;h3 id="org4e5b3b6"&gt;Cryptography without using secret keys - &lt;a href="https://phys.org/news/2019-10-cryptography-secret-keys.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org4e5b3b6"&gt;
 &lt;p&gt;
 &lt;i&gt;U. of Twente - W.r. Van Der Veen&lt;/i&gt; – Cryptography can make use of physically uncloneable functions for authentication and encryption. Here is a brief account about what this is and how it is done. Although there is a lot of quantum in there, the function (key in the article) is still classical. Quantum people have devised quantum attacks on such devices and also &lt;a href="https://eprint.iacr.org/2019/1181"&gt;quantum PUF&lt;/a&gt;.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgb69d9c0" class="outline-3"&gt;
-&lt;h3 id="orgb69d9c0"&gt;Weaving quantum processors out of laser light - &lt;a href="https://phys.org/news/2019-10-quantum-processors-laser.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgb69d9c0"&gt;
+&lt;div id="outline-container-org0ebc0bc" class="outline-3"&gt;
+&lt;h3 id="org0ebc0bc"&gt;Weaving quantum processors out of laser light - &lt;a href="https://phys.org/news/2019-10-quantum-processors-laser.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org0ebc0bc"&gt;
 &lt;p&gt;
 &lt;i&gt;Science DOI: 10.1126/science.aay2645 - Centre for Quantum Computation &amp;amp; Communication Technology, Nicolas Menicucci - U Tokyo - U New Mexico&lt;/i&gt; – The University of Melbourne CQC2T is reporting the creation of a large photonic cluster state. Cluster states are resources that can be used for implementing measurement based quantum computations. The nice thing is all the complicated stuff is made at the begining through the creation of this horribly entangled state. Using it is then much simpler as it requires only single qubit measurements and classically single qubit gates. This is quite an achievement and very motivating to see that fundamentally different architectures are subject of research.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orge2a58a4" class="outline-3"&gt;
-&lt;h3 id="orge2a58a4"&gt;Blanket of light may give better quantum computers - &lt;a href="https://phys.org/news/2019-10-blanket-quantum.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orge2a58a4"&gt;
+&lt;div id="outline-container-org3eddf5c" class="outline-3"&gt;
+&lt;h3 id="org3eddf5c"&gt;Blanket of light may give better quantum computers - &lt;a href="https://phys.org/news/2019-10-blanket-quantum.html"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org3eddf5c"&gt;
 &lt;p&gt;
 &lt;i&gt;Science DOI: 10.1126/science.aay4354 - BigQ (Denmark), Ulrik Lund Andersen&lt;/i&gt;  – The Danes have done the same as the Aussies. Or is it the other way around. Impressive anyways: we are talking of 30 000 entangled light pulses.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org5c0caf4" class="outline-2"&gt;
-&lt;h2 id="org5c0caf4"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org5c0caf4"&gt;
+&lt;div id="outline-container-org26a63e0" class="outline-2"&gt;
+&lt;h2 id="org26a63e0"&gt;Industry - Academia - Startups&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org26a63e0"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org3337fc6" class="outline-3"&gt;
-&lt;h3 id="org3337fc6"&gt;Barclays demonstrates proof-of-concept quantum clearing algorithm - &lt;a href="https://www.computerweekly.com/news/252472462/Barclays-demonstrates-proof-of-concept-quantum-clearing-algorithm"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org3337fc6"&gt;
+&lt;div id="outline-container-orgc24572a" class="outline-3"&gt;
+&lt;h3 id="orgc24572a"&gt;Barclays demonstrates proof-of-concept quantum clearing algorithm - &lt;a href="https://www.computerweekly.com/news/252472462/Barclays-demonstrates-proof-of-concept-quantum-clearing-algorithm"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgc24572a"&gt;
 &lt;p&gt;
 &lt;i&gt;Barclays, IBM&lt;/i&gt; – Looks like they have found a use for small scale quantum computer. Need to read the original &lt;a href="https://arxiv.org/pdf/1910.05788v1.pdf"&gt;paper&lt;/a&gt; though.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgef1da0f" class="outline-3"&gt;
-&lt;h3 id="orgef1da0f"&gt;Toshiba France advertises its QKD solution -  &lt;a href="https://www.toshiba.fr/?utm_source=cpc&amp;amp;utm_medium=linkedin&amp;amp;utm_campaign=fy19b&amp;amp;utm_content=qkd"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgef1da0f"&gt;
+&lt;div id="outline-container-org482f4ca" class="outline-3"&gt;
+&lt;h3 id="org482f4ca"&gt;Toshiba France advertises its QKD solution -  &lt;a href="https://www.toshiba.fr/?utm_source=cpc&amp;amp;utm_medium=linkedin&amp;amp;utm_campaign=fy19b&amp;amp;utm_content=qkd"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org482f4ca"&gt;
 &lt;p&gt;
 &lt;i&gt;Toshiba&lt;/i&gt; – Interesting to see industries picking up the subject. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orge33ddae" class="outline-3"&gt;
-&lt;h3 id="orge33ddae"&gt;Rahko raises £1.3M seed from Balderton for quantum machine learning tech - &lt;a href="https://techcrunch.com/2019/10/11/rahko-raises-1-3m-seed-from-balderton-for-quantum-machine-learning-tech/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orge33ddae"&gt;
+&lt;div id="outline-container-org46509e4" class="outline-3"&gt;
+&lt;h3 id="org46509e4"&gt;Rahko raises £1.3M seed from Balderton for quantum machine learning tech - &lt;a href="https://techcrunch.com/2019/10/11/rahko-raises-1-3m-seed-from-balderton-for-quantum-machine-learning-tech/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org46509e4"&gt;
 &lt;p&gt;
 &lt;i&gt;Rahko, Balderton Capital&lt;/i&gt; – Interesting to see a Series A VC fund invest in a seed round. VC's are probably seeing the quantum ecosystem as sufficiently small and the prospects with large corporations sufficiently interesting to make such unusual move. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org698427e" class="outline-3"&gt;
-&lt;h3 id="org698427e"&gt;IonQ Secures $55 Million in Funding to Bring Quantum Computing from the Lab to the Enterprise - &lt;a href="https://ionq.com/news/october-22-2019-new-funding"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org698427e"&gt;
+&lt;div id="outline-container-org3bf8561" class="outline-3"&gt;
+&lt;h3 id="org3bf8561"&gt;IonQ Secures $55 Million in Funding to Bring Quantum Computing from the Lab to the Enterprise - &lt;a href="https://ionq.com/news/october-22-2019-new-funding"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org3bf8561"&gt;
 &lt;p&gt;
 &lt;i&gt;IonQ -  Samsung Catalyst Fund and Mubadala Capital&lt;/i&gt; – $55m raised in this round, $77m total. That's serious money now.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orga701637" class="outline-3"&gt;
-&lt;h3 id="orga701637"&gt;Quantum photonics hardware developer Nu Quantum raises pre-seed investment - &lt;a href="https://www.amadeuscapital.com/quantum-photonics-hardware-developer-nu-quantum-raises-pre-seed-investment/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga701637"&gt;
+&lt;div id="outline-container-org51b3e0f" class="outline-3"&gt;
+&lt;h3 id="org51b3e0f"&gt;Quantum photonics hardware developer Nu Quantum raises pre-seed investment - &lt;a href="https://www.amadeuscapital.com/quantum-photonics-hardware-developer-nu-quantum-raises-pre-seed-investment/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org51b3e0f"&gt;
 &lt;p&gt;
 &lt;i&gt;Nu Quantum, Amadeus Capital Partners, with participation from IQ Capital, Ahren Capital, Cambridge Enterprise and Martlet Capital&lt;/i&gt; – 650k pounds raised in a seed round for building single photon sources and detectors, which are the building blocks of quantum networks.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org3219fa6" class="outline-3"&gt;
-&lt;h3 id="org3219fa6"&gt;Strathclyde quantum technology partnership secures £4.6 million - &lt;a href="https://www.strath.ac.uk/whystrathclyde/news/strathclydequantumtechnologypartnershipsecures46million/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org3219fa6"&gt;
+&lt;div id="outline-container-org1693562" class="outline-3"&gt;
+&lt;h3 id="org1693562"&gt;Strathclyde quantum technology partnership secures £4.6 million - &lt;a href="https://www.strath.ac.uk/whystrathclyde/news/strathclydequantumtechnologypartnershipsecures46million/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org1693562"&gt;
 &lt;p&gt;
 &lt;i&gt;U Strathclyde - Msquared&lt;/i&gt; – A U Strathclyde + Msquared partnership secured funding worth a total of £4.6 million.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org8ccb6b4" class="outline-3"&gt;
-&lt;h3 id="org8ccb6b4"&gt;HQS Quantum Simulations Closes €2.3 Million Seed Financing Round - &lt;a href="https://quantumsimulations.de/news/2019/10/hqs-closes-seed-financing-round/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org8ccb6b4"&gt;
+&lt;div id="outline-container-orgbedec72" class="outline-3"&gt;
+&lt;h3 id="orgbedec72"&gt;HQS Quantum Simulations Closes €2.3 Million Seed Financing Round - &lt;a href="https://quantumsimulations.de/news/2019/10/hqs-closes-seed-financing-round/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgbedec72"&gt;
 &lt;p&gt;
 &lt;i&gt;HQS Quantum Simulations&lt;/i&gt; – Designing software for quantum computer assisted material designs. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org4e1f29b" class="outline-3"&gt;
-&lt;h3 id="org4e1f29b"&gt;Xanadu releases a nre quantum machine learning library for python - &lt;a href="https://twitter.com/pennylaneai/status/1186371620157493251?s=09"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org4e1f29b"&gt;
+&lt;div id="outline-container-orga27ea63" class="outline-3"&gt;
+&lt;h3 id="orga27ea63"&gt;Xanadu releases a new quantum machine learning library for python - &lt;a href="https://twitter.com/pennylaneai/status/1186371620157493251?s=09"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orga27ea63"&gt;
 &lt;p&gt;
 &lt;i&gt;Xanadu&lt;/i&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orge25f12d" class="outline-2"&gt;
-&lt;h2 id="orge25f12d"&gt;Research papers&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orge25f12d"&gt;
+&lt;div id="outline-container-orgdca4792" class="outline-2"&gt;
+&lt;h2 id="orgdca4792"&gt;Research papers&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgdca4792"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org3603877" class="outline-3"&gt;
-&lt;h3 id="org3603877"&gt;Variational Fast Forwarding for Quantum Simulation Beyond the Coherence Time - &lt;a href="https://arxiv.org/abs/1910.04292"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org3603877"&gt;
+&lt;div id="outline-container-org7182a54" class="outline-3"&gt;
+&lt;h3 id="org7182a54"&gt;Variational Fast Forwarding for Quantum Simulation Beyond the Coherence Time - &lt;a href="https://arxiv.org/abs/1910.04292"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org7182a54"&gt;
 &lt;p&gt;
 &lt;i&gt;LANL - Cristina Cirstoiu, Zoe Holmes, Joseph Iosue, Lukasz Cincio, Patrick J. Coles, Andrew Sornborger&lt;/i&gt; – A new technique for simulating the evolution of quantum physical systems with noisy intermediate scale quantum computers that allows to go beyond the decoherence time of the quantum machines. Very cool!
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org1c159b0" class="outline-3"&gt;
-&lt;h3 id="org1c159b0"&gt;Learning the quantum algorithm for state overlap - &lt;a href="https://iopscience.iop.org/article/10.1088/1367-2630/aae94a/pdf"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org1c159b0"&gt;
+&lt;div id="outline-container-org6735425" class="outline-3"&gt;
+&lt;h3 id="org6735425"&gt;Learning the quantum algorithm for state overlap - &lt;a href="https://iopscience.iop.org/article/10.1088/1367-2630/aae94a/pdf"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org6735425"&gt;
 &lt;p&gt;
 &lt;i&gt;LANL - Lukasz Cincio, Yiğit Subaş, Andrew T Sornborger and Patrick J Coles&lt;/i&gt; – Same group of people from Los Alamos. This one would help finding new circuits and serve as a guide for compiling high-level functions into device specific sequences of commands. Very promising (has led already to many follow-ups by the same group. Wondering how it can be adapted to make it work for optimizing communication protocols.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orge040333" class="outline-3"&gt;
-&lt;h3 id="orge040333"&gt;Circuit-Based Quantum Random Access Memory for Classical Data - &lt;a href="https://www.nature.com/articles/s41598-019-40439-3"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orge040333"&gt;
+&lt;div id="outline-container-orgb751b76" class="outline-3"&gt;
+&lt;h3 id="orgb751b76"&gt;Circuit-Based Quantum Random Access Memory for Classical Data - &lt;a href="https://www.nature.com/articles/s41598-019-40439-3"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgb751b76"&gt;
 &lt;p&gt;
 &lt;i&gt;ITRC of Quantum Computing for AI, KAIST Korea - Daniel K. Park, Francesco Petruccione &amp;amp; June-Koo Kevin Rhee&lt;/i&gt; – Using quantum algorithms for solving real-world problems requires making classical data available to it. This paper describes a possible architecture for loading classical data into a quantum memory in an efficient way. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org1267d99" class="outline-2"&gt;
-&lt;h2 id="org1267d99"&gt;Positions&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org1267d99"&gt;
+&lt;div id="outline-container-orgb140c9c" class="outline-2"&gt;
+&lt;h2 id="orgb140c9c"&gt;Positions&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgb140c9c"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgd464924" class="outline-3"&gt;
-&lt;h3 id="orgd464924"&gt;PostDoc Positions at IQC (U. Waterloo) - &lt;a href="https://services.iqc.uwaterloo.ca/applications/positions/iqc-postdoctoral-fellowship/"&gt;more&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd464924"&gt;
+&lt;div id="outline-container-org1966809" class="outline-3"&gt;
+&lt;h3 id="org1966809"&gt;PostDoc Positions at IQC (U. Waterloo) - &lt;a href="https://services.iqc.uwaterloo.ca/applications/positions/iqc-postdoctoral-fellowship/"&gt;more&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org1966809"&gt;
 &lt;p&gt;
 &lt;i&gt;IQC&lt;/i&gt; – Theory.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgfe1457b" class="outline-3"&gt;
-&lt;h3 id="orgfe1457b"&gt;PostDoc Positions at IRIF (U. Paris) - &lt;a href="https://www.irif.fr/en/postes/postdoc"&gt;more&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgfe1457b"&gt;
+&lt;div id="outline-container-org3470f24" class="outline-3"&gt;
+&lt;h3 id="org3470f24"&gt;PostDoc Positions at IRIF (U. Paris) - &lt;a href="https://www.irif.fr/en/postes/postdoc"&gt;more&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org3470f24"&gt;
 &lt;p&gt;
 &lt;i&gt;IRIF&lt;/i&gt; – Quantum machine learning, optimization, quantum communications and cryptography.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org629f1d0" class="outline-3"&gt;
-&lt;h3 id="org629f1d0"&gt;JQE Software internship at Rigetti - &lt;a href="https://twitter.com/rigetti/status/1186672593039847424?s=09"&gt;more&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org629f1d0"&gt;
+&lt;div id="outline-container-org781598b" class="outline-3"&gt;
+&lt;h3 id="org781598b"&gt;JQE Software internship at Rigetti - &lt;a href="https://twitter.com/rigetti/status/1186672593039847424?s=09"&gt;more&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org781598b"&gt;
 &lt;p&gt;
 &lt;i&gt;Rigetti&lt;/i&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org6708350" class="outline-2"&gt;
-&lt;h2 id="org6708350"&gt;Miscellanea&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org6708350"&gt;
+&lt;div id="outline-container-org9a6f0bc" class="outline-2"&gt;
+&lt;h2 id="org9a6f0bc"&gt;Miscellanea&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org9a6f0bc"&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgbb609d3" class="outline-3"&gt;
-&lt;h3 id="orgbb609d3"&gt;Quantum USA Vs. Quantum China: The World's Most Important Technology Race - &lt;a href="https://www.forbes.com/sites/moorinsights/2019/10/10/quantum-usa-vs-quantum-china-the-worlds-most-important-technology-race/#135e818f72de"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgbb609d3"&gt;
+&lt;div id="outline-container-orgc6ed2fe" class="outline-3"&gt;
+&lt;h3 id="orgc6ed2fe"&gt;Quantum USA Vs. Quantum China: The World's Most Important Technology Race - &lt;a href="https://www.forbes.com/sites/moorinsights/2019/10/10/quantum-usa-vs-quantum-china-the-worlds-most-important-technology-race/#135e818f72de"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgc6ed2fe"&gt;
 &lt;p&gt;
 &lt;i&gt;Forbes&lt;/i&gt; –  US views on the investments by China into quantum technology.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgee73773" class="outline-3"&gt;
-&lt;h3 id="orgee73773"&gt;L'écosystème français de l'informatique quantique : ses atouts, ses faiblesses &lt;a href="https://www.latribune.fr/technos-medias/innovation-et-start-up/l-ecosysteme-francais-de-l-informatique-quantique-ses-atouts-ses-faiblesses-831271.html?utm_term=Autofeed&amp;amp;utm_medium=Social&amp;amp;utm_source=Twitter#Echobox=1571760787"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgee73773"&gt;
+&lt;div id="outline-container-org9ef629a" class="outline-3"&gt;
+&lt;h3 id="org9ef629a"&gt;L'écosystème français de l'informatique quantique : ses atouts, ses faiblesses &lt;a href="https://www.latribune.fr/technos-medias/innovation-et-start-up/l-ecosysteme-francais-de-l-informatique-quantique-ses-atouts-ses-faiblesses-831271.html?utm_term=Autofeed&amp;amp;utm_medium=Social&amp;amp;utm_source=Twitter#Echobox=1571760787"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org9ef629a"&gt;
 &lt;p&gt;
 &lt;i&gt;La Tribune&lt;/i&gt; – more or less accurate description of the french ecosystem. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-org870f2d8" class="outline-3"&gt;
-&lt;h3 id="org870f2d8"&gt;Quantum gold rush: the private funding pouring into quantum start-ups - &lt;a href="https://www.nature.com/articles/d41586-019-02935-4?utm_source=twt_nnc&amp;amp;utm_medium=social&amp;amp;utm_campaign=naturenews&amp;amp;sf220597140=1"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org870f2d8"&gt;
+&lt;div id="outline-container-org85139b6" class="outline-3"&gt;
+&lt;h3 id="org85139b6"&gt;Quantum gold rush: the private funding pouring into quantum start-ups - &lt;a href="https://www.nature.com/articles/d41586-019-02935-4?utm_source=twt_nnc&amp;amp;utm_medium=social&amp;amp;utm_campaign=naturenews&amp;amp;sf220597140=1"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org85139b6"&gt;
 &lt;p&gt;
 &lt;i&gt;Nature doi: 10.1038/d41586-019-02935-4&lt;/i&gt; – 2017 and 2018 have seen 52 companies funded for $450m fresh money. 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id="outline-container-orgcf1a20c" class="outline-3"&gt;
-&lt;h3 id="orgcf1a20c"&gt;The hard sell of quantum software - &lt;a href="https://physicsworld.com/a/the-hard-sell-of-quantum-software/"&gt;source&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgcf1a20c"&gt;
+&lt;div id="outline-container-orgbbd0426" class="outline-3"&gt;
+&lt;h3 id="orgbbd0426"&gt;The hard sell of quantum software - &lt;a href="https://physicsworld.com/a/the-hard-sell-of-quantum-software/"&gt;source&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-orgbbd0426"&gt;
 &lt;p&gt;
 &lt;i&gt;PhysicsWorld&lt;/i&gt; – Tries to explain why VCs invest in quantum software companies. 
 &lt;/p&gt;
@@ -1208,148 +1340,4 @@ Don't talk to me if you haven't read this. It you have but mix-up entanglement a
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-09-18/</guid><pubDate>Wed, 18 Sep 2019 04:32:52 GMT</pubDate></item><item><title>Qoherences #2</title><link>https://h-oll.github.io/qoherences/posts/2019-09-09/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org814c9a8" class="outline-2"&gt;
-&lt;h2 id="org814c9a8"&gt;General public articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org814c9a8"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgb6f792a" class="outline-3"&gt;
-&lt;h3 id="orgb6f792a"&gt;&lt;a href="https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/s/614160/quantum-radar-has-been-demonstrated-for-the-first-time/amp"&gt;Quantum radar has been demonstrated for the first time&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgb6f792a"&gt;
-&lt;p&gt;
-&lt;i&gt;MIT Tech Review&lt;/i&gt; – Some by-products of quantum communication could be linking arrays of detectors together: Quantum radar is one such by-product.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7158907" class="outline-3"&gt;
-&lt;h3 id="org7158907"&gt;&lt;a href="https://www.youtube.com/watch?time_continue=2&amp;amp;v=X-lrQt_UxxQ"&gt;La seconde révolution quantique et l'ordinateur de Sissa&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7158907"&gt;
-&lt;p&gt;
-&lt;i&gt;TEDx, Quantum Flagship, Philippe Chomaz&lt;/i&gt; – For the french speaking an brief intro to quantumm computing by Quantum Flagship member P. Chomaz.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgac59341" class="outline-3"&gt;
-&lt;h3 id="orgac59341"&gt;&lt;a href="https://www.icfo.es/newsroom/news/article/4495"&gt;Quantum Memories make their way&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgac59341"&gt;
-&lt;p&gt;
-&lt;i&gt;ICFO&lt;/i&gt; – Reports on progress of quantum memories and repeaters. Two major intgredients needed for sending quantum information in quantum networks and allow for local computation at the nodes.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org66da5af" class="outline-3"&gt;
-&lt;h3 id="org66da5af"&gt;&lt;a href="https://physicsworld.com/a/quantum-darwinism-spotted-in-diamond-spins/"&gt;Quantum Darwinism spotted in diamond spins&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org66da5af"&gt;
-&lt;p&gt;
-&lt;i&gt;U. Ulm&lt;/i&gt; – People testing ideas I developped with Wojciech Zurek at LANL about 20 yrs ago. Feeling honored that people are spending time checking in real life what you have written on a piece of paper. Some more in a podcast from physics world &lt;a href="https://physicsworld.com/a/survival-of-the-fittest-quantum-states-scrutinizing-antihydrogen-physics-of-chilled-drinks/"&gt;https://physicsworld.com/a/survival-of-the-fittest-quantum-states-scrutinizing-antihydrogen-physics-of-chilled-drinks/&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org25db961" class="outline-3"&gt;
-&lt;h3 id="org25db961"&gt;&lt;a href="https://www.forbes.com/sites/sap/2019/09/04/why-quantum-computers-wont-replace-classical-computers-anytime-soon/#7c432f68136a"&gt;Why Quantum Computers Won’t Replace Classical Computers Anytime Soon&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org25db961"&gt;
-&lt;p&gt;
-&lt;i&gt;Forbes&lt;/i&gt; – Always good to be aware of hype in an area. Interesting bit (at the end) partnership of SAP and Quantum Internet Alliance for undertanding what the future of computing will be, and also the need for the new generations of developpers to know some more algorithmics and linear algebra.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org2cd9a90" class="outline-2"&gt;
-&lt;h2 id="org2cd9a90"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org2cd9a90"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7d8d12e" class="outline-3"&gt;
-&lt;h3 id="org7d8d12e"&gt;&lt;a href="https://twitter.com/qctrlHQ/status/1168332684017274880"&gt;Q-CTRL joins IBM-Q partner list&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7d8d12e"&gt;
-&lt;p&gt;
-&lt;i&gt;Q-CTRL - Sidney, IBM-Q&lt;/i&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgf3c7706" class="outline-3"&gt;
-&lt;h3 id="orgf3c7706"&gt;&lt;a href="https://www.tomshardware.com/news/ibm-quantum-computing-services-education,40329.html"&gt;IBM Launches New Services for Quantum Computing Education&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgf3c7706"&gt;
-&lt;p&gt;
-&lt;i&gt;IBM-Q&lt;/i&gt; – Some continued effort in making quantum computation available in the classroom, to motivate and teach the skills that will be required for people wanting to work in the field.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org38ed6f1" class="outline-3"&gt;
-&lt;h3 id="org38ed6f1"&gt;Qnami enters the Top100 Swiss start-ups&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org38ed6f1"&gt;
-&lt;p&gt;
-&lt;i&gt;Qnami, Switzerland&lt;/i&gt; – quantum microscope, surface analysis, NV diamonds
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd5d9543" class="outline-3"&gt;
-&lt;h3 id="orgd5d9543"&gt;&lt;a href="https://cloudblogs.microsoft.com/quantum/2017/12/11/announcing-microsoft-quantum-development-kit/"&gt;Announcing the Microsoft Quantum Development Kit&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd5d9543"&gt;
-&lt;p&gt;
-&lt;i&gt;Microsoft&lt;/i&gt; – full integration of Q# within visual studio, local and Azure simulators, open-source libraries: quantum race ? definitely open-source oriented at least which helps circulating ideas and designs.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgee13323" class="outline-2"&gt;
-&lt;h2 id="orgee13323"&gt;Research papers&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgee13323"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgaa45849" class="outline-3"&gt;
-&lt;h3 id="orgaa45849"&gt;&lt;a href="https://arxiv.org/pdf/1908.08069.pdf"&gt;Closing gaps of a quantum advantage with short-time Hamiltonian dynamics&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgaa45849"&gt;
-&lt;p&gt;
-&lt;i&gt;Jonas Haferkamp, Dominik Hangleiter, Adam Bouland, Bill Fefferman, Jens Eisert, and Juani Bermejo-Vega&lt;/i&gt; – 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd1e6aa5" class="outline-3"&gt;
-&lt;h3 id="orgd1e6aa5"&gt;&lt;a href="https://www.nature.com/articles/s42254-018-0003-5.pdf"&gt;Entanglement certification from theory to experiment&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd1e6aa5"&gt;
-&lt;p&gt;
-&lt;i&gt;Nicolai Friis,  Giuseppe Vitagliano, Mehul Malik, and Marcus Huber&lt;/i&gt; – Long but really useful with a very complete bibliography.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org21a1c32" class="outline-3"&gt;
-&lt;h3 id="org21a1c32"&gt;&lt;a href="https://arxiv.org/abs/quant-ph/9604024"&gt;Mixed State Entanglement and Quantum Error Correction&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org21a1c32"&gt;
-&lt;p&gt;
-&lt;i&gt;Charles H. Bennett, David P. DiVincenzo, John A. Smolin and William K. Wootters&lt;/i&gt; – Guess what I'm interested in distillation protocols.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgdec4353" class="outline-2"&gt;
-&lt;h2 id="orgdec4353"&gt;Positions&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgdec4353"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7536474" class="outline-3"&gt;
-&lt;h3 id="org7536474"&gt;2 year Postdoc at Griffith U.&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7536474"&gt;
-&lt;p&gt;
-&lt;i&gt;Griffith U.&lt;/i&gt; – The Centre for Quantum Dynamics at Griffith University is offering a 2-year Postdoctoral Research Fellow position in quantum foundations. The Research Fellow will be funded by, and expected to contribute to, two externally-funded research projects led by Dr Eric Cavalcanti: Australian Research Council Future Fellowship “Fine-tuning the quantum: foundations and applications of quantum causality” and Foundational Questions Institute Large Grant “Causal reasoning in quantum agents”.  The successful applicant will have a PhD in Physics, Mathematics, Computer Science, Philosophy, or related fields, and may contribute to these projects through conceptual, analytical or numerical work, depending on the applicant’s background and interests. The position is also required to undertake higher degree research supervision.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org441c594" class="outline-2"&gt;
-&lt;h2 id="org441c594"&gt;Events&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org441c594"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org40897e2" class="outline-3"&gt;
-&lt;h3 id="org40897e2"&gt;&lt;a href="https://t.co/yrRzXIsTHW"&gt;Quantum Techniques in Machine Learning 2019&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org40897e2"&gt;
-&lt;p&gt;
-&lt;i&gt;Daejon, South Korea, oct 22-24&lt;/i&gt; – speakers from Google, Microsoft, IBM, Rigetti, … 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgbdf1f9c" class="outline-3"&gt;
-&lt;h3 id="orgbdf1f9c"&gt;&lt;a href="https://labs.ripe.net/Members/ulka_athale_1/take-part-in-pan-european-quantum-internet-hackathon"&gt;First Pan-European Quantum Hackathon (nov 5 - 6, Paris)&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgbdf1f9c"&gt;
-&lt;p&gt;
-&lt;i&gt;Paris, Delft, Dublin, Padua, Sarajevo&lt;/i&gt; – As part of the Paris Node, LIP6 is co-organizing the hackathon with other research instutions, members of the industry and investors. We will be happy to welcome you.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-09-09/</guid><pubDate>Mon, 09 Sep 2019 04:32:52 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-09-18/</guid><pubDate>Wed, 18 Sep 2019 04:32:52 GMT</pubDate></item></channel></rss>
