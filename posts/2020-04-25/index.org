@@ -1,0 +1,27 @@
+#+BEGIN_COMMENT
+.. title: Quantum Advantage with Shallow Circuits - Sergey Bravyi
+.. slug: 2020-04-25
+.. date: 2020-04-25 09:06:34 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: IBM hosted talk by Sergey Bravyi on achieving "Quantum Advantage with Shallow Depth Circuits". 
+.. type: text
+
+#+END_COMMENT
+
+As part of the Qiskit Channel, IBM hosted on 2020-04-24 a [[https://www.youtube.com/watch?v=uwZjUI5eKAk][talk]] by Sergey Bravyi on achieving Quantum Advantage with Shallow Depth Circuits. 
+
+It's starts with a through and step by step introduction to the problem and its importance. First by stating necessary conditions for a good definition of quantum advantage. It needs to:
+- have an efficient quantum circuit implementation
+- be classically hard
+- be verifiable.
+
+While verifiability has always been a concern to people working in the field, it is interesting to see it deeply rooted in Sergey's requirements. Verifiability allows an experimentalist to convince skeptics that he has done a computation that is really solving the problem he stated. That's not obvious as a skeptic could not run a classical computation to check the result! Other models such as VUBQC offer built-in verifiability but we are not yet able to implement these models with the current devices (although photonics looks promising in this respect).
+
+In a side remark Sergey made it clear that the problem solved need not be of practical interest. It just needs to be hard to solve classically.
+
+The nice surprise is to discover that the result indeed relies on a generalization of the Magic Square Game of Peres and Mermin. The idea is to have a play of the game between Alice and Bob placed at random positions in a quantum register. The other positions would use entanglement swapping to help them solve the game with probability 1. All this can be performed in constant depth (in the number of possible location available / register size). On the other hand, if we play the same game but with access to classical circuits only, because one would need the strategy to work for all positions of Alice and Bob, in a situation where the size of the register increases, it is possible to show that you need logarithmic depth circuits. 
+
+It's a very nice result that appeared in Science 362 p308 (2018), and I think the setting also hints at the advantage of small scale quantum computers in entanglement routing networks. 
+

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Wed, 05 Feb 2020 03:36:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Qoherences #8</title><link>https://h-oll.github.io/qoherences/posts/2020-02-04/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Sat, 25 Apr 2020 07:33:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quantum Advantage with Shallow Circuits - Sergey Bravyi</title><link>https://h-oll.github.io/qoherences/posts/2020-04-25/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+As part of the Qiskit Channel, IBM hosted on 2020-04-24 a &lt;a href="https://www.youtube.com/watch?v=uwZjUI5eKAk"&gt;talk&lt;/a&gt; by Sergey Bravyi on achieving Quantum Advantage with Shallow Depth Circuits. 
+&lt;/p&gt;
+
+&lt;p&gt;
+It's starts with a through and step by step introduction to the problem and its importance. First by stating necessary conditions for a good definition of quantum advantage. It needs to:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;have an efficient quantum circuit implementation&lt;/li&gt;
+&lt;li&gt;be classically hard&lt;/li&gt;
+&lt;li&gt;be verifiable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+While verifiability has always been a concern to people working in the field, it is interesting to see it deeply rooted in Sergey's requirements. Verifiability allows an experimentalist to convince skeptics that he has done a computation that is really solving the problem he stated. That's not obvious as a skeptic could not run a classical computation to check the result! Other models such as VUBQC offer built-in verifiability but we are not yet able to implement these models with the current devices (although photonics looks promising in this respect).
+&lt;/p&gt;
+
+&lt;p&gt;
+In a side remark Sergey made it clear that the problem solved need not be of practical interest. It just needs to be hard to solve classically.
+&lt;/p&gt;
+
+&lt;p&gt;
+The nice surprise is to discover that the result indeed relies on a generalization of the Magic Square Game of Peres and Mermin. The idea is to have a play of the game between Alice and Bob placed at random positions in a quantum register. The other positions would use entanglement swapping to help them solve the game with probability 1. All this can be performed in constant depth (in the number of possible location available / register size). On the other hand, if we play the same game but with access to classical circuits only, because one would need the strategy to work for all positions of Alice and Bob, in a situation where the size of the register increases, it is possible to show that you need logarithmic depth circuits. 
+&lt;/p&gt;
+
+&lt;p&gt;
+It's a very nice result that appeared in Science 362 p308 (2018), and I think the setting also hints at the advantage of small scale quantum computers in entanglement routing networks. 
+&lt;/p&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2020-04-25/</guid><pubDate>Sat, 25 Apr 2020 07:06:34 GMT</pubDate></item><item><title>Qoherences #8</title><link>https://h-oll.github.io/qoherences/posts/2020-02-04/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
 Lets start with a call from last year published in Nature that I find particularly important: &lt;a href="https://www.nature.com/articles/d41586-019-02675-5"&gt;Keep quantum computing global and open&lt;/a&gt;! 
 &lt;/p&gt;
 
@@ -1224,120 +1251,4 @@ If you read till her, I asume you've heard about Google Supremacy Claim.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-10-04/</guid><pubDate>Fri, 04 Oct 2019 04:32:52 GMT</pubDate></item><item><title>Qoherences #3</title><link>https://h-oll.github.io/qoherences/posts/2019-09-18/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org3724a8e" class="outline-2"&gt;
-&lt;h2 id="org3724a8e"&gt;General public articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org3724a8e"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org825ae37" class="outline-3"&gt;
-&lt;h3 id="org825ae37"&gt;&lt;a href="https://qutech.nl/fully-controllable-and-highly-stable-10-qubit-chip-paves-way-for-larger-quantum-processo/"&gt;Fully controllable and highly stable 10-qubit chip paves way for larger quantum processor&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org825ae37"&gt;
-&lt;p&gt;
-&lt;i&gt;QuTech, TU Delft, TNO&lt;/i&gt; – Showing entanglement between all possible qubit pairs, ability to generate 7 qubits entanglement, and 1min decoherence time. That's super-long. Looking forward to see larger registers, and also how these can be used to serve as quantum repeaters in networks.
-Some additional info at &lt;a href="https://physics.aps.org/synopsis-for/10.1103/PhysRevX.9.031045"&gt;physics.aps.org&lt;/a&gt;.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd032a4e" class="outline-3"&gt;
-&lt;h3 id="orgd032a4e"&gt;&lt;a href="https://csferrie.com/2019/09/09/quantum-entanglement-for-toddlers/"&gt;Quantum Entanglement for Toddlers&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd032a4e"&gt;
-&lt;p&gt;
-Don't talk to me if you haven't read this. It you have but mix-up entanglement and correlations well, you'll be roasted :-)
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orge96289a" class="outline-2"&gt;
-&lt;h2 id="orge96289a"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orge96289a"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org4717242" class="outline-3"&gt;
-&lt;h3 id="org4717242"&gt;&lt;a href="https://ec.europa.eu/digital-single-market/en/news/new-quantum-project-aims-ultra-secure-communication-europe"&gt;New quantum project aims for ultra-secure communication in Europe&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org4717242"&gt;
-&lt;p&gt;
-&lt;i&gt;Europe&lt;/i&gt; – Europe is launching OPENQKD and initiative to test quantum communications in several european countries: Hungary, Portugal, Poland, Belgium, Germany, Italy, Luxembourg, Malta, the Netherlands, and Spain. The important part is not QKD but quantum communication. QKD will be a test not the single final outcome of the initiative. Just saying this to all other Member states where people see QKD as the only thing to do with quantum networks. Well have a look at the quantum protocol zoo &lt;a href="http://wiki.veriqloud.fr"&gt;http://wiki.veriqloud.fr&lt;/a&gt;. By the way, where is France in this list ?
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org83b1b21" class="outline-3"&gt;
-&lt;h3 id="org83b1b21"&gt;&lt;a href="https://q-ctrl.com/blog/global-vc-bets-on-sydney-quantum-computing-start-up-q-ctrl-in-us15m-series-a/"&gt;Global VC Bets on Sydney Quantum Computing Start-up Q-CTRL in US$15M Series A&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org83b1b21"&gt;
-&lt;p&gt;
-&lt;i&gt;Q-CTRL, Square Peg Capital, Sequoia Capital, Main Sequence Ventures, Horizons Venture, Sierra Ventures&lt;/i&gt; – Provides firmware for quantum computing hardware with the goal to reduce decoherence and errors. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgdc6d84c" class="outline-3"&gt;
-&lt;h3 id="orgdc6d84c"&gt;&lt;a href="https://www.fraunhofer.de/en/press/research-news/2019/september/ibm-and-fraunhofer-team-up-to-promote-quantum-computing-in-europe.html"&gt;IBM and Fraunhofer team up to promote quantum computing in Europe&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgdc6d84c"&gt;
-&lt;p&gt;
-&lt;i&gt;IBM-Q, Fraunhofer&lt;/i&gt; – 650m euros on the table for quantum computer. Germany also has partnerships with Google. Looks like a coordinated public effort is made to attract the best minds and projects to Germany.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgddd7ccb" class="outline-3"&gt;
-&lt;h3 id="orgddd7ccb"&gt;&lt;a href="https://www.prnewswire.com/news-releases/qc-ware-hires-leading-minds-in-quantum-computing-to-build-algorithms-that-will-power-the-next-evolution-in-computing-300916555.html?=lve"&gt;QC Ware Hires Leading Minds in Quantum Computing to Build Algorithms that will Power the Next Evolution in Computing&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgddd7ccb"&gt;
-&lt;p&gt;
-&lt;i&gt;QCWare, Scott Aaronson&lt;/i&gt; – QCWare hires Scott Aaronson. They will have one of the strongest team in the world with Win van Dam, Iordanis Kerenidis and now Scott.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org4a1066f" class="outline-3"&gt;
-&lt;h3 id="org4a1066f"&gt;&lt;a href="https://nachrichten.idw-online.de/2019/09/16/quantum-computers-by-aqt-and-university-of-innsbruck-leverage-cirq-for-quantum-algorithm-development/"&gt;Quantum computers by AQT and University of Innsbruck use Google Cirq language for quantum algorithm development&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org4a1066f"&gt;
-&lt;p&gt;
-&lt;i&gt;Google, U. Innsbruck, AQT&lt;/i&gt; – Cirq is Google's quantum programming language, that's not only used for sending commands to Google's quantum computers but also to AQT and U. Innsbruck ones.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgfc00cd1" class="outline-3"&gt;
-&lt;h3 id="orgfc00cd1"&gt;&lt;a href="https://newsroom.ibm.com/2019-09-18-IBM-Opens-Quantum-Computation-Center-in-New-York-Brings-Worlds-Largest-Fleet-of-Quantum-Computing-Systems-Online-Unveils-New-53-Qubit-Quantum-System-for-Broad-Use"&gt;IBM-Q annonces a 53 qubits quantum computer available next month&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgfc00cd1"&gt;
-&lt;p&gt;
-&lt;i&gt;IBM-Q&lt;/i&gt; – 14 systems will be commercially available with one being a 53 qubits universal quantum computer. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7c13885" class="outline-2"&gt;
-&lt;h2 id="org7c13885"&gt;Positions&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org7c13885"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org7cec306" class="outline-3"&gt;
-&lt;h3 id="org7cec306"&gt;MIT is hiring a &lt;a href="https://academicjobsonline.org/ajo/jobs/14310"&gt;physics assistant professor&lt;/a&gt; and a &lt;a href="https://academicjobsonline.org/ajo/jobs/14428"&gt;postdoc&lt;/a&gt; both to work on quantum information and quantum computing.&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org7cec306"&gt;
-&lt;p&gt;
-&lt;i&gt;MIT&lt;/i&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org454dd22" class="outline-3"&gt;
-&lt;h3 id="org454dd22"&gt;&lt;a href="https://academicjobsonline.org/ajo/jobs/14493"&gt;QuICS is looking for Hartree Postdoctoral fellowships&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org454dd22"&gt;
-&lt;p&gt;
-&lt;i&gt;NIST&lt;/i&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org35d4db6" class="outline-3"&gt;
-&lt;h3 id="org35d4db6"&gt;&lt;a href="https://www.iqoqi-vienna.at/research/yirg-young-independent-researcher-group"&gt;Institute for Quantum Optics and Quantum Information (IQOQI) is looking for a PhD&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org35d4db6"&gt;
-&lt;p&gt;
-&lt;i&gt;IQOQI&lt;/i&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org37abc34" class="outline-2"&gt;
-&lt;h2 id="org37abc34"&gt;Miscellanea&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org37abc34"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orga8da861" class="outline-3"&gt;
-&lt;h3 id="orga8da861"&gt;&lt;a href="https://physicstoday.scitation.org/do/10.1063/PT.6.4.20190911a/full/"&gt;Author Q&amp;amp;A: How to write a graphic novel about quantum mechanics&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orga8da861"&gt;
-&lt;p&gt;
-&lt;i&gt;Physics Today&lt;/i&gt; – How to write and draw general public books on quantum mechanics… ?
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-09-18/</guid><pubDate>Wed, 18 Sep 2019 04:32:52 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-10-04/</guid><pubDate>Fri, 04 Oct 2019 04:32:52 GMT</pubDate></item></channel></rss>
