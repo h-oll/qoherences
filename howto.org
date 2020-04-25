@@ -1,0 +1,2 @@
+ nikola new_post -f orgmode
+ nikola github_deploy
