@@ -1,0 +1,33 @@
+#+BEGIN_COMMENT
+.. title: Quantum Papers at Eurocrypt 2020
+.. slug: 2020-04-27
+.. date: 2020-04-27 09:53:56 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: Eurocrypt 2020 (may 11-15) has a few quantum papers
+.. type: text
+
+#+END_COMMENT
+
+Eurocrypt is one major conference in cryptography and secure computing. As usual it will have a few talks on quantum. The final program hasn't been released yet. I've already seen "Secure Multi-party Quantum Computation with a Dishonest Majority" it's a nice one!
+
+- Optimal Merging in Quantum k-xor and k-sum Algorithms
+  - María Naya-Plasencia (Inria, France); André Schrottenloher (Inria, France)
+- Implementing Grover oracles for quantum key search on AES and LowMC
+  - Samuel Jaques (Department of Materials, University of Oxford, UK); Michael Naehrig (Microsoft Research, Redmond, USA); Martin Roetteler (Microsoft Quantum, Redmond, USA); Fernando Virdia (Information Security Group, Royal Holloway, University of London, UK)
+- On the Quantum Complexity of the Continuous Hidden Subgroup Problem
+  - Koen de Boer (Cryptology Group, CWI, Amsterdam, The Netherlands); Léo Ducas (Cryptology Group, CWI, Amsterdam, The Netherlands); Serge Fehr (Cryptology Group, CWI, Amsterdam, The Netherlands and Mathematical Institute, Leiden University, The Netherlands)
+- Secure Multi-party Quantum Computation with a Dishonest Majority
+  - Yfke Dulek (QuSoft and U. Amsterdam); Alex B. Grilo (QuSoft and CWI); Stacey Jeffery (QuSoft and CWI); Christian Majenz (QuSoft and CWI); Christian Schaffner (QuSoft and U. Amsterdam)
+- Quantum Security Analysis of CSIDH
+  - Xavier Bonnetain (Inria, France); André Schrottenloher (Inria, France)
+- Fractal: Post-Quantum and Transparent Recursive Proofs from Holography
+  - Alessandro Chiesa (UC Berkeley); Dev Ojha (UC Berkeley); Nicholas Spooner (UC Berkeley)
+- Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound
+  - Akinori Hosoyamada (NTT Secure Platform Laboratories and Nagoya University); Yu Sasaki (NTT Secure Platform Laboratories)
+- Measure-Rewind-Measure: Tighter Quantum Random Oracle Model Proofs for One-Way to Hiding Lemma and CCA Security
+  - Veronika Kuchta (Monash University, Australia); Amin Sakzad (Monash University, Australia); Damien Stehlé (ENS de Lyon, France); Ron Steinfeld (Monash University, Australia); Shi-Feng Sun (Monash University and Data61, CSIRO, Australia)
+- Quantum-access-secure message authentication via blind-unforgeability
+  - Gorjan Alagic (QuICS, University of Maryland, and NIST, Gaithersburg, Maryland); Christian Majenz (QuSoft and CWI, Amsterdam, The Netherlands); Alexander Russell (Department of Computer Science and Engineering, University of Connecticut); Fang Song (Texas A&M University)
+
