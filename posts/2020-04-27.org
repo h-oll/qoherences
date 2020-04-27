@@ -10,7 +10,9 @@
 
 #+END_COMMENT
 
-Eurocrypt is one major conference in cryptography and secure computing. As usual it will have a few talks on quantum. The final program hasn't been released yet. I've already seen "Secure Multi-party Quantum Computation with a Dishonest Majority" it's a nice one!
+[[https://eurocrypt.iacr.org/2020/][Eurocrypt]] is one major conference in cryptography and secure computing. This year it will go virtual may 11-15. As usual it will have a few (good) talks on quantum. I've already seen "Secure Multi-party Quantum Computation with a Dishonest Majority" it's a nice one!
+
+The final program hasn't been released yet. The page will be updated then.
 
 - Optimal Merging in Quantum k-xor and k-sum Algorithms
   - María Naya-Plasencia (Inria, France); André Schrottenloher (Inria, France)
@@ -31,3 +33,4 @@ Eurocrypt is one major conference in cryptography and secure computing. As usual
 - Quantum-access-secure message authentication via blind-unforgeability
   - Gorjan Alagic (QuICS, University of Maryland, and NIST, Gaithersburg, Maryland); Christian Majenz (QuSoft and CWI, Amsterdam, The Netherlands); Alexander Russell (Department of Computer Science and Engineering, University of Connecticut); Fang Song (Texas A&M University)
 
+[[https://eurocrypt.iacr.org/2020/registration.php][Register]]
