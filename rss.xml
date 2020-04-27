@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Sat, 25 Apr 2020 07:33:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quantum Advantage with Shallow Circuits - Sergey Bravyi</title><link>https://h-oll.github.io/qoherences/posts/2020-04-25/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 27 Apr 2020 07:59:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quantum Papers at Eurocrypt 2020</title><link>https://h-oll.github.io/qoherences/posts/2020-04-27/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+Eurocrypt is one major conference in cryptography and secure computing. As usual it will have a few talks on quantum. The final program hasn't been released yet. I've already seen "Secure Multi-party Quantum Computation with a Dishonest Majority" it's a nice one!
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Optimal Merging in Quantum k-xor and k-sum Algorithms
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;María Naya-Plasencia (Inria, France); André Schrottenloher (Inria, France)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Implementing Grover oracles for quantum key search on AES and LowMC
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Samuel Jaques (Department of Materials, University of Oxford, UK); Michael Naehrig (Microsoft Research, Redmond, USA); Martin Roetteler (Microsoft Quantum, Redmond, USA); Fernando Virdia (Information Security Group, Royal Holloway, University of London, UK)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;On the Quantum Complexity of the Continuous Hidden Subgroup Problem
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Koen de Boer (Cryptology Group, CWI, Amsterdam, The Netherlands); Léo Ducas (Cryptology Group, CWI, Amsterdam, The Netherlands); Serge Fehr (Cryptology Group, CWI, Amsterdam, The Netherlands and Mathematical Institute, Leiden University, The Netherlands)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Secure Multi-party Quantum Computation with a Dishonest Majority
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Yfke Dulek (QuSoft and U. Amsterdam); Alex B. Grilo (QuSoft and CWI); Stacey Jeffery (QuSoft and CWI); Christian Majenz (QuSoft and CWI); Christian Schaffner (QuSoft and U. Amsterdam)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Quantum Security Analysis of CSIDH
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Xavier Bonnetain (Inria, France); André Schrottenloher (Inria, France)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Fractal: Post-Quantum and Transparent Recursive Proofs from Holography
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Alessandro Chiesa (UC Berkeley); Dev Ojha (UC Berkeley); Nicholas Spooner (UC Berkeley)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Akinori Hosoyamada (NTT Secure Platform Laboratories and Nagoya University); Yu Sasaki (NTT Secure Platform Laboratories)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Measure-Rewind-Measure: Tighter Quantum Random Oracle Model Proofs for One-Way to Hiding Lemma and CCA Security
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Veronika Kuchta (Monash University, Australia); Amin Sakzad (Monash University, Australia); Damien Stehlé (ENS de Lyon, France); Ron Steinfeld (Monash University, Australia); Shi-Feng Sun (Monash University and Data61, CSIRO, Australia)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Quantum-access-secure message authentication via blind-unforgeability
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Gorjan Alagic (QuICS, University of Maryland, and NIST, Gaithersburg, Maryland); Christian Majenz (QuSoft and CWI, Amsterdam, The Netherlands); Alexander Russell (Department of Computer Science and Engineering, University of Connecticut); Fang Song (Texas A&amp;amp;M University)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2020-04-27/</guid><pubDate>Mon, 27 Apr 2020 07:53:56 GMT</pubDate></item><item><title>Quantum Advantage with Shallow Circuits - Sergey Bravyi</title><link>https://h-oll.github.io/qoherences/posts/2020-04-25/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
 As part of the Qiskit Channel, IBM hosted on 2020-04-24 a &lt;a href="https://www.youtube.com/watch?v=uwZjUI5eKAk"&gt;talk&lt;/a&gt; by Sergey Bravyi on achieving Quantum Advantage with Shallow Depth Circuits. 
 &lt;/p&gt;
 
@@ -1114,141 +1155,4 @@ While the debate about supremacy might live in the media, it is about the same a
 
 &lt;p&gt;
 Talking about investment: SUMMIT was backed by a &lt;a href="https://en.wikipedia.org/wiki/Summit_(supercomputer)"&gt;$325 millions contract&lt;/a&gt; and is taking 2.5 days to run a simulation that can be done in about 3min and a half on Google's machine. &lt;b&gt;Does it mean ORNL would have paid $325 billions for Google's machine?&lt;/b&gt; (yeah, 2.5 days is still about 1000 times longer than 3.5 minutes.)
-&lt;/p&gt;</description><guid>https://h-oll.github.io/qoherences/posts/breaking-the-breaking-news-or-not/</guid><pubDate>Tue, 22 Oct 2019 11:58:40 GMT</pubDate></item><item><title>Qoherences #4</title><link>https://h-oll.github.io/qoherences/posts/2019-10-04/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;div id="outline-container-org9d91914" class="outline-2"&gt;
-&lt;h2 id="org9d91914"&gt;Breaking News&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org9d91914"&gt;
-&lt;p&gt;
-Google will be claiming quantum supremacy. It's a huge step for the field. A working intermediate scale QC at Google was able to perform a computation much faster than any available classical super-computer. Beware: I didn't say &lt;b&gt;any&lt;/b&gt; computation, but &lt;b&gt;a&lt;/b&gt; computation. I let you reflect on this. For more there is the excellent &lt;a href="https://www.scottaaronson.com/blog/?p=4317"&gt;Scott’s Supreme Quantum Supremacy FAQ!&lt;/a&gt;, and even more in Preskill's article in &lt;a href="https://www.quantamagazine.org/john-preskill-explains-quantum-supremacy-20191002/"&gt;Quanta Magazine&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd826eca" class="outline-2"&gt;
-&lt;h2 id="orgd826eca"&gt;General public articles&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgd826eca"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgba7340f" class="outline-3"&gt;
-&lt;h3 id="orgba7340f"&gt;&lt;a href="https://blogs.scientificamerican.com/observations/the-problem-with-quantum-computers/?amp;text=The"&gt;The Problem with Quantum Computers&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgba7340f"&gt;
-&lt;p&gt;
-&lt;i&gt;Scientific American - Los Alamos National Lab&lt;/i&gt; – Decoherence is bad for quantum computing, but fortunately there are ways to fight it. Fault-tolerant gates are one of them. Optimized quantum circuits obtained via ML compilers are another. Here LANL researchers report using quantum computers to compile their own programs. Hey, we are getting away from low level assembly like code and circuits. Love it.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org5cc0ad2" class="outline-3"&gt;
-&lt;h3 id="org5cc0ad2"&gt;&lt;a href="https://www.quantamagazine.org/computer-scientists-expand-the-frontier-of-verifiable-knowledge-20190523/"&gt;Computer Scientists Expand the Frontier of Verifiable Knowledge&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org5cc0ad2"&gt;
-&lt;p&gt;
-&lt;i&gt;Quanta magazine - Caltech - MIT&lt;/i&gt; – Using computers to verify that a solution given to a problem is exact is a common cryptographic setting. Think of digital signatures, its easy to check but without the private key you can't encode, i.e find the solution to the problem. When using quantum computers, you can verify efficiently the solutions to some of the hardest imaginable problems. Yay quantum!
-&lt;a href="https://phys.org/news/2019-04-method-enables-quantum-simulations-larger.html"&gt;New method enables quantum simulations on larger systems&lt;/a&gt;
-&lt;i&gt;Phys.org - Science - U. Innsbruck&lt;/i&gt; – New method for characterizing multi-party states. That's one of the challenges (see subject above) of QC: know that your computer has been doing what it was supposed to do. Hey that's the experimentalists job augmented by the computer scientists approach. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org523f15a" class="outline-3"&gt;
-&lt;h3 id="org523f15a"&gt;&lt;a href="https://www.frenchweb.fr/comprendre-linformatique-quantique-edition-2019-par-olivier-ezratty/376411"&gt;Comprendre l’informatique quantique&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org523f15a"&gt;
-&lt;p&gt;
-&lt;i&gt;FrenchWeb - Olivier Ezratty&lt;/i&gt; – Incredible attemp by a non scientist to explain what quantum computing and quantum communication are. In french. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgdd037f7" class="outline-3"&gt;
-&lt;h3 id="orgdd037f7"&gt;&lt;a href="https://www.quantamagazine.org/stephanie-wehner-is-designing-a-quantum-internet-20190925/"&gt;To Invent a Quantum Internet&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgdd037f7"&gt;
-&lt;p&gt;
-&lt;i&gt;Quanta Magazine - Stephanie Wehner&lt;/i&gt; – What to know why Quantum Information Science is not Computing only ? Read this! LIP6 is taking care of the upper network layers with other embers of the Paris node. &lt;a href="https://www.youtube.com/watch?v=B76dFHnGdLM"&gt;https://www.youtube.com/watch?v=B76dFHnGdLM&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org8940776" class="outline-3"&gt;
-&lt;h3 id="org8940776"&gt;&lt;a href="https://techxplore.com/news/2019-09-quantum-internet-closer-reality.html"&gt;Project brings quantum internet closer to reality&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org8940776"&gt;
-&lt;p&gt;
-&lt;i&gt;TechXplore - U Innsbruck - Army Research Lab&lt;/i&gt; – Sending entanglement over long distances (50km) successfully is a huge achievement, because not only do you need to create the entanglement, but you also need to convert the created photon pairs to telecom wavelength!
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgee1c66d" class="outline-3"&gt;
-&lt;h3 id="orgee1c66d"&gt;&lt;a href="https://cacm.acm.org/magazines/2019/10/239668-closing-in-on-quantum-error-correction/fulltext"&gt;Closing In on Quantum Error Correction&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgee1c66d"&gt;
-&lt;p&gt;
-&lt;i&gt;Communications of the ACM - IQC / PI&lt;/i&gt; – A short overview of what quantum error correction is and why it is useful (well the statement that nothing interesting can be done without it is raising debates). Some more cool stuff on Surface codes in the Research Paper section, where D. Poulin has been constructing wormholes in them. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org34ae54c" class="outline-2"&gt;
-&lt;h2 id="org34ae54c"&gt;Industry - Academia - Startups&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org34ae54c"&gt;
-&lt;p&gt;
-If you read till her, I asume you've heard about Google Supremacy Claim.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org79afa1f" class="outline-2"&gt;
-&lt;h2 id="org79afa1f"&gt;Research papers&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org79afa1f"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org74bbff2" class="outline-3"&gt;
-&lt;h3 id="org74bbff2"&gt;&lt;a href="https://arxiv.org/abs/1909.07419"&gt;Topological wormholes&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org74bbff2"&gt;
-&lt;p&gt;
-&lt;i&gt;U. Sherbrooke - A. Krishna, D. Poulin&lt;/i&gt; – Having fun with toric codes, puncturing and stiching. It's a novel way to do fault tolerant computation using toric codes. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgce86523" class="outline-3"&gt;
-&lt;h3 id="orgce86523"&gt;&lt;a href="https://arxiv.org/abs/0602130"&gt;One-and-a-half quantum de Finetti theorems&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgce86523"&gt;
-&lt;p&gt;
-&lt;i&gt;Matthias Christandl, Robert Koenig, Graeme Mitchison, Renato Renner, Approximations of the de Finetti theorem when there are finitely many systems&lt;/i&gt; – Not a recent one, but a good one. 
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org9dc167d" class="outline-3"&gt;
-&lt;h3 id="org9dc167d"&gt;&lt;a href="https://arxiv.org/abs/1209.0448"&gt;A classical leash for a quantum system: Command of quantum systems via rigidity of CHSH games&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org9dc167d"&gt;
-&lt;p&gt;
-&lt;i&gt;Ben W. Reichardt, Falk Unger, Umesh Vazirani&lt;/i&gt; – Another important one for caracterizing geometric properties of entangled states… giving them some rigidity properties.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgc1c4bc4" class="outline-2"&gt;
-&lt;h2 id="orgc1c4bc4"&gt;Positions&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc1c4bc4"&gt;
-&lt;p&gt;
-&lt;a href="https://www.linkedin.com/posts/romain-all%C3%A9aume-0778066_postdoc-announcement-activity-6580134490172084224-dPIz/"&gt;Telecom Paris is looking for a PostDoc&lt;/a&gt;
-&lt;i&gt;Telecom Paris&lt;/i&gt; – Will be on experimental quantum coherent communications.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgc5360c9" class="outline-2"&gt;
-&lt;h2 id="orgc5360c9"&gt;Events&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orgc5360c9"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgd4c6247" class="outline-3"&gt;
-&lt;h3 id="orgd4c6247"&gt;&lt;a href="https://popl20.sigplan.org/home/planqc-2020"&gt;PLanQC 2020 Programming Languages for Quantum Computing&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgd4c6247"&gt;
-&lt;p&gt;
-&lt;i&gt;Submission deadline 2019-10-28&lt;/i&gt; - Event on 2020-01-20/ – One day workshop around languages and tools for quantum computer coding.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org6a3d2f3" class="outline-2"&gt;
-&lt;h2 id="org6a3d2f3"&gt;Miscellanea&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org6a3d2f3"&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-org28c3229" class="outline-3"&gt;
-&lt;h3 id="org28c3229"&gt;&lt;a href="https://www.youtube.com/playlist?list=PLgLkEJ3SUJUS05I_INGLpkNcaWQdXfCeo&amp;amp;app=desktop"&gt;Slides from the Fifth International Conference on Quantum Error Correction (QEC’19)&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-orgafa7873" class="outline-3"&gt;
-&lt;h3 id="orgafa7873"&gt;&lt;a href="https://phys.org/news/2019-09-car-math.html"&gt;Where to park your car, according to math&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-orgafa7873"&gt;
-&lt;p&gt;
-&lt;i&gt;Santa Fe Institute - Boston U&lt;/i&gt; – Use this whenever you need to explain what algorithm and optimization is.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2019-10-04/</guid><pubDate>Fri, 04 Oct 2019 04:32:52 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>https://h-oll.github.io/qoherences/posts/breaking-the-breaking-news-or-not/</guid><pubDate>Tue, 22 Oct 2019 11:58:40 GMT</pubDate></item></channel></rss>
