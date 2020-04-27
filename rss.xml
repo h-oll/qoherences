@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 27 Apr 2020 07:59:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quantum Papers at Eurocrypt 2020</title><link>https://h-oll.github.io/qoherences/posts/2020-04-27/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
-Eurocrypt is one major conference in cryptography and secure computing. As usual it will have a few talks on quantum. The final program hasn't been released yet. I've already seen "Secure Multi-party Quantum Computation with a Dishonest Majority" it's a nice one!
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 27 Apr 2020 08:06:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quantum Papers at Eurocrypt 2020</title><link>https://h-oll.github.io/qoherences/posts/2020-04-27/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+&lt;a href="https://eurocrypt.iacr.org/2020/"&gt;Eurocrypt&lt;/a&gt; is one major conference in cryptography and secure computing. This year it will go virtual may 11-15. As usual it will have a few (good) talks on quantum. I've already seen "Secure Multi-party Quantum Computation with a Dishonest Majority" it's a nice one!
+&lt;/p&gt;
+
+&lt;p&gt;
+The final program hasn't been released yet. The page will be updated then.
 &lt;/p&gt;
 
 &lt;ul class="org-ul"&gt;
@@ -40,7 +44,11 @@ Eurocrypt is one major conference in cryptography and secure computing. As usual
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Gorjan Alagic (QuICS, University of Maryland, and NIST, Gaithersburg, Maryland); Christian Majenz (QuSoft and CWI, Amsterdam, The Netherlands); Alexander Russell (Department of Computer Science and Engineering, University of Connecticut); Fang Song (Texas A&amp;amp;M University)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2020-04-27/</guid><pubDate>Mon, 27 Apr 2020 07:53:56 GMT</pubDate></item><item><title>Quantum Advantage with Shallow Circuits - Sergey Bravyi</title><link>https://h-oll.github.io/qoherences/posts/2020-04-25/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;a href="https://eurocrypt.iacr.org/2020/registration.php"&gt;Register&lt;/a&gt;
+&lt;/p&gt;</description><guid>https://h-oll.github.io/qoherences/posts/2020-04-27/</guid><pubDate>Mon, 27 Apr 2020 07:53:56 GMT</pubDate></item><item><title>Quantum Advantage with Shallow Circuits - Sergey Bravyi</title><link>https://h-oll.github.io/qoherences/posts/2020-04-25/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
 As part of the Qiskit Channel, IBM hosted on 2020-04-24 a &lt;a href="https://www.youtube.com/watch?v=uwZjUI5eKAk"&gt;talk&lt;/a&gt; by Sergey Bravyi on achieving Quantum Advantage with Shallow Depth Circuits. 
 &lt;/p&gt;
 
