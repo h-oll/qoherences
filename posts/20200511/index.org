@@ -1,0 +1,40 @@
+#+BEGIN_COMMENT
+.. title: EuroCrypt 2020: Quantum programme
+.. slug: 20200511
+.. date: 2020-05-11 07:03:01 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: The quantum programme for EuroCrypt 2020 virtual conference is starting may 12th. Most talks are available on youtube.  
+.. type: text
+
+#+END_COMMENT
+
+EuroCrypt 2020 going virtual, mst talks are available from the website of conference (sending back to IACR [[https://www.youtube.com/channel/UCV-WittrGkRyONzX6UmCaiA][youtube channel]]).
+
+* Quantum Cryptography
+ 
+Moderators: Zvika Brakerski, Anne Broadbent, and Adam Smith
+
+- Measure-Rewind-Measure: Tighter Quantum Random Oracle Model Proofs for One-Way to Hiding and CCA Security
+  - Veronika Kuchta Amin Sakzad Damien Stehlé Ron Steinfeld Shi-Feng Sun
+- Secure Multi-party Quantum Computation with a Dishonest Majority
+  - Yfke Dulek Stacey Jeffery Alex B. Grilo Christian Majenz Christian Schaffner
+- Efficient Simulation of Random States and Random Unitaries
+  - Gorjan Alagic Christian Majenz Alexander Russell
+- Quantum-Access-Secure Message Authentication via Blind-Unforgeability
+  - Gorjan Alagic Christian Majenz Alexander Russell Fang Song
+
+ 
+* Quantum Cryptanalysis    
+Moderators: Jian Guo, Gregor Leander, Bart Mennik, and Gilles Van Assche,
+
+- Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound
+  - Akinori Hosoyamada Yu Sasaki
+- Implementing Grover oracles for quantum key search on AES and LowMC
+  - Samuel Jaques Michael Naehrig Martin Roetteler Fernando Virdia
+- Optimal Merging in Quantum $k$-xor and $k$-sum Algorithms
+  - María Naya-Plasencia André Schrottenloher
+- On the Quantum Complexity of the Continuous Hidden Subgroup Problem
+  - Koen de Boer Léo Ducas Serge Fehr
+
