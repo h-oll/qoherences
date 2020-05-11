@@ -188,3 +188,6 @@
 'render_posts:cache/posts/2020-04-27.html', (487936, 361)
 'render_sources:output/posts/2020-04-27/index.org', (488448, 247)
 'render_pages:output/posts/2020-04-27/index.html', (500736, 4216)
+'render_posts:cache/posts/20200511.html', (505344, 355)
+'render_pages:output/posts/20200511/index.html', (515584, 4206)
+'render_sources:output/posts/20200511/index.org', (520192, 243)
