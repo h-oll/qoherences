@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 11 May 2020 05:21:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>EuroCrypt 2020: Quantum programme</title><link>https://h-oll.github.io/qoherences/posts/20200511/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 11 May 2020 05:23:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>EuroCrypt 2020: Quantum program</title><link>https://h-oll.github.io/qoherences/posts/20200511/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
 EuroCrypt 2020 going virtual, mst talks are available from the website of conference (sending back to IACR &lt;a href="https://www.youtube.com/channel/UCV-WittrGkRyONzX6UmCaiA"&gt;youtube channel&lt;/a&gt;).
 &lt;/p&gt;
 
-&lt;div id="outline-container-org4645bb3" class="outline-2"&gt;
-&lt;h2 id="org4645bb3"&gt;Quantum Cryptography&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org4645bb3"&gt;
+&lt;div id="outline-container-org3e398e6" class="outline-2"&gt;
+&lt;h2 id="org3e398e6"&gt;Quantum Cryptography&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org3e398e6"&gt;
 &lt;p&gt;
 Moderators: Zvika Brakerski, Anne Broadbent, and Adam Smith
 &lt;/p&gt;
@@ -20,9 +20,9 @@ Moderators: Zvika Brakerski, Anne Broadbent, and Adam Smith
 &lt;/div&gt;
 
 
-&lt;div id="outline-container-org872980a" class="outline-2"&gt;
-&lt;h2 id="org872980a"&gt;Quantum Cryptanalysis&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org872980a"&gt;
+&lt;div id="outline-container-orgc823d63" class="outline-2"&gt;
+&lt;h2 id="orgc823d63"&gt;Quantum Cryptanalysis&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc823d63"&gt;
 &lt;p&gt;
 Moderators: Jian Guo, Gregor Leander, Bart Mennik, and Gilles Van Assche
 &lt;/p&gt;

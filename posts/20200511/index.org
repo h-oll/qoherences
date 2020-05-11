@@ -1,11 +1,11 @@
 #+BEGIN_COMMENT
-.. title: EuroCrypt 2020: Quantum programme
+.. title: EuroCrypt 2020: Quantum program
 .. slug: 20200511
 .. date: 2020-05-11 07:03:01 UTC+02:00
 .. tags: 
 .. category: 
 .. link: 
-.. description: The quantum programme for EuroCrypt 2020 virtual conference is starting may 12th. Most talks are available on youtube.  
+.. description: The quantum program for EuroCrypt 2020 virtual conference is starting may 12th. Most talks are available on youtube.  
 .. type: text
 
 #+END_COMMENT
