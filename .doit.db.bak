@@ -43,7 +43,7 @@
 'copy_assets', (45056, 56)
 'render_posts:cache/posts/2019-08-30.html', (45568, 361)
 'copy_assets:output/assets/css/html4css1.css', (46080, 421)
-'sitemap:output/sitemap.xml', (470016, 3965)
+'sitemap:output/sitemap.xml', (470016, 3964)
 'copy_assets:output/assets/xml/atom.xsl', (48640, 412)
 'render_taxonomies:output/categories/index.html', (202752, 1969)
 'robots_file:output/robots.txt', (50688, 136)
