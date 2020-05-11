@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 11 May 2020 05:18:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>EuroCrypt 2020: Quantum programme</title><link>https://h-oll.github.io/qoherences/posts/20200511/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qoherences</title><link>https://h-oll.github.io/qoherences/</link><description>News for quantum people</description><atom:link href="https://h-oll.github.io/qoherences/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:harold.ollivier@linksights.io"&gt;Harold Ollivier&lt;/a&gt; </copyright><lastBuildDate>Mon, 11 May 2020 05:21:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>EuroCrypt 2020: Quantum programme</title><link>https://h-oll.github.io/qoherences/posts/20200511/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
 EuroCrypt 2020 going virtual, mst talks are available from the website of conference (sending back to IACR &lt;a href="https://www.youtube.com/channel/UCV-WittrGkRyONzX6UmCaiA"&gt;youtube channel&lt;/a&gt;).
 &lt;/p&gt;
 
-&lt;div id="outline-container-org6928aa3" class="outline-2"&gt;
-&lt;h2 id="org6928aa3"&gt;Quantum Cryptography&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org6928aa3"&gt;
+&lt;div id="outline-container-org4645bb3" class="outline-2"&gt;
+&lt;h2 id="org4645bb3"&gt;Quantum Cryptography&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org4645bb3"&gt;
 &lt;p&gt;
 Moderators: Zvika Brakerski, Anne Broadbent, and Adam Smith
 &lt;/p&gt;
 
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;Measure-Rewind-Measure: Tighter Quantum Random Oracle Model Proofs for One-Way to Hiding and CCA Security
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Veronika Kuchta Amin Sakzad Damien Stehlé Ron Steinfeld Shi-Feng Sun&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Secure Multi-party Quantum Computation with a Dishonest Majority
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Yfke Dulek Stacey Jeffery Alex B. Grilo Christian Majenz Christian Schaffner&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Efficient Simulation of Random States and Random Unitaries
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Gorjan Alagic Christian Majenz Alexander Russell&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Quantum-Access-Secure Message Authentication via Blind-Unforgeability
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Gorjan Alagic Christian Majenz Alexander Russell Fang Song&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Measure-Rewind-Measure: Tighter Quantum Random Oracle Model Proofs for One-Way to Hiding and CCA Security (&lt;i&gt;Veronika Kuchta Amin Sakzad Damien Stehlé Ron Steinfeld Shi-Feng Sun&lt;/i&gt;)&lt;/li&gt;
+&lt;li&gt;Secure Multi-party Quantum Computation with a Dishonest Majority (&lt;i&gt;Yfke Dulek Stacey Jeffery Alex B. Grilo Christian Majenz Christian Schaffner&lt;/i&gt;)&lt;/li&gt;
+&lt;li&gt;Efficient Simulation of Random States and Random Unitaries (&lt;i&gt;Gorjan Alagic Christian Majenz Alexander Russell&lt;/i&gt;)&lt;/li&gt;
+&lt;li&gt;Quantum-Access-Secure Message Authentication via Blind-Unforgeability (&lt;i&gt;Gorjan Alagic Christian Majenz Alexander Russell Fang Song&lt;/i&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 
-&lt;div id="outline-container-org9e97ed0" class="outline-2"&gt;
-&lt;h2 id="org9e97ed0"&gt;Quantum Cryptanalysis&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org9e97ed0"&gt;
+&lt;div id="outline-container-org872980a" class="outline-2"&gt;
+&lt;h2 id="org872980a"&gt;Quantum Cryptanalysis&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org872980a"&gt;
 &lt;p&gt;
-Moderators: Jian Guo, Gregor Leander, Bart Mennik, and Gilles Van Assche,
+Moderators: Jian Guo, Gregor Leander, Bart Mennik, and Gilles Van Assche
 &lt;/p&gt;
 
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Akinori Hosoyamada Yu Sasaki&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Implementing Grover oracles for quantum key search on AES and LowMC
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Samuel Jaques Michael Naehrig Martin Roetteler Fernando Virdia&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Optimal Merging in Quantum $k$-xor and $k$-sum Algorithms
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;María Naya-Plasencia André Schrottenloher&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;On the Quantum Complexity of the Continuous Hidden Subgroup Problem
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Koen de Boer Léo Ducas Serge Fehr&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound (&lt;i&gt;Akinori Hosoyamada Yu Sasaki&lt;/i&gt;)&lt;/li&gt;
+&lt;li&gt;Implementing Grover oracles for quantum key search on AES and LowMC (&lt;i&gt;Samuel Jaques Michael Naehrig Martin Roetteler Fernando Virdia&lt;/i&gt;)&lt;/li&gt;
+&lt;li&gt;Optimal Merging in Quantum $k$-xor and $k$-sum Algorithms (&lt;i&gt;María Naya-Plasencia André Schrottenloher&lt;/i&gt;)&lt;/li&gt;
+&lt;li&gt;On the Quantum Complexity of the Continuous Hidden Subgroup Problem (&lt;i&gt;Koen de Boer Léo Ducas Serge Fehr&lt;/i&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description><guid>https://h-oll.github.io/qoherences/posts/20200511/</guid><pubDate>Mon, 11 May 2020 05:03:01 GMT</pubDate></item><item><title>Quantum Papers at Eurocrypt 2020</title><link>https://h-oll.github.io/qoherences/posts/2020-04-27/</link><dc:creator>Harold Ollivier</dc:creator><description>&lt;p&gt;
