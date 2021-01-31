@@ -45,4 +45,4 @@ Not a quantum center, but it emphasizes the need for protecting IP (like trained
 
 * Quantum Programmes
 
-** France announced a 1.8G Euros program for quantum technologies -- 
+** France announced a 1.8G Euros program for quantum technologies -- [[https://www.cnrs.fr/fr/cnrsinfo/la-recherche-francaise-au-coeur-du-plan-quantique][source]]
