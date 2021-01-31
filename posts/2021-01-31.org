@@ -1,0 +1,42 @@
+#+BEGIN_COMMENT
+.. title: 2021-01-31
+.. slug: 2021-01-31
+.. date: 2021-01-31 07:31:00 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+
+Happy 2021 to quantum people!
+
+* General public articles
+
+** The two Families of Privacy-preserving Technologies & How to Choose --  [[https://medium.com/sarus/the-two-families-of-privacy-preserving-technologies-how-to-choose-60ab34a3969f][source]]
+In a short and comprehensive Medium post, Maxime Agostini gives simple guidelines for choosing privacy preserving technologies. It's not quantum but it's very welcome as it applies readily to the quantum analogues of these techs. It also points toward missing techs in the quantum domain.
+
+
+** Understanding quantum computing’s potential in financial services with Goldman Sachs’ Will Zeng and IBM’s Stefan Woerner -- [[https://tearsheet.co/podcasts/understanding-quantum-computings-potential-in-financial-services-with-goldman-sachs-will-zeng-and-ibms-stefan-woerner/][source]]
+Transcript of a podcast from Tearsheet about quantum computing in finance. A really light intro but still giving a broad idea onto why this will be impactful.
+
+** Lab Tour with Pau Farrera @ the Max Planck Institute of Quantum Optics -- [[https://www.youtube.com/watch?v=Rfaepu_mrfY][source]]
+If you want to see how quantum computaters are being improves by fundamental experiments, this is a very nice initiative by Max Planck Institute of Quantum Optics. A very intersting part is to have fiber optics cavities instead of mirrors as it wiil be better for optically connecting non-flying qubits.
+- Intro 0:00
+- Description of the setup 4:21
+- The lab 6:20
+
+** Quantum computing’s next trick? The power of networked clusters -- [[https://www.wired.co.uk/article/quantum-computers-networked-clusters][source]]
+IonQ approach to scaling up their platform (it shoud resonate with the previous video...) is networked QPU! But for that you need to optically couple them. That's why Ion traps and photonic systems have some inherent interest compared to superconducting qubits as they are easier to wire.
+
+* Research articles
+** Information-theoretic bounds on quantum advantage in machine learning -- [[https://arxiv.org/pdf/2101.02464.pdf][source]]
+Hsin-Yuan Huang, Richard Kueng and John Preskill study how information theory limits the advantage one can have in using quantum computers to do machine learning when the goal is to produce average case close results. It uses a lot of interesting techniques. It also describes an example where an exponential gap is opened between QML and CML for worst case results. Note though, that this only deals with *query complexity* and says nothing about the cost of processing the obtained data (whether quantum or classical). 
+
+* Company news
+** Alpine quantum computing released their first paper on their 19" rack based quantum computer (up to 24 trapped ions at room temp.) [[https://www.linkedin.com/posts/alpine-quantum-technologies-gmbh_entanglement-quantumcomputing-quantumcomputer-activity-6760515459738562560-jsPc][source]]
+Ok that's still simulatable on a conventional classical computer, but the interest in such machines is to be able to have access to real error models and behaviors. In my opinion this is an approach that should seduce the end-users wanting to really experience how quantum machines are working (other than accessing simulation based quantum computers). 
+** USC and Amazon establish Center for Secure and Trusted Machine Learning -- [[https://www.amazon.science/academic-engagements/usc-and-amazon-establish-center-for-secure-and-trusted-machine-learning][source]]
+Not a quantum center, but it emphasizes the need for protecting IP (like trained ML models) of end-users of computing facilities. Quantum is no exception and we need to develop more SMPQC like solutions.
