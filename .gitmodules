@@ -1,0 +1,3 @@
+[submodule "pages/training"]
+	path = pages/training
+	url = git@github.com:h-oll/training.git
