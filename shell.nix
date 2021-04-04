@@ -14,12 +14,12 @@ stdenv.mkDerivation {
     # python38Packages.numpy
     # python38Packages.pandas
     python38Packages.scipy
+    #python37Packages.Nikola
   ];
   src = null;
   shellHook = ''
     # Allow the use of wheels.
     SOURCE_DATE_EPOCH=$(date +%s)
-
     # Augment the dynamic linker path
     export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${R}/lib/R/lib:${readline}/lib
   '';
