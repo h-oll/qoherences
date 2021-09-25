@@ -1354,13 +1354,13 @@ PAGES = PAGES + (("stories/*.org", "stories", "story.tmpl"),)
 # google analytics
 BODY_END = """
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150665042-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BGX6FC0Q0M"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-150665042-1');
+  gtag('config', 'G-BGX6FC0Q0M');
 </script>
 """
 
